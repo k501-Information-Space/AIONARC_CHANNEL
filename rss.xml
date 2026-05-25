@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+
+    <title>AIONARC_CHANNEL</title>
+    <link>https://k501-information-space.github.io/AIONARC_CHANNEL/</link>
+
+    <description>
+      Append-only signal layer for philosophy,
+      system reports, theoretical structures,
+      reconstruction and information continuity.
+    </description>
+
+    <language>en-us</language>
+
+    <lastBuildDate>
+      Mon, 25 May 2026 22:32:18 +0200
+    </lastBuildDate>
+
+    <item>
+
+      <title>
+        Relativ Überlagerte Zeit-Raum-Singularität
+      </title>
+
+      <link>
+        https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1n
+      </link>
+
+      <guid isPermaLink="true">
+        https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1n
+      </guid>
+
+      <pubDate>
+        Mon, 25 May 2026 22:32:18 +0200
+      </pubDate>
+
+      <description>
+        Philosophisch-physikalische Theorie über
+        relativ überlagerte Zeit-Raum-Strukturen,
+        Energiedichte, Resonanz und Singularität.
+      </description>
+
+    </item>
+
+  </channel>
+</rss>
