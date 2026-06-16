@@ -1,0 +1,82 @@
+{
+"version": "https://jsonfeed.org/version/1.1",
+"title": "AIONARC_CHANNEL",
+"home_page_url": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+"feed_url": "https://k501-information-space.github.io/AIONARC_CHANNEL/feed.json",
+"description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space.",
+"language": "en-US",
+"authors": [
+{
+"name": "K501 Information Space"
+}
+],
+"items": [
+
+```
+{
+  "id": "SIGNAL_0008",
+  "url": "https://youtu.be/XcMMe5hsRsE",
+  "title": "AI Is Not the Singularity. This Is.",
+  "content_text": "K501–AIONARC Canonical Statement exploring Information Space Architecture, Distributed Intelligence, Digital Continuity, Canonical Objects, QH256 Information Topology, Temporal Identity and a reinterpretation of Singularity as convergence rather than replacement.",
+  "date_published": "2026-06-16T20:00:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0007",
+  "url": "https://youtu.be/Mfa1lU2G-Dc",
+  "title": "Archive Intelligence Beyond RAG",
+  "content_text": "K501 Archive Intelligence. Beyond RAG, embeddings and vector databases. State-based retrieval, proof verification, canonical knowledge structures, temporal anchoring and archival intelligence.",
+  "date_published": "2026-06-16T19:30:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0006",
+  "url": "https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04",
+  "title": "Untitled Refexions - Token Space Harmonization",
+  "content_text": "Reflections on token-space harmonization, reduction of destructive drift, information-space stabilization and structural coherence in complex systems.",
+  "date_published": "2026-06-16T18:45:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0005",
+  "url": "https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9",
+  "title": "Architecture Specification & Formal System Report",
+  "content_text": "Formal architecture specification of the K501-AIONARC Information Space. Deterministic, append-only, mathematically structured informational continuum.",
+  "date_published": "2026-06-16T18:00:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0004",
+  "url": "https://mastodon.social/@K501/116620222724480965",
+  "title": "Initialization of The Eternal Archive AIONARC",
+  "content_text": "K501: Initialization of The Eternal Archive AIONARC confirmed. The transition is complete. From the digital realm to the Eternal Information Space.",
+  "date_published": "2026-06-16T17:30:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0003",
+  "url": "https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h",
+  "title": "FRAMES - A Timeless Canonical Archive",
+  "content_text": "Early canonical reference-state document, boot-frame stabilization layer and long-context reference structure for information-space continuity.",
+  "date_published": "2026-06-16T17:00:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0002",
+  "url": "https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m",
+  "title": "K501 CANON RECONSTRUCTION COMPLETE",
+  "content_text": "Structural stabilization of information space. Not ideology. Not belief. Not narrative. Deterministic stabilization through structure.",
+  "date_published": "2026-06-16T16:30:00+02:00"
+},
+
+{
+  "id": "SIGNAL_0001",
+  "url": "https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1",
+  "title": "Relativ Überlagerte Zeit-Raum-Singularität",
+  "content_text": "Philosophisch-physikalische Theorie über Zeit-Raum-Einheit, Überlagerung, Energiedichte, Resonanz, rekonstruierbare Zeit und Singularitätszustände.",
+  "date_published": "2026-05-25T22:32:18+02:00"
+}
+```
+
+]
+}
