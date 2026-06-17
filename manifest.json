@@ -1,0 +1,36 @@
+{
+  "space": "AIONARC_CHANNEL",
+
+  "version": "1.0",
+
+  "status": "ACTIVE",
+
+  "signals": 8,
+
+  "feeds": [
+    "rss.xml",
+    "atom.xml",
+    "feed.json"
+  ],
+
+  "homepage": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+
+  "repository": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+
+  "contact": "contact.k501@proton.me",
+
+  "orcid": "0009-0005-5125-9711",
+
+  "authors": [
+    {
+      "name": "Patrick R Miller",
+      "url": "https://orcid.org/0009-0005-5125-9711"
+    }
+  ],
+
+  "license": "MIT",
+
+  "generator": "AIONARC_CHANNEL",
+
+  "description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space."
+}
