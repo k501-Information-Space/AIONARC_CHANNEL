@@ -5,7 +5,7 @@
 
   "status": "ACTIVE",
 
-  "signals": 8,
+  "signals": 9,
 
   "feeds": [
     "rss.xml",
@@ -19,12 +19,12 @@
 
   "contact": "contact.k501@proton.me",
 
-  "orcid": "0009-0005-5125-9711",
+  "orcid": "0009-0004-3275-9545",
 
   "authors": [
     {
       "name": "Patrick R Miller",
-      "url": "https://orcid.org/0009-0005-5125-9711"
+      "url": "https://orcid.org/0009-0004-3275-9545"
     }
   ],
 
