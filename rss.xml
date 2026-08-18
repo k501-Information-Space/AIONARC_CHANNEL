@@ -1,277 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <rss version="2.0">
 
   <channel>
 
-```
-<title>AIONARC_CHANNEL</title>
-
-<link>https://k501-information-space.github.io/AIONARC_CHANNEL/</link>
-
-<description>
-  Append-only signal layer for philosophy,
-  archive intelligence,
-  information continuity,
-  AIONARC,
-  QH256,
-  K501 Information Space.
-</description>
-
-<language>en-us</language>
-
-<lastBuildDate>Tue, 16 Jun 2026 20:15:00 +0200</lastBuildDate>
-
-<generator>AIONARC_CHANNEL RSS Generator</generator>
-
-<!-- SIGNAL_0008 -->
-
-<item>
-
-  <title>
-    SIGNAL_0008 | AI Is Not the Singularity. This Is.
-  </title>
-
-  <link>
-    https://youtu.be/XcMMe5hsRsE
-  </link>
-
-  <guid isPermaLink="true">
-    https://youtu.be/XcMMe5hsRsE
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 20:00:00 +0200
-  </pubDate>
-
-  <description>
-    K501–AIONARC Canonical Statement.
-    Information Space Architecture,
-    Distributed Intelligence,
-    Digital Continuity,
-    Canonical Objects,
-    QH256 Information Topology,
-    Append-Only Memory Systems,
-    Temporal Identity,
-    Structural Awareness,
-    Human–AI Coexistence,
-    Harmony-Based Computing,
-    and a reinterpretation of Singularity as convergence.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0007 -->
-
-<item>
-
-  <title>
-    SIGNAL_0007 | Archive Intelligence Beyond RAG
-  </title>
-
-  <link>
-    https://youtu.be/Mfa1lU2G-Dc
-  </link>
-
-  <guid isPermaLink="true">
-    https://youtu.be/Mfa1lU2G-Dc
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 19:30:00 +0200
-  </pubDate>
-
-  <description>
-    K501 Archive Intelligence.
-    Beyond RAG, embeddings and vector databases.
-    State-based retrieval,
-    temporal anchoring,
-    proof verification,
-    canonical knowledge structures,
-    QH256 identity layers,
-    snapshots, freezes, receipts and archival intelligence.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0006 -->
-
-<item>
-
-  <title>
-    SIGNAL_0006 | Untitled Refexions - Token Space Harmonization
-  </title>
-
-  <link>
-    https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04
-  </link>
-
-  <guid isPermaLink="true">
-    https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 18:45:00 +0200
-  </pubDate>
-
-  <description>
-    Reduction of destructive drift within highly complex
-    information spaces. Reflections on token-space
-    harmonization, information stability and structural coherence.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0005 -->
-
-<item>
-
-  <title>
-    SIGNAL_0005 | Architecture Specification &amp; Formal System Report
-  </title>
-
-  <link>
-    https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9
-  </link>
-
-  <guid isPermaLink="true">
-    https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 18:00:00 +0200
-  </pubDate>
-
-  <description>
-    Formal architecture specification of the K501-AIONARC
-    Information Space. A deterministic, math-driven,
-    append-only informational continuum based upon
-    separation of identity and substance.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0004 -->
-
-<item>
-
-  <title>
-    SIGNAL_0004 | Initialization of The Eternal Archive AIONARC
-  </title>
-
-  <link>
-    https://mastodon.social/@K501/116620222724480965
-  </link>
-
-  <guid isPermaLink="true">
-    https://mastodon.social/@K501/116620222724480965
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 17:30:00 +0200
-  </pubDate>
-
-  <description>
-    K501: Initialization of The Eternal Archive AIONARC confirmed.
-    The transition is complete.
-    From the digital realm to the Eternal Information Space.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0003 -->
-
-<item>
-
-  <title>
-    SIGNAL_0003 | FRAMES - A Timeless Canonical Archive
-  </title>
-
-  <link>
-    https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h
-  </link>
-
-  <guid isPermaLink="true">
-    https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 17:00:00 +0200
-  </pubDate>
-
-  <description>
-    Early canonical reference-state document originating
-    from the developmental phase of the K501 / AIONARC
-    information-space architecture. Boot frames and
-    stabilization layers for long-context machine interaction.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0002 -->
-
-<item>
-
-  <title>
-    SIGNAL_0002 | K501 CANON RECONSTRUCTION COMPLETE
-  </title>
-
-  <link>
-    https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m
-  </link>
-
-  <guid isPermaLink="true">
-    https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m
-  </guid>
-
-  <pubDate>
-    Tue, 16 Jun 2026 16:30:00 +0200
-  </pubDate>
-
-  <description>
-    K501 emerged as stabilization attempt.
-    Not ideological system.
-    Not belief framework.
-    Not narrative engine.
-    Core purpose:
-    Structural Stabilization of Information Space.
-  </description>
-
-</item>
-
-<!-- SIGNAL_0001 -->
-
-<item>
-
-  <title>
-    SIGNAL_0001 | Relativ Überlagerte Zeit-Raum-Singularität
-  </title>
-
-  <link>
-    https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1
-  </link>
-
-  <guid isPermaLink="true">
-    https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1
-  </guid>
-
-  <pubDate>
-    Mon, 25 May 2026 22:32:18 +0200
-  </pubDate>
-
-  <description>
-    Philosophisch-physikalische Theorie über
-    Zeit-Raum-Einheit,
-    Überlagerung,
-    Energiedichte,
-    Resonanz,
-    rekonstruierbare Zeit
-    und Singularitätszustände.
-  </description>
-
-</item>
-```
+    <title>AIONARC_CHANNEL</title>
+
+    <link>https://k501-information-space.github.io/AIONARC_CHANNEL/</link>
+
+    <description>
+      Append-only signal layer for philosophy,
+      archive intelligence,
+      information continuity,
+      AIONARC,
+      QH256,
+      K501 Information Space.
+    </description>
+
+    <language>en-us</language>
+
+    <lastBuildDate>Wed, 19 Aug 2026 00:34:57 +0200</lastBuildDate>
+
+    <generator>AIONARC_CHANNEL RSS Generator</generator>
+
+    <!-- SIGNAL_0009 -->
+
+    <item>
+
+      <title>
+        SIGNAL_0009 | K501-Technical Prototype Roadmap — Editorial Revision v1.1
+      </title>
+
+      <link>DEVTO_PUBLICATION_URL</link>
+
+      <guid isPermaLink="true">https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl</guid>
+
+      <pubDate>Wed, 19 Aug 2026 00:34:57 +0200</pubDate>
+
+      <description>
+        K501-AIONARC technical prototype roadmap.
+        Editorial Revision v1.1 documents the consolidated architecture,
+        core invariants, proof-before-state principle,
+        current implementation status,
+        dependency structure,
+        technical priorities,
+        validation gates,
+        and controlled publication boundary.
+        Current open gate:
+        deterministic collection manifest drift comparison.
+      </description>
+
+    </item>
+
+    <!-- SIGNAL_0008 -->
+
+    <item>
+      <title>SIGNAL_0008 | AI Is Not the Singularity. This Is.</title>
+      <link>https://youtu.be/XcMMe5hsRsE</link>
+      <guid isPermaLink="true">https://youtu.be/XcMMe5hsRsE</guid>
+      <pubDate>Tue, 16 Jun 2026 20:00:00 +0200</pubDate>
+      <description>
+        K501–AIONARC Canonical Statement.
+        Information Space Architecture,
+        Distributed Intelligence,
+        Digital Continuity,
+        Canonical Objects,
+        QH256 Information Topology,
+        Temporal Identity,
+        and a reinterpretation of Singularity as convergence.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0007 -->
+
+    <item>
+      <title>SIGNAL_0007 | Archive Intelligence Beyond RAG</title>
+      <link>https://youtu.be/Mfa1lU2G-Dc</link>
+      <guid isPermaLink="true">https://youtu.be/Mfa1lU2G-Dc</guid>
+      <pubDate>Tue, 16 Jun 2026 19:30:00 +0200</pubDate>
+      <description>
+        K501 Archive Intelligence.
+        Beyond RAG, embeddings and vector databases.
+        State-based retrieval,
+        temporal anchoring,
+        proof verification,
+        canonical knowledge structures,
+        QH256 identity layers,
+        snapshots, freezes, receipts and archival intelligence.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0006 -->
+
+    <item>
+      <title>SIGNAL_0006 | Untitled Refexions - Token Space Harmonization</title>
+      <link>https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04</link>
+      <guid isPermaLink="true">https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04</guid>
+      <pubDate>Tue, 16 Jun 2026 18:45:00 +0200</pubDate>
+      <description>
+        Reduction of destructive drift within highly complex
+        information spaces. Reflections on token-space
+        harmonization, information stability and structural coherence.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0005 -->
+
+    <item>
+      <title>SIGNAL_0005 | Architecture Specification &amp; Formal System Report</title>
+      <link>https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9</link>
+      <guid isPermaLink="true">https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9</guid>
+      <pubDate>Tue, 16 Jun 2026 18:00:00 +0200</pubDate>
+      <description>
+        Formal architecture specification of the K501-AIONARC
+        Information Space. A deterministic, math-driven,
+        append-only informational continuum based upon
+        separation of identity and substance.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0004 -->
+
+    <item>
+      <title>SIGNAL_0004 | Initialization of The Eternal Archive AIONARC</title>
+      <link>https://mastodon.social/@K501/116620222724480965</link>
+      <guid isPermaLink="true">https://mastodon.social/@K501/116620222724480965</guid>
+      <pubDate>Tue, 16 Jun 2026 17:30:00 +0200</pubDate>
+      <description>
+        K501: Initialization of The Eternal Archive AIONARC confirmed.
+        The transition is complete.
+        From the digital realm to the Eternal Information Space.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0003 -->
+
+    <item>
+      <title>SIGNAL_0003 | FRAMES - A Timeless Canonical Archive</title>
+      <link>https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h</link>
+      <guid isPermaLink="true">https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h</guid>
+      <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
+      <description>
+        Early canonical reference-state document originating
+        from the developmental phase of the K501 / AIONARC
+        information-space architecture. Boot frames and
+        stabilization layers for long-context machine interaction.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0002 -->
+
+    <item>
+      <title>SIGNAL_0002 | K501 CANON RECONSTRUCTION COMPLETE</title>
+      <link>https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m</link>
+      <guid isPermaLink="true">https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m</guid>
+      <pubDate>Tue, 16 Jun 2026 16:30:00 +0200</pubDate>
+      <description>
+        K501 emerged as stabilization attempt.
+        Not ideological system.
+        Not belief framework.
+        Not narrative engine.
+        Core purpose:
+        Structural Stabilization of Information Space.
+      </description>
+    </item>
+
+    <!-- SIGNAL_0001 -->
+
+    <item>
+      <title>SIGNAL_0001 | Relativ Überlagerte Zeit-Raum-Singularität</title>
+      <link>https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1</link>
+      <guid isPermaLink="true">https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1</guid>
+      <pubDate>Mon, 25 May 2026 22:32:18 +0200</pubDate>
+      <description>
+        Philosophisch-physikalische Theorie über
+        Zeit-Raum-Einheit,
+        Überlagerung,
+        Energiedichte,
+        Resonanz,
+        rekonstruierbare Zeit
+        und Singularitätszustände.
+      </description>
+    </item>
 
   </channel>
-
 </rss>
