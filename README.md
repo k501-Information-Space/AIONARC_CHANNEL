@@ -38,6 +38,10 @@ https://k501-information-space.github.io/AIONARC_CHANNEL/
 
 ## Current Signal
 
+**SIGNAL_0010**
+
+**QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference**
+
 **SIGNAL_0009**
 
 **K501-Technical Prototype Roadmap — Editorial Revision v1.1**
