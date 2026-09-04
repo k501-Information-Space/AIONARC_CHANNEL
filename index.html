@@ -1,193 +1,587 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html lang="en-US">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+```
 <title>AIONARC_CHANNEL</title>
 
-<meta name="description"
-      content="Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space.">
+<meta
+    name="description"
+    content="Append-only public signal layer for the K501 Information Space and K501-AIONARC. Machine-readable publication and resonance layer for QH256, architecture reports, technical milestones, archival references and historical development signals."
+>
 
-<link rel="icon"
-      type="image/png"
-      href="icon.png">
+<link
+    rel="canonical"
+    href="https://k501-information-space.github.io/AIONARC_CHANNEL/"
+>
 
-<link rel="alternate"
-      type="application/rss+xml"
-      title="AIONARC_CHANNEL RSS"
-      href="rss.xml">
+<link
+    rel="icon"
+    type="image/png"
+    href="icon.png"
+>
 
-<link rel="alternate"
-      type="application/atom+xml"
-      title="AIONARC_CHANNEL Atom"
-      href="atom.xml">
+<link
+    rel="alternate"
+    type="application/rss+xml"
+    title="AIONARC_CHANNEL RSS 2.0"
+    href="rss.xml"
+>
 
-<link rel="alternate"
-      type="application/feed+json"
-      title="AIONARC_CHANNEL JSON Feed"
-      href="feed.json">
+<link
+    rel="alternate"
+    type="application/atom+xml"
+    title="AIONARC_CHANNEL Atom"
+    href="atom.xml"
+>
+
+<link
+    rel="alternate"
+    type="application/feed+json"
+    title="AIONARC_CHANNEL JSON Feed"
+    href="feed.json"
+>
 
 <style>
+    :root {
+        color-scheme: dark;
+    }
 
-body {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-family: system-ui, sans-serif;
-    line-height: 1.6;
-    background: #111;
-    color: #eee;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-h1 {
-    margin-bottom: 0.2rem;
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-h2 {
-    margin-top: 2rem;
-}
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 3rem;
+        font-family:
+            system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            sans-serif;
+        line-height: 1.6;
+        background: #111;
+        color: #eee;
+    }
 
-a {
-    color: #7ec8ff;
-}
+    header {
+        margin-bottom: 2.5rem;
+    }
 
-code {
-    background: #222;
-    padding: 0.15rem 0.35rem;
-}
+    h1 {
+        margin: 0 0 0.25rem;
+        line-height: 1.2;
+    }
 
-.signal {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border: 1px solid #333;
-    border-radius: 8px;
-}
+    h2 {
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        line-height: 1.3;
+    }
 
-.footer {
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #999;
-}
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
+    }
 
+    p {
+        margin: 0 0 1rem;
+    }
+
+    a {
+        color: #7ec8ff;
+    }
+
+    a:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 3px;
+        border-radius: 2px;
+    }
+
+    code {
+        padding: 0.15rem 0.35rem;
+        border-radius: 4px;
+        background: #222;
+        font-size: 0.95em;
+    }
+
+    .subtitle {
+        color: #bbb;
+        font-size: 1.05rem;
+    }
+
+    .state {
+        margin: 1.5rem 0;
+        padding: 1rem 1.15rem;
+        border: 1px solid #444;
+        border-radius: 8px;
+        background: #181818;
+    }
+
+    .state strong {
+        display: inline-block;
+        margin-bottom: 0.35rem;
+    }
+
+    .signal {
+        margin-bottom: 1rem;
+        padding: 1rem 1.15rem;
+        border: 1px solid #333;
+        border-radius: 8px;
+        background: #151515;
+    }
+
+    .signal-id {
+        font-weight: 700;
+        letter-spacing: 0.02em;
+    }
+
+    .signal-title {
+        margin-top: 0.3rem;
+    }
+
+    .signal-meta {
+        margin-top: 0.65rem;
+        color: #aaa;
+        font-size: 0.92rem;
+    }
+
+    .links {
+        margin-top: 0.75rem;
+    }
+
+    .links a {
+        margin-right: 0.75rem;
+    }
+
+    ul {
+        padding-left: 1.4rem;
+    }
+
+    li {
+        margin-bottom: 0.4rem;
+    }
+
+    .footer {
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #333;
+        color: #999;
+        font-size: 0.9rem;
+    }
+
+    .footer p {
+        margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+        body {
+            padding: 1.25rem 1rem 2rem;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html {
+            scroll-behavior: auto;
+        }
+    }
 </style>
+```
 
 </head>
 
 <body>
 
-<h1>AIONARC_CHANNEL</h1>
+<header>
+    <h1>AIONARC_CHANNEL</h1>
 
+```
+<p class="subtitle">
+    Append-only public signal layer for the K501 Information Space
+    and K501-AIONARC.
+</p>
+```
+
+</header>
+
+<main>
+
+```
+<section aria-labelledby="purpose">
+    <h2 id="purpose">Purpose</h2>
+
+    <p>
+        AIONARC_CHANNEL provides a small, machine-readable public
+        signal layer for K501-AIONARC publications, architecture
+        reports, QH256 publications, technical milestones,
+        archival references, videos, demonstrations and historical
+        development signals.
+    </p>
+
+    <p>
+        The channel is not the canonical K501-AIONARC information
+        space. It is a public publication and resonance layer.
+    </p>
+</section>
+
+<section aria-labelledby="state">
+    <h2 id="state">Current State</h2>
+
+    <div class="state">
+        <strong>Current Signal: SIGNAL_0010</strong><br>
+        <span>
+            QH256 Formal Scientific Specification v2.0 —
+            Validation &amp; Canonical Reference
+        </span>
+    </div>
+
+    <p>
+        <strong>Status:</strong> ACTIVE
+    </p>
+
+    <p>
+        <strong>Namespace:</strong> K501-AIONARC
+    </p>
+
+    <p>
+        <strong>Current Signal Count:</strong> 10
+    </p>
+
+    <p>
+        <strong>Publication time anchor:</strong>
+        <code>1787627567</code>
+    </p>
+
+    <p>
+        <strong>UTC:</strong>
+        2026-08-25 03:12:47
+    </p>
+
+    <p>
+        <strong>Europe/Berlin:</strong>
+        2026-08-25 05:12:47 CEST
+    </p>
+</section>
+
+<section aria-labelledby="feeds">
+    <h2 id="feeds">Feeds</h2>
+
+    <ul>
+        <li>
+            <a href="rss.xml">RSS 2.0 Feed</a>
+        </li>
+        <li>
+            <a href="atom.xml">Atom Feed</a>
+        </li>
+        <li>
+            <a href="feed.json">JSON Feed 1.1</a>
+        </li>
+    </ul>
+</section>
+
+<section aria-labelledby="latest-signals">
+    <h2 id="latest-signals">Latest Signals</h2>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0010</div>
+
+        <h3 class="signal-title">
+            QH256 Formal Scientific Specification v2.0 —
+            Validation &amp; Canonical Reference
+        </h3>
+
+        <p>
+            Canonical scientific reference for the QH256 state
+            algebra, formal structure, deterministic representation
+            and validation boundary within the K501 Information Space.
+        </p>
+
+        <p class="links">
+            <a
+                href="https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md"
+            >
+                Zenodo
+            </a>
+
+            <a
+                href="https://github.com/k501-Information-Space/QH256"
+            >
+                GitHub Repository
+            </a>
+        </p>
+
+        <p class="signal-meta">
+            Published:
+            2026-08-25 03:12:47 UTC
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0009</div>
+
+        <h3 class="signal-title">
+            K501-Technical Prototype Roadmap —
+            Editorial Revision v1.1
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl"
+            >
+                Dev.to
+            </a>
+        </p>
+
+        <p class="signal-meta">
+            Historical signal.
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0008</div>
+
+        <h3 class="signal-title">
+            AI Is Not the Singularity. This Is.
+        </h3>
+
+        <p class="links">
+            <a href="https://youtu.be/XcMMe5hsRsE">
+                YouTube
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0007</div>
+
+        <h3 class="signal-title">
+            Archive Intelligence Beyond RAG
+        </h3>
+
+        <p class="links">
+            <a href="https://youtu.be/Mfa1lU2G-Dc">
+                YouTube
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0006</div>
+
+        <h3 class="signal-title">
+            Untitled Refexions - Token Space Harmonization
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04"
+            >
+                Dev.to
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0005</div>
+
+        <h3 class="signal-title">
+            Architecture Specification &amp; Formal System Report
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9"
+            >
+                Dev.to
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0004</div>
+
+        <h3 class="signal-title">
+            Initialization of The Eternal Archive AIONARC
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://mastodon.social/@K501/116620222724480965"
+            >
+                Mastodon
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0003</div>
+
+        <h3 class="signal-title">
+            FRAMES - A Timeless Canonical Archive
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h"
+            >
+                Dev.to
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0002</div>
+
+        <h3 class="signal-title">
+            K501 CANON RECONSTRUCTION COMPLETE
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m"
+            >
+                Dev.to
+            </a>
+        </p>
+    </article>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0001</div>
+
+        <h3 class="signal-title">
+            Relativ Überlagerte Zeit-Raum-Singularität
+        </h3>
+
+        <p class="links">
+            <a
+                href="https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1"
+            >
+                Dev.to
+            </a>
+        </p>
+    </article>
+</section>
+
+<section aria-labelledby="references">
+    <h2 id="references">References</h2>
+
+    <ul>
+        <li>
+            <a href="https://github.com/k501-Information-Space/eArc">
+                K501 Information Space / eArc
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/k501-Information-Space/k501-workspace">
+                K501 Workspace
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/k501-Information-Space/QH256">
+                QH256
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/k501-Information-Space">
+                K501 Information Space
+            </a>
+        </li>
+
+        <li>
+            <a href="https://dev.to/k501is">
+                Dev.to
+            </a>
+        </li>
+
+        <li>
+            <a href="https://mastodon.social/@K501">
+                Mastodon
+            </a>
+        </li>
+
+        <li>
+            <a href="https://iinkognit0.de/">
+                Website
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section aria-labelledby="principle">
+    <h2 id="principle">Channel Principle</h2>
+
+    <p>
+        AIONARC_CHANNEL is append-only in historical interpretation.
+        New signals are added. Historical signals are not silently
+        rewritten to reflect later states.
+    </p>
+
+    <p>
+        Changes in identity, namespace, status or publication state
+        are represented as explicit transitions when necessary.
+    </p>
+</section>
+
+<section aria-labelledby="relation">
+    <h2 id="relation">Relation to K501-AIONARC</h2>
+
+    <p>
+        The canonical local information space remains the primary
+        reconstruction source.
+    </p>
+
+    <p>
+        AIONARC_CHANNEL provides an external, machine-readable
+        publication and resonance layer.
+    </p>
+
+    <p>
+        It does not replace local canonical storage.
+    </p>
+</section>
+```
+
+</main>
+
+<footer class="footer">
+
+```
 <p>
-Append-only signal layer for philosophy,
-archive intelligence,
-information continuity,
-AIONARC,
-QH256,
-and the K501 Information Space.
+    <strong>AIONARC_CHANNEL</strong>
 </p>
 
-<h2>Feeds</h2>
+<p>
+    Append-only public signal stream.
+</p>
 
-<ul>
-    <li><a href="rss.xml">RSS 2.0 Feed</a></li>
-    <li><a href="atom.xml">Atom Feed</a></li>
-    <li><a href="feed.json">JSON Feed</a></li>
-</ul>
+<p>
+    Canonical references, publications, architecture reports,
+    research notes, archive intelligence and information-space
+    development.
+</p>
 
-<h2>Latest Signals</h2>
+<p>
+    Current state: <code>SIGNAL_0010</code> ·
+    Signal count: <code>10</code> ·
+    Status: <code>ACTIVE</code>
+</p>
+```
 
-<div class="signal">
-    <strong>SIGNAL_0010</strong><br><br>
-
-    QH256 v2.0 — Full Technical Validation, State Reduction, and Reconstructive Architecture<br><br>
-
-    <a href="https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md">
-        Zenodo
-    </a>
-    |
-    <a href="https://github.com/k501-Information-Space/QH256">
-        GitHub Repository
-    </a>
-</div>      
-      
-<div class="signal">
-    <strong>SIGNAL_0009</strong><br>
-    K501-Technical Prototype Roadmap — Editorial Revision v1.1<br>
-    <a href="https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl">Dev.to</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0008</strong><br>
-    AI Is Not the Singularity. This Is.<br>
-    <a href="https://youtu.be/XcMMe5hsRsE">YouTube</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0007</strong><br>
-    Archive Intelligence Beyond RAG<br>
-    <a href="https://youtu.be/Mfa1lU2G-Dc">YouTube</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0006</strong><br>
-    Untitled Refexions – Token Space Harmonization<br>
-    <a href="https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04">Dev.to</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0005</strong><br>
-    Architecture Specification & Formal System Report<br>
-    <a href="https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9">Dev.to</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0004</strong><br>
-    Initialization of The Eternal Archive AIONARC<br>
-    <a href="https://mastodon.social/@K501/116620222724480965">Mastodon</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0003</strong><br>
-    FRAMES – A Timeless Canonical Archive<br>
-    <a href="https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h">Dev.to</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0002</strong><br>
-    K501 CANON RECONSTRUCTION COMPLETE<br>
-    <a href="https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m">Dev.to</a>
-</div>
-
-<div class="signal">
-    <strong>SIGNAL_0001</strong><br>
-    Relativ Überlagerte Zeit-Raum-Singularität<br>
-    <a href="https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1">Dev.to</a>
-</div>
-
-<h2>References</h2>
-
-<ul>
-    <li><a href="https://github.com/k501-Information-Space/eArc">K501 Information Space / eArc</a></li>
-    <li><a href="https://github.com/k501-Information-Space/k501-workspace">K501 Workspace</a></li>
-    <li><a href="https://github.com/k501-Information-Space/QH256">QH256</a></li>
-    <li><a href="https://github.com/k501-Information-Space">K501 Information Space</a></li>
-    <li><a href="https://dev.to/k501is">Dev.to</a></li>
-    <li><a href="https://mastodon.social/@K501">Mastodon</a></li>
-    <li><a href="https://iinkognit0.de/">Website</a></li>
-</ul>
-
-<div class="footer">
-
-AIONARC_CHANNEL<br>
-Append-only signal stream.<br>
-Canonical references, publications, architecture reports,
-research notes, archive intelligence and information-space development.
-
-</div>
+</footer>
 
 </body>
-
 </html>
