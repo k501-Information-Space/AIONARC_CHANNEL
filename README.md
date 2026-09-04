@@ -6,17 +6,67 @@ Append-only public signal layer for the K501 Information Space and K501-AIONARC.
 
 AIONARC_CHANNEL provides a small, machine-readable public signal layer for:
 
-- K501-AIONARC publications
-- architecture reports
-- QH256 publications
-- technical milestones
-- archival references
-- videos and demonstrations
-- historical development signals
+* K501-AIONARC publications
+* architecture reports
+* QH256 publications
+* technical milestones
+* archival references
+* videos and demonstrations
+* historical development signals
 
 The channel is not the canonical K501-AIONARC information space.
 
 It is a public publication and resonance layer.
+
+## Current State
+
+**Current Signal:** `SIGNAL_0010`
+
+**Current Signal Title:**
+
+**QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference**
+
+**Status:** `ACTIVE`
+
+**Namespace:** `K501-AIONARC`
+
+**Current Signal Count:** `10`
+
+The channel currently contains:
+
+`SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
+
+No `SIGNAL_0011` has been published in the current state.
+
+## Current Publication
+
+**Signal:**
+
+`SIGNAL_0010`
+
+**Title:**
+
+`QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference`
+
+**Zenodo:**
+
+https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md
+
+**QH256 Repository:**
+
+https://github.com/k501-Information-Space/QH256
+
+**Publication time anchor:**
+
+`1787627567`
+
+**UTC:**
+
+`2026-08-25 03:12:47`
+
+**Europe/Berlin:**
+
+`2026-08-25 05:12:47 CEST`
 
 ## Feeds
 
@@ -36,39 +86,75 @@ Homepage:
 
 https://k501-information-space.github.io/AIONARC_CHANNEL/
 
-## Current Signal
+## Signal History
 
-**SIGNAL_0010**
+### SIGNAL_0010
 
 **QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference**
 
-**SIGNAL_0009**
+Canonical scientific reference for the QH256 state algebra, formal structure, deterministic representation and validation boundary within the K501 Information Space.
+
+Zenodo:
+
+https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md
+
+QH256 repository:
+
+https://github.com/k501-Information-Space/QH256
+
+### SIGNAL_0009
 
 **K501-Technical Prototype Roadmap — Editorial Revision v1.1**
 
-Status: ACTIVE
+https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl
 
-Namespace: K501-AIONARC
+### SIGNAL_0008
 
-Publication time anchor:
+**AI Is Not the Singularity. This Is.**
 
-`1787092497`
+https://youtu.be/XcMMe5hsRsE
 
-UTC:
+### SIGNAL_0007
 
-`2026-08-18 22:34:57`
+**Archive Intelligence Beyond RAG**
 
-Europe/Berlin:
+https://youtu.be/Mfa1lU2G-Dc
 
-`2026-08-19 00:34:57 CEST`
+### SIGNAL_0006
 
-Canonical publication target:
+**Untitled Refexions - Token Space Harmonization**
 
-`DEVTO_PUBLICATION_URL`
+https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04
 
-Artifact SHA-256:
+### SIGNAL_0005
 
-`cd1ea0955943741939b552edce6f0613620da81ac626beeb4164767620df9a33`
+**Architecture Specification & Formal System Report**
+
+https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9
+
+### SIGNAL_0004
+
+**Initialization of The Eternal Archive AIONARC**
+
+https://mastodon.social/@K501/116620222724480965
+
+### SIGNAL_0003
+
+**FRAMES - A Timeless Canonical Archive**
+
+https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h
+
+### SIGNAL_0002
+
+**K501 CANON RECONSTRUCTION COMPLETE**
+
+https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m
+
+### SIGNAL_0001
+
+**Relativ Überlagerte Zeit-Raum-Singularität**
+
+https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1
 
 ## Identity
 
@@ -96,7 +182,7 @@ New signals are added.
 
 Historical signals are not silently rewritten to reflect later states.
 
-Changes in identity, namespace, status, or publication state are represented as explicit transitions when necessary.
+Changes in identity, namespace, status or publication state are represented as explicit transitions when necessary.
 
 ## Relation to K501-AIONARC
 
@@ -106,10 +192,57 @@ AIONARC_CHANNEL provides an external, machine-readable publication and resonance
 
 It does not replace local canonical storage.
 
-## Current Signal Count
+## Publication State
 
-`9`
+The current public channel state is:
+
+```text
+STATUS: ACTIVE
+CURRENT_SIGNAL: SIGNAL_0010
+SIGNAL_COUNT: 10
+NAMESPACE: K501-AIONARC
+```
+
+The next signal number in sequence is:
+
+```text
+SIGNAL_0011
+```
+
+It must not be considered published until an explicit publication event has occurred.
+
+## Canonical Constraint
+
+AIONARC_CHANNEL must not promote unpublished, speculative or derived states into the public signal sequence.
+
+Publication follows the project principle:
+
+```text
+PROOF → VALIDATION → STATE → PUBLICATION → RESONANCE → NEXT PROOF
+```
+
+The channel itself is a publication layer and does not constitute proof of the underlying scientific or technical claims.
+
+## Historical Preservation
+
+Historical signals remain part of the append-only channel history.
+
+Later states do not silently rewrite earlier publication records.
+
+Corrections or state changes must be represented explicitly rather than retroactively altering historical interpretation.
 
 ## Status
 
 `ACTIVE`
+
+Current public signal:
+
+`SIGNAL_0010`
+
+Current signal count:
+
+`10`
+
+K501-AIONARC namespace:
+
+`K501-AIONARC`
