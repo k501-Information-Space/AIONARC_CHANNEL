@@ -1,36 +1,38 @@
+```json
 {
   "space": "AIONARC_CHANNEL",
-
   "version": "1.0",
-
   "status": "ACTIVE",
-
-  "signals": 9,
-
+  "signals": 10,
+  "current_signal": "SIGNAL_0010",
+  "next_signal": "SIGNAL_0011",
+  "namespace": "K501-AIONARC",
   "feeds": [
     "rss.xml",
     "atom.xml",
     "feed.json"
   ],
-
   "homepage": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
-
   "repository": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
-
   "contact": "contact.k501@proton.me",
-
   "orcid": "0009-0004-3275-9545",
-
   "authors": [
     {
       "name": "Patrick R Miller",
+      "alias": "iinkognit0",
       "url": "https://orcid.org/0009-0004-3275-9545"
     }
   ],
-
   "license": "MIT",
-
   "generator": "AIONARC_CHANNEL",
-
-  "description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space."
+  "description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space.",
+  "current_publication": {
+    "signal": "SIGNAL_0010",
+    "title": "QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference",
+    "zenodo": "https://zenodo.org/records/21957465",
+    "repository": "https://github.com/k501-Information-Space/QH256",
+    "publication_epoch": 1787627567,
+    "publication_utc": "2026-08-25 03:12:47"
+  }
 }
+```
