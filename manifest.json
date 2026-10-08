@@ -1,11 +1,10 @@
-```json
 {
   "space": "AIONARC_CHANNEL",
-  "version": "1.0",
+  "version": "1.1",
   "status": "ACTIVE",
-  "signals": 10,
-  "current_signal": "SIGNAL_0010",
-  "next_signal": "SIGNAL_0011",
+  "signals": 11,
+  "current_signal": "SIGNAL_0011",
+  "next_signal": "SIGNAL_0012",
   "namespace": "K501-AIONARC",
   "feeds": [
     "rss.xml",
@@ -27,12 +26,20 @@
   "generator": "AIONARC_CHANNEL",
   "description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space.",
   "current_publication": {
-    "signal": "SIGNAL_0010",
-    "title": "QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference",
-    "zenodo": "https://zenodo.org/records/21957465",
-    "repository": "https://github.com/k501-Information-Space/QH256",
-    "publication_epoch": 1787627567,
-    "publication_utc": "2026-08-25 03:12:47"
+    "signal": "SIGNAL_0011",
+    "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
+    "zenodo": "https://zenodo.org/records/23223085",
+    "doi": "10.5281/zenodo.23223085",
+    "publication_epoch": 1791421354,
+    "publication_utc": "2026-10-08 01:02:34",
+    "publication_europe_berlin": "2026-10-08 03:02:34 CEST"
+  },
+  "gateway": {
+    "markdown": "GATEWAY.md",
+    "json": "GATEWAY.json"
+  },
+  "index": {
+    "present": false,
+    "indexing_performed": false
   }
 }
-```
