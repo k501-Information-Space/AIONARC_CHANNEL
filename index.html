@@ -1,223 +1,209 @@
 <!doctype html>
-
 <html lang="en-US">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-```
-<title>AIONARC_CHANNEL</title>
+    <title>AIONARC_CHANNEL</title>
 
-<meta
-    name="description"
-    content="Append-only public signal layer for the K501 Information Space and K501-AIONARC. Machine-readable publication and resonance layer for QH256, architecture reports, technical milestones, archival references and historical development signals."
->
+    <meta
+        name="description"
+        content="Append-only public signal layer for the K501 Information Space and K501-AIONARC. Machine-readable publication and resonance layer for QH256, architecture reports, technical milestones, archival references and historical development signals."
+    >
 
-<link
-    rel="canonical"
-    href="https://k501-information-space.github.io/AIONARC_CHANNEL/"
->
+    <link
+        rel="canonical"
+        href="https://k501-information-space.github.io/AIONARC_CHANNEL/"
+    >
 
-<link
-    rel="icon"
-    type="image/png"
-    href="icon.png"
->
+    <link rel="icon" type="image/png" href="icon.png">
 
-<link
-    rel="alternate"
-    type="application/rss+xml"
-    title="AIONARC_CHANNEL RSS 2.0"
-    href="rss.xml"
->
+    <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="AIONARC_CHANNEL RSS 2.0"
+        href="rss.xml"
+    >
 
-<link
-    rel="alternate"
-    type="application/atom+xml"
-    title="AIONARC_CHANNEL Atom"
-    href="atom.xml"
->
+    <link
+        rel="alternate"
+        type="application/atom+xml"
+        title="AIONARC_CHANNEL Atom"
+        href="atom.xml"
+    >
 
-<link
-    rel="alternate"
-    type="application/feed+json"
-    title="AIONARC_CHANNEL JSON Feed"
-    href="feed.json"
->
+    <link
+        rel="alternate"
+        type="application/feed+json"
+        title="AIONARC_CHANNEL JSON Feed"
+        href="feed.json"
+    >
 
-<style>
-    :root {
-        color-scheme: dark;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-    body {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 2rem 1.25rem 3rem;
-        font-family:
-            system-ui,
-            -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            sans-serif;
-        line-height: 1.6;
-        background: #111;
-        color: #eee;
-    }
-
-    header {
-        margin-bottom: 2.5rem;
-    }
-
-    h1 {
-        margin: 0 0 0.25rem;
-        line-height: 1.2;
-    }
-
-    h2 {
-        margin-top: 2.5rem;
-        margin-bottom: 1rem;
-        line-height: 1.3;
-    }
-
-    h3 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        line-height: 1.4;
-    }
-
-    p {
-        margin: 0 0 1rem;
-    }
-
-    a {
-        color: #7ec8ff;
-    }
-
-    a:focus-visible {
-        outline: 2px solid currentColor;
-        outline-offset: 3px;
-        border-radius: 2px;
-    }
-
-    code {
-        padding: 0.15rem 0.35rem;
-        border-radius: 4px;
-        background: #222;
-        font-size: 0.95em;
-    }
-
-    .subtitle {
-        color: #bbb;
-        font-size: 1.05rem;
-    }
-
-    .state {
-        margin: 1.5rem 0;
-        padding: 1rem 1.15rem;
-        border: 1px solid #444;
-        border-radius: 8px;
-        background: #181818;
-    }
-
-    .state strong {
-        display: inline-block;
-        margin-bottom: 0.35rem;
-    }
-
-    .signal {
-        margin-bottom: 1rem;
-        padding: 1rem 1.15rem;
-        border: 1px solid #333;
-        border-radius: 8px;
-        background: #151515;
-    }
-
-    .signal-id {
-        font-weight: 700;
-        letter-spacing: 0.02em;
-    }
-
-    .signal-title {
-        margin-top: 0.3rem;
-    }
-
-    .signal-meta {
-        margin-top: 0.65rem;
-        color: #aaa;
-        font-size: 0.92rem;
-    }
-
-    .links {
-        margin-top: 0.75rem;
-    }
-
-    .links a {
-        margin-right: 0.75rem;
-    }
-
-    ul {
-        padding-left: 1.4rem;
-    }
-
-    li {
-        margin-bottom: 0.4rem;
-    }
-
-    .footer {
-        margin-top: 3rem;
-        padding-top: 1.5rem;
-        border-top: 1px solid #333;
-        color: #999;
-        font-size: 0.9rem;
-    }
-
-    .footer p {
-        margin-bottom: 0.5rem;
-    }
-
-    @media (max-width: 600px) {
-        body {
-            padding: 1.25rem 1rem 2rem;
+    <style>
+        :root {
+            color-scheme: dark;
         }
-    }
 
-    @media (prefers-reduced-motion: reduce) {
+        * {
+            box-sizing: border-box;
+        }
+
         html {
-            scroll-behavior: auto;
+            scroll-behavior: smooth;
         }
-    }
-</style>
-```
 
+        body {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 3rem;
+            font-family:
+                system-ui,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                sans-serif;
+            line-height: 1.6;
+            background: #111;
+            color: #eee;
+        }
+
+        header {
+            margin-bottom: 2.5rem;
+        }
+
+        h1 {
+            margin: 0 0 0.25rem;
+            line-height: 1.2;
+        }
+
+        h2 {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
+        a {
+            color: #7ec8ff;
+        }
+
+        a:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 3px;
+            border-radius: 2px;
+        }
+
+        code {
+            padding: 0.15rem 0.35rem;
+            border-radius: 4px;
+            background: #222;
+            font-size: 0.95em;
+        }
+
+        .subtitle {
+            color: #bbb;
+            font-size: 1.05rem;
+        }
+
+        .state {
+            margin: 1.5rem 0;
+            padding: 1rem 1.15rem;
+            border: 1px solid #444;
+            border-radius: 8px;
+            background: #181818;
+        }
+
+        .state strong {
+            display: inline-block;
+            margin-bottom: 0.35rem;
+        }
+
+        .signal {
+            margin-bottom: 1rem;
+            padding: 1rem 1.15rem;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: #151515;
+        }
+
+        .signal-id {
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+
+        .signal-title {
+            margin-top: 0.3rem;
+        }
+
+        .signal-meta {
+            margin-top: 0.65rem;
+            color: #aaa;
+            font-size: 0.92rem;
+        }
+
+        .links {
+            margin-top: 0.75rem;
+        }
+
+        .links a {
+            margin-right: 0.75rem;
+        }
+
+        ul {
+            padding-left: 1.4rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #333;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        .footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem 2rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
 <header>
     <h1>AIONARC_CHANNEL</h1>
-
-```
-<p class="subtitle">
-    Append-only public signal layer for the K501 Information Space
-    and K501-AIONARC.
-</p>
-```
-
+    <p class="subtitle">
+        Append-only public signal layer for the K501 Information Space
+        and K501-AIONARC.
+    </p>
 </header>
 
 <main>
 
-```
 <section aria-labelledby="purpose">
     <h2 id="purpose">Purpose</h2>
 
@@ -239,10 +225,10 @@
     <h2 id="state">Current State</h2>
 
     <div class="state">
-        <strong>Current Signal: SIGNAL_0010</strong><br>
+        <strong>Current Signal: SIGNAL_0011</strong><br>
         <span>
-            QH256 Formal Scientific Specification v2.0 —
-            Validation &amp; Canonical Reference
+            K501 Information Space: Proof-Bound Temporal Memory Infrastructure
+            for Machine Cognition
         </span>
     </div>
 
@@ -255,22 +241,26 @@
     </p>
 
     <p>
-        <strong>Current Signal Count:</strong> 10
+        <strong>Current Signal Count:</strong> 11
     </p>
 
     <p>
-        <strong>Publication time anchor:</strong>
-        <code>1787627567</code>
+        <strong>Next Signal:</strong> <code>SIGNAL_0012</code>
+    </p>
+
+    <p>
+        <strong>Signal publication time anchor:</strong>
+        <code>1791421354</code>
     </p>
 
     <p>
         <strong>UTC:</strong>
-        2026-08-25 03:12:47
+        2026-10-08 01:02:34
     </p>
 
     <p>
         <strong>Europe/Berlin:</strong>
-        2026-08-25 05:12:47 CEST
+        2026-10-08 03:02:34 CEST
     </p>
 </section>
 
@@ -278,20 +268,42 @@
     <h2 id="feeds">Feeds</h2>
 
     <ul>
-        <li>
-            <a href="rss.xml">RSS 2.0 Feed</a>
-        </li>
-        <li>
-            <a href="atom.xml">Atom Feed</a>
-        </li>
-        <li>
-            <a href="feed.json">JSON Feed 1.1</a>
-        </li>
+        <li><a href="rss.xml">RSS 2.0 Feed</a></li>
+        <li><a href="atom.xml">Atom Feed</a></li>
+        <li><a href="feed.json">JSON Feed 1.1</a></li>
     </ul>
 </section>
 
 <section aria-labelledby="latest-signals">
     <h2 id="latest-signals">Latest Signals</h2>
+
+    <article class="signal">
+        <div class="signal-id">SIGNAL_0011</div>
+
+        <h3 class="signal-title">
+            K501 Information Space: Proof-Bound Temporal Memory Infrastructure
+            for Machine Cognition
+        </h3>
+
+        <p>
+            Research Dossier v0.1 documenting the formal system description,
+            current evidence, comparative research, reproducibility package
+            and development roadmap for proof-bound temporal memory
+            infrastructure. The publication presents a bounded research
+            state and does not claim a completed general-purpose AI memory
+            system.
+        </p>
+
+        <p class="links">
+            <a href="https://zenodo.org/records/23223085">Zenodo Record</a>
+            <a href="https://doi.org/10.5281/zenodo.23223085">DOI</a>
+        </p>
+
+        <p class="signal-meta">
+            Signal published:
+            2026-10-08 01:02:34 UTC
+        </p>
+    </article>
 
     <article class="signal">
         <div class="signal-id">SIGNAL_0010</div>
@@ -302,21 +314,16 @@
         </h3>
 
         <p>
-            Canonical scientific reference for the QH256 state
-            algebra, formal structure, deterministic representation
-            and validation boundary within the K501 Information Space.
+            Canonical scientific reference for the QH256 state algebra,
+            formal structure, deterministic representation and validation
+            boundary within the K501 Information Space.
         </p>
 
         <p class="links">
-            <a
-                href="https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md"
-            >
+            <a href="https://zenodo.org/records/21957465">
                 Zenodo
             </a>
-
-            <a
-                href="https://github.com/k501-Information-Space/QH256"
-            >
+            <a href="https://github.com/k501-Information-Space/QH256">
                 GitHub Repository
             </a>
         </p>
@@ -336,16 +343,12 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl"
-            >
+            <a href="https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl">
                 Dev.to
             </a>
         </p>
 
-        <p class="signal-meta">
-            Historical signal.
-        </p>
+        <p class="signal-meta">Historical signal.</p>
     </article>
 
     <article class="signal">
@@ -356,9 +359,7 @@
         </h3>
 
         <p class="links">
-            <a href="https://youtu.be/XcMMe5hsRsE">
-                YouTube
-            </a>
+            <a href="https://youtu.be/XcMMe5hsRsE">YouTube</a>
         </p>
     </article>
 
@@ -370,9 +371,7 @@
         </h3>
 
         <p class="links">
-            <a href="https://youtu.be/Mfa1lU2G-Dc">
-                YouTube
-            </a>
+            <a href="https://youtu.be/Mfa1lU2G-Dc">YouTube</a>
         </p>
     </article>
 
@@ -384,9 +383,7 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04"
-            >
+            <a href="https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04">
                 Dev.to
             </a>
         </p>
@@ -400,9 +397,7 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9"
-            >
+            <a href="https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9">
                 Dev.to
             </a>
         </p>
@@ -416,9 +411,7 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://mastodon.social/@K501/116620222724480965"
-            >
+            <a href="https://mastodon.social/@K501/116620222724480965">
                 Mastodon
             </a>
         </p>
@@ -432,9 +425,7 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h"
-            >
+            <a href="https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h">
                 Dev.to
             </a>
         </p>
@@ -448,9 +439,7 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m"
-            >
+            <a href="https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m">
                 Dev.to
             </a>
         </p>
@@ -464,9 +453,7 @@
         </h3>
 
         <p class="links">
-            <a
-                href="https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1"
-            >
+            <a href="https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1">
                 Dev.to
             </a>
         </p>
@@ -478,26 +465,38 @@
 
     <ul>
         <li>
-            <a href="https://github.com/k501-Information-Space/eArc">
-                K501 Information Space / eArc
-            </a>
-        </li>
-
-        <li>
-            <a href="https://github.com/k501-Information-Space/k501-workspace">
-                K501 Workspace
-            </a>
-        </li>
-
-        <li>
             <a href="https://github.com/k501-Information-Space/QH256">
                 QH256
             </a>
         </li>
 
         <li>
+            <a href="https://github.com/k501-Information-Space/eArc">
+                K501 Information Space / eArc
+            </a>
+        </li>
+
+        <li>
             <a href="https://github.com/k501-Information-Space">
                 K501 Information Space
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/k501-Information-Space/AIONARC_CHANNEL">
+                AIONARC_CHANNEL Repository
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/GATEWAY.md">
+                GATEWAY.md
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/GATEWAY.json">
+                GATEWAY.json
             </a>
         </li>
 
@@ -553,34 +552,47 @@
         It does not replace local canonical storage.
     </p>
 </section>
-```
+
+<section aria-labelledby="boundary">
+    <h2 id="boundary">Publication Boundary</h2>
+
+    <p>
+        The current signal sequence contains only explicitly published
+        states. Unpublished, speculative or derived states are not
+        promoted into the public signal sequence.
+    </p>
+
+    <p>
+        Publication follows:
+        <code>PROOF → VALIDATION → STATE → PUBLICATION → RESONANCE → NEXT PROOF</code>
+    </p>
+</section>
 
 </main>
 
 <footer class="footer">
+    <p>
+        <strong>AIONARC_CHANNEL</strong>
+    </p>
 
-```
-<p>
-    <strong>AIONARC_CHANNEL</strong>
-</p>
+    <p>
+        Append-only public signal stream.
+    </p>
 
-<p>
-    Append-only public signal stream.
-</p>
+    <p>
+        Canonical references, publications, architecture reports,
+        research notes, archive intelligence and information-space
+        development.
+    </p>
 
-<p>
-    Canonical references, publications, architecture reports,
-    research notes, archive intelligence and information-space
-    development.
-</p>
-
-<p>
-    Current state: <code>SIGNAL_0010</code> ·
-    Signal count: <code>10</code> ·
-    Status: <code>ACTIVE</code>
-</p>
-```
-
+    <p>
+        Current state:
+        <code>SIGNAL_0011</code> ·
+        Signal count:
+        <code>11</code> ·
+        Status:
+        <code>ACTIVE</code>
+    </p>
 </footer>
 
 </body>
