@@ -1,0 +1,80 @@
+{
+  "schema": "K501-AIONARC-GATEWAY-0.1",
+  "repository": {
+    "repo_id": "AIONARC_CHANNEL",
+    "owner": "k501-Information-Space",
+    "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+    "branch": "main",
+    "role": "PUBLIC_SIGNAL_LAYER",
+    "status": "ACTIVE",
+    "namespace": "K501-AIONARC"
+  },
+  "current_state": {
+    "current_signal": "SIGNAL_0011",
+    "signal_count": 11,
+    "next_signal": "SIGNAL_0012",
+    "status": "ACTIVE",
+    "signal_publication_epoch": 1791421354,
+    "signal_publication_utc": "2026-10-08T01:02:34Z",
+    "signal_publication_europe_berlin": "2026-10-08T03:02:34+02:00"
+  },
+  "current_publication": {
+    "signal": "SIGNAL_0011",
+    "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
+    "version": "v0.1",
+    "publication_type": "Research Dossier / Specification-Consolidation Candidate",
+    "zenodo_record": "https://zenodo.org/records/23223085",
+    "doi": "https://doi.org/10.5281/zenodo.23223085"
+  },
+  "purpose": {
+    "description": "Public, machine-readable publication and signal layer for the K501 Information Space and K501-AIONARC.",
+    "canonical_local_information_space": true,
+    "channel_is_canonical_information_space": false,
+    "channel_is_proof": false
+  },
+  "publication_rules": {
+    "append_only_historical_interpretation": true,
+    "historical_signals_silently_rewritten": false,
+    "unpublished_states_promoted": false,
+    "speculative_states_promoted": false,
+    "derived_states_promoted_as_canonical": false,
+    "publication_sequence": [
+      "PROOF",
+      "VALIDATION",
+      "STATE",
+      "PUBLICATION",
+      "RESONANCE",
+      "NEXT_PROOF"
+    ]
+  },
+  "feeds": {
+    "homepage": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+    "rss": "https://k501-information-space.github.io/AIONARC_CHANNEL/rss.xml",
+    "atom": "https://k501-information-space.github.io/AIONARC_CHANNEL/atom.xml",
+    "json_feed": "https://k501-information-space.github.io/AIONARC_CHANNEL/feed.json"
+  },
+  "machine_entry_points": {
+    "json_feed": "feed.json",
+    "rss_feed": "rss.xml",
+    "atom_feed": "atom.xml",
+    "human_interface": "index.html",
+    "repository_description": "README.md",
+    "gateway_markdown": "GATEWAY.md",
+    "gateway_json": "GATEWAY.json"
+  },
+  "index": {
+    "dedicated_index_file_present": false,
+    "indexing_performed": false,
+    "reason": "No dedicated INDEX.json artifact is declared in the current AIONARC_CHANNEL repository state."
+  },
+  "related_repositories": {
+    "q h256": "https://github.com/k501-Information-Space/QH256",
+    "eArc": "https://github.com/k501-Information-Space/eArc",
+    "k501_information_space": "https://github.com/k501-Information-Space"
+  },
+  "identity": {
+    "author": "Patrick R Miller",
+    "alias": "iinkognit0",
+    "orcid": "https://orcid.org/0009-0004-3275-9545"
+  }
+}
