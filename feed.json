@@ -13,8 +13,15 @@
   ],
   "items": [
     {
+      "id": "SIGNAL_0011",
+      "url": "https://zenodo.org/records/23223085",
+      "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
+      "content_text": "Research Dossier v0.1 documenting the formal system description, current evidence, comparative research, reproducibility package and development roadmap for proof-bound temporal memory infrastructure. The publication presents a bounded research state and does not claim a completed general-purpose AI memory system. Zenodo record 23223085. DOI: 10.5281/zenodo.23223085.",
+      "date_published": "2026-10-08T03:02:34+02:00"
+    },
+    {
       "id": "SIGNAL_0010",
-      "url": "https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md",
+      "url": "https://zenodo.org/records/21957465",
       "title": "QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference",
       "content_text": "QH256 Formal Scientific Specification v2.0. Canonical scientific reference for the QH256 state algebra, formal structure, deterministic representation and validation boundary within the K501 Information Space. The corresponding implementation and validation repository is maintained in the official K501 QH256 repository: https://github.com/k501-Information-Space/QH256",
       "date_published": "2026-08-25T05:12:47+02:00"
