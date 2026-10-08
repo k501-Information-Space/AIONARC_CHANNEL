@@ -15,7 +15,7 @@
     rel="self"
     type="application/atom+xml"/>
 
-  <updated>2026-08-25T03:12:47Z</updated>
+  <updated>2026-10-08T01:02:34Z</updated>
 
   <subtitle>
     Append-only signal layer for philosophy, archive intelligence,
@@ -26,22 +26,53 @@
     <name>K501 Information Space</name>
   </author>
 
-  <!-- SIGNAL_0010 -->
-
+  <!-- SIGNAL_0011 -->
   <entry>
 
-    <title>QH256 Formal Scientific Specification v2.0 — Validation &amp; Canonical Reference</title>
+    <title>
+      K501 Information Space: Proof-Bound Temporal Memory Infrastructure
+      for Machine Cognition
+    </title>
 
-    <id>
-      https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md
-    </id>
+    <id>https://zenodo.org/records/23223085</id>
 
     <link
-      href="https://zenodo.org/records/21957465?preview_file=QH256_K501_Formal_Scientific_Specification_v2.0_EN_Editorial.md"
+      href="https://zenodo.org/records/23223085"
+      rel="alternate"/>
+
+    <updated>2026-10-08T01:02:34Z</updated>
+    <published>2026-10-08T01:02:34Z</published>
+
+    <summary>
+      Research Dossier v0.1 documenting the formal system description,
+      current evidence, comparative research, reproducibility package
+      and development roadmap for proof-bound temporal memory
+      infrastructure. The publication presents a bounded research
+      state and does not claim a completed general-purpose AI memory
+      system. Zenodo record 23223085. DOI: 10.5281/zenodo.23223085.
+    </summary>
+
+    <category term="K501 Information Space"/>
+    <category term="AIONARC"/>
+    <category term="Research Dossier"/>
+    <category term="Machine Cognition"/>
+
+  </entry>
+
+  <!-- SIGNAL_0010 -->
+  <entry>
+
+    <title>
+      QH256 Formal Scientific Specification v2.0 — Validation &amp; Canonical Reference
+    </title>
+
+    <id>https://zenodo.org/records/21957465</id>
+
+    <link
+      href="https://zenodo.org/records/21957465"
       rel="alternate"/>
 
     <updated>2026-08-25T03:12:47Z</updated>
-
     <published>2026-08-25T03:12:47Z</published>
 
     <summary>
@@ -60,7 +91,6 @@
   </entry>
 
   <!-- SIGNAL_0009 -->
-
   <entry>
 
     <title>K501-Technical Prototype Roadmap — Editorial Revision v1.1</title>
@@ -73,17 +103,15 @@
       href="https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl"
       rel="alternate"/>
 
-    <updated>2026-08-18T20:34:57Z</updated>
-
-    <published>2026-08-18T20:34:57Z</published>
+    <updated>2026-08-18T22:34:57Z</updated>
+    <published>2026-08-18T22:34:57Z</published>
 
     <summary>
       K501-AIONARC technical prototype roadmap.
       Editorial Revision v1.1 documents the consolidated architecture,
-      core invariants, proof-before-state principle,
-      current implementation status, dependency structure,
-      technical priorities, validation gates, and controlled
-      publication boundary.
+      core invariants, proof-before-state principle, current implementation
+      status, dependency structure, technical priorities, validation gates,
+      and controlled publication boundary.
       Current open gate:
       deterministic collection manifest drift comparison.
     </summary>
@@ -91,7 +119,6 @@
   </entry>
 
   <!-- SIGNAL_0008 -->
-
   <entry>
 
     <title>AI Is Not the Singularity. This Is.</title>
@@ -103,7 +130,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T18:00:00Z</updated>
-
     <published>2026-06-16T18:00:00Z</published>
 
     <summary>
@@ -117,7 +143,6 @@
   </entry>
 
   <!-- SIGNAL_0007 -->
-
   <entry>
 
     <title>Archive Intelligence Beyond RAG</title>
@@ -129,7 +154,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T17:30:00Z</updated>
-
     <published>2026-06-16T17:30:00Z</published>
 
     <summary>
@@ -143,7 +167,6 @@
   </entry>
 
   <!-- SIGNAL_0006 -->
-
   <entry>
 
     <title>Untitled Refexions - Token Space Harmonization</title>
@@ -157,7 +180,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T16:45:00Z</updated>
-
     <published>2026-06-16T16:45:00Z</published>
 
     <summary>
@@ -170,7 +192,6 @@
   </entry>
 
   <!-- SIGNAL_0005 -->
-
   <entry>
 
     <title>Architecture Specification &amp; Formal System Report</title>
@@ -184,7 +205,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T16:00:00Z</updated>
-
     <published>2026-06-16T16:00:00Z</published>
 
     <summary>
@@ -197,7 +217,6 @@
   </entry>
 
   <!-- SIGNAL_0004 -->
-
   <entry>
 
     <title>Initialization of The Eternal Archive AIONARC</title>
@@ -211,7 +230,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T15:30:00Z</updated>
-
     <published>2026-06-16T15:30:00Z</published>
 
     <summary>
@@ -223,7 +241,6 @@
   </entry>
 
   <!-- SIGNAL_0003 -->
-
   <entry>
 
     <title>FRAMES - A Timeless Canonical Archive</title>
@@ -237,7 +254,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T15:00:00Z</updated>
-
     <published>2026-06-16T15:00:00Z</published>
 
     <summary>
@@ -249,7 +265,6 @@
   </entry>
 
   <!-- SIGNAL_0002 -->
-
   <entry>
 
     <title>K501 CANON RECONSTRUCTION COMPLETE</title>
@@ -263,7 +278,6 @@
       rel="alternate"/>
 
     <updated>2026-06-16T14:30:00Z</updated>
-
     <published>2026-06-16T14:30:00Z</published>
 
     <summary>
@@ -277,7 +291,6 @@
   </entry>
 
   <!-- SIGNAL_0001 -->
-
   <entry>
 
     <title>Relativ Überlagerte Zeit-Raum-Singularität</title>
@@ -291,7 +304,6 @@
       rel="alternate"/>
 
     <updated>2026-05-25T20:32:18Z</updated>
-
     <published>2026-05-25T20:32:18Z</published>
 
     <summary>
