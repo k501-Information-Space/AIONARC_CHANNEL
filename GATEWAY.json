@@ -68,7 +68,7 @@
     "reason": "No dedicated INDEX.json artifact is declared in the current AIONARC_CHANNEL repository state."
   },
   "related_repositories": {
-    "q h256": "https://github.com/k501-Information-Space/QH256",
+    "QH256": "https://github.com/k501-Information-Space/QH256",
     "eArc": "https://github.com/k501-Information-Space/eArc",
     "k501_information_space": "https://github.com/k501-Information-Space"
   },
