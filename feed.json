@@ -13,6 +13,13 @@
   ],
   "items": [
     {
+      "id": "SIGNAL_0012",
+      "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+      "title": "QH256 Repository State Anchor — Canonical Main Readback",
+      "content_text": "State Anchor for k501-Information-Space/QH256 at user-declared time anchor 1792581072 (2026-10-21T11:11:12Z; 2026-10-21T13:11:12+02:00). Observed canonical main HEAD 8bd3d7e0327a4c22f735b956d47529f5adc4bf8b; root tree 0c427a99489c6099d4f6044d710c43b8bfd0cf50; 150 tree entries (121 file/blob entries and 29 directory entries). Index.json (K501-QH256-INDEX-0.3) contains 150 unique entries and was reconciled against the observed Git tree. MANIFEST.json is a scoped integrity manifest, not a full-repository byte hash. Existing validation-status documentation records 6,620,625 assertions and zero failures; no fresh validation run was performed for this signal. Human record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md. Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json.",
+      "date_published": "2026-10-21T13:11:12+02:00"
+    },
+    {
       "id": "SIGNAL_0011",
       "url": "https://zenodo.org/records/23223085",
       "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",

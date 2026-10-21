@@ -15,7 +15,7 @@
     rel="self"
     type="application/atom+xml"/>
 
-  <updated>2026-10-08T01:02:34Z</updated>
+  <updated>2026-10-21T11:11:12Z</updated>
 
   <subtitle>
     Append-only signal layer for philosophy, archive intelligence,
@@ -25,6 +25,28 @@
   <author>
     <name>K501 Information Space</name>
   </author>
+
+  <!-- SIGNAL_0012 -->
+  <entry>
+    <title>QH256 Repository State Anchor — Canonical Main Readback</title>
+    <id>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md</id>
+    <link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md" rel="alternate"/>
+    <updated>2026-10-21T11:11:12Z</updated>
+    <published>2026-10-21T11:11:12Z</published>
+    <summary>
+      State Anchor for QH256 repository k501-Information-Space/QH256. Canonical main HEAD:
+      8bd3d7e0327a4c22f735b956d47529f5adc4bf8b. Root tree: 0c427a99489c6099d4f6044d710c43b8bfd0cf50. Complete path inventory:
+      150 entries (121 file/blob entries and
+      29 directory entries). Existing validation status is read from
+      repository documentation; no fresh validation run was executed.
+      The scoped manifest is not a full-repository byte hash.
+      Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json
+    </summary>
+    <category term="QH256"/>
+    <category term="K501 Information Space"/>
+    <category term="State Anchor"/>
+    <category term="AIONARC"/>
+  </entry>
 
   <!-- SIGNAL_0011 -->
   <entry>

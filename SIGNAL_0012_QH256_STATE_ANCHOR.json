@@ -1,0 +1,1221 @@
+{
+  "schema_id": "K501_AIONARC_STATE_ANCHOR/0.1",
+  "signal_id": "SIGNAL_0012",
+  "signal_type": "STATE_ANCHOR",
+  "title": "QH256 Repository State Anchor — Canonical Main Readback",
+  "status": "PUBLISHED_STATE_ANCHOR",
+  "namespace": "K501-AIONARC",
+  "time_anchor": {
+    "unix_epoch": 1792581072,
+    "utc": "2026-10-21T11:11:12Z",
+    "europe_berlin": "2026-10-21T13:11:12+02:00",
+    "source": "User-declared GO and State Anchor time."
+  },
+  "state_subject": {
+    "repository": "k501-Information-Space/QH256",
+    "url": "https://github.com/k501-Information-Space/QH256",
+    "repository_role": "QH256 state algebra / current public repository state",
+    "default_branch": "main"
+  },
+  "observed_repository_head": {
+    "commit_sha": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "commit_url": "https://github.com/k501-Information-Space/QH256/commit/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "commit_timestamp_utc": "2026-10-21T10:54:43Z",
+    "commit_message": "Recompute integrity metadata after README correction\n\nUpdate the README byte count and SHA-256 in the scoped manifest and regenerate the checksum list and sidecar.",
+    "parent_commit_shas": [
+      "1317caf5861638670211a7d1be8715830d516da6",
+      "1da97e77411e2ef5429f887a885aa7e4b60ec5cb"
+    ],
+    "github_commit_signature_verified": true,
+    "root_tree_sha": "0c427a99489c6099d4f6044d710c43b8bfd0cf50",
+    "recursive_tree_entry_count": 150,
+    "blob_count": 121,
+    "directory_entry_count": 29,
+    "recursive_tree_truncated": false
+  },
+  "repository_structure_state": {
+    "current_frame_id": "K501-QH256-IS-FRAME-002",
+    "current_frame_markdown": "frames/FRAME_002_RECONCILIATION.md",
+    "current_frame_json": "frames/FRAME_002_RECONCILIATION.json",
+    "current_structure_specification_id": "K501-QH256-IS-STRUCTURE-0.3",
+    "current_structure_specification_markdown": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.md",
+    "current_structure_specification_json": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.json",
+    "preserved_historical_frames": [
+      "frames/FRAME_000_BOOTSTRAP.md",
+      "frames/FRAME_000_BOOTSTRAP.json",
+      "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+      "frames/FRAME_001_ROOT_ENTRYPOINT.json"
+    ],
+    "preserved_historical_specifications": [
+      "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json"
+    ],
+    "path_inventory": {
+      "source": "Index.json",
+      "index_id": "K501-QH256-INDEX-0.3",
+      "index_git_blob_sha": "08abbe22e93f4de5f55ec2547349658b5201e536",
+      "complete": true,
+      "entry_count": 150,
+      "source_tree_path_entries": 146,
+      "added_path_entries": 4,
+      "entries_include_directories": true,
+      "inventory_scope": "Every file and directory from the source tree plus four Frame 002 paths; a path map, not a repository-wide content hash.",
+      "entries": [
+        {
+          "id": "QH256-PATH-GITIGNORE",
+          "path": ".gitignore",
+          "kind": "blob",
+          "role": "Existing repository configuration.",
+          "classification": "QH256_REPOSITORY_BASE"
+        },
+        {
+          "id": "QH256-PATH-GATEWAY-JSON",
+          "path": "Gateway.json",
+          "kind": "blob",
+          "role": "Machine-readable active gateway.",
+          "classification": "ROOT_ENTRYPOINT"
+        },
+        {
+          "id": "QH256-PATH-GATEWAY-MD",
+          "path": "Gateway.md",
+          "kind": "blob",
+          "role": "Human-readable active gateway.",
+          "classification": "ROOT_ENTRYPOINT"
+        },
+        {
+          "id": "QH256-PATH-INDEX-JSON",
+          "path": "Index.json",
+          "kind": "blob",
+          "role": "Complete machine-readable path inventory; derived.",
+          "classification": "DERIVED_COMPLETE_INDEX"
+        },
+        {
+          "id": "QH256-PATH-INDEX-MD",
+          "path": "Index.md",
+          "kind": "blob",
+          "role": "Complete human-readable path inventory; derived.",
+          "classification": "DERIVED_COMPLETE_INDEX"
+        },
+        {
+          "id": "QH256-PATH-LICENSE",
+          "path": "LICENSE",
+          "kind": "blob",
+          "role": "Existing repository license text.",
+          "classification": "QH256_REPOSITORY_BASE"
+        },
+        {
+          "id": "QH256-PATH-LICENSE-SCOPE-MD",
+          "path": "LICENSE_SCOPE.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "INFORMATION_SPACE_CONTROL_SURFACE"
+        },
+        {
+          "id": "QH256-PATH-MANIFEST-JSON",
+          "path": "MANIFEST.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "INFORMATION_SPACE_CONTROL_SURFACE"
+        },
+        {
+          "id": "QH256-PATH-README-MD",
+          "path": "README.md",
+          "kind": "blob",
+          "role": "Repository landing page with control-surface/payload boundary.",
+          "classification": "ROOT_ENTRYPOINT"
+        },
+        {
+          "id": "QH256-PATH-SHA256SUMS-TXT",
+          "path": "SHA256SUMS.txt",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "INFORMATION_SPACE_CONTROL_SURFACE"
+        },
+        {
+          "id": "QH256-PATH-SHA256SUMS-TXT-SHA256",
+          "path": "SHA256SUMS.txt.sha256",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "INFORMATION_SPACE_CONTROL_SURFACE"
+        },
+        {
+          "id": "QH256-PATH-DOCS",
+          "path": "docs",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "SHARED_CONTAINER"
+        },
+        {
+          "id": "QH256-PATH-DOCS-ARCHITECTURE-MD",
+          "path": "docs/ARCHITECTURE.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-AUTHORSHIP-MD",
+          "path": "docs/AUTHORSHIP.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-EVIDENCE-AND-RECONSTRUCTION-MODEL-MD",
+          "path": "docs/EVIDENCE_AND_RECONSTRUCTION_MODEL.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-HISTORY-MD",
+          "path": "docs/HISTORY.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-OPERATOR-MANUAL-MD",
+          "path": "docs/OPERATOR_MANUAL.md",
+          "kind": "blob",
+          "role": "Gate-based Information Space operating instructions.",
+          "classification": "INFORMATION_SPACE_CONTROL_SURFACE"
+        },
+        {
+          "id": "QH256-PATH-DOCS-PROOF-BEFORE-STATE-MD",
+          "path": "docs/PROOF_BEFORE_STATE.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-REPOSITORY-GUIDE-MD",
+          "path": "docs/REPOSITORY_GUIDE.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-REPOSITORY-RESOLUTION-NOTES-MD",
+          "path": "docs/REPOSITORY_RESOLUTION_NOTES.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-DOCS-VALIDATION-STATUS-MD",
+          "path": "docs/VALIDATION_STATUS.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_PROJECT_DOCUMENTATION"
+        },
+        {
+          "id": "QH256-PATH-FRAMES",
+          "path": "frames",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "INFORMATION_SPACE_DIRECTORY"
+        },
+        {
+          "id": "QH256-PATH-FRAMES-FRAME-000-BOOTSTRAP-JSON",
+          "path": "frames/FRAME_000_BOOTSTRAP.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "HISTORICAL_BOOTSTRAP_RECORD"
+        },
+        {
+          "id": "QH256-PATH-FRAMES-FRAME-000-BOOTSTRAP-MD",
+          "path": "frames/FRAME_000_BOOTSTRAP.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "HISTORICAL_BOOTSTRAP_RECORD"
+        },
+        {
+          "id": "QH256-PATH-FRAMES-FRAME-001-ROOT-ENTRYPOINT-JSON",
+          "path": "frames/FRAME_001_ROOT_ENTRYPOINT.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "HISTORICAL_TRANSITION_RECORD"
+        },
+        {
+          "id": "QH256-PATH-FRAMES-FRAME-001-ROOT-ENTRYPOINT-MD",
+          "path": "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "HISTORICAL_TRANSITION_RECORD"
+        },
+        {
+          "id": "QH256-PATH-FRAMES-FRAME-002-RECONCILIATION-JSON",
+          "path": "frames/FRAME_002_RECONCILIATION.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "CURRENT_RECONCILIATION_RECORD"
+        },
+        {
+          "id": "QH256-PATH-FRAMES-FRAME-002-RECONCILIATION-MD",
+          "path": "frames/FRAME_002_RECONCILIATION.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "CURRENT_RECONCILIATION_RECORD"
+        },
+        {
+          "id": "QH256-PATH-METADATA",
+          "path": "metadata",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_REPOSITORY_METADATA"
+        },
+        {
+          "id": "QH256-PATH-METADATA-QH256-REPOSITORY-JSON",
+          "path": "metadata/qh256.repository.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "QH256_REPOSITORY_METADATA"
+        },
+        {
+          "id": "QH256-PATH-METADATA-RELEASE-MANIFEST-TEMPLATE-JSON",
+          "path": "metadata/release-manifest.template.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "QH256_REPOSITORY_METADATA"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE",
+          "path": "obsolete",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA",
+          "path": "obsolete/alpha",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-QH256ENGINE-HPP",
+          "path": "obsolete/alpha/QH256Engine.hpp",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-QH256-BREAKTHROUGH-MD",
+          "path": "obsolete/alpha/QH256_BREAKTHROUGH.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-QH256-EXECUTIVE-SUMMARY-MD",
+          "path": "obsolete/alpha/QH256_EXECUTIVE_SUMMARY.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-QH256-GLOSSARY-MD",
+          "path": "obsolete/alpha/QH256_GLOSSARY.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-QH256-IMPLEMENTATION-GUIDE-MD",
+          "path": "obsolete/alpha/QH256_IMPLEMENTATION_GUIDE.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-QH256-FORMAL-THEORY-MD",
+          "path": "obsolete/alpha/QH256_formal_theory.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-RELEASE-PROCEDURE-MD",
+          "path": "obsolete/alpha/RELEASE_PROCEDURE.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-TEST-TXT",
+          "path": "obsolete/alpha/test.txt",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-TEST-QH256",
+          "path": "obsolete/alpha/test_qh256",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-TEST-QH256-CPP",
+          "path": "obsolete/alpha/test_qh256.cpp",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-OBSOLETE-ALPHA-VERIFY-V6-SH",
+          "path": "obsolete/alpha/verify_v6.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_HISTORICAL_ARCHIVE"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE",
+          "path": "pipeline",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-README-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/README.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-VERSION",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/VERSION",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-ALPHA-STATUS-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/ALPHA_STATUS.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-BINARY-OBJECT-RECORD-V2-ALPHA-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/BINARY_OBJECT_RECORD_V2_ALPHA.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-EXTERNAL-QH256-CHECK-2026-09-17-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/EXTERNAL_QH256_CHECK_2026-09-17.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-GATE-MAP-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/GATE_MAP.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-HASH-BOUNDARIES-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/HASH_BOUNDARIES.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-IMPLEMENTATION-DIFFERENCES-V01-V20-ALPHA-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/IMPLEMENTATION_DIFFERENCES_V01_V20_ALPHA.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-QH256-ALPHA-MAPPING-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/QH256_ALPHA_MAPPING.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-QH256-REFERENCE-BINDING-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/QH256_REFERENCE_BINDING.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-RECONSTRUCTION-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/RECONSTRUCTION.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-TERMINAL-START-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/TERMINAL_START.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-DOCS-VALIDATION-PLAN-MD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/docs/VALIDATION_PLAN.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC-BYTES-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc/bytes.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC-HISTORY-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc/history.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC-INGEST-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc/ingest.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC-OBJECT-RECORD-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc/object_record.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC-QH256-MAPPING-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc/qh256_mapping.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-INCLUDE-K501-AIONARC-SHA256-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/include/k501_aionarc/sha256.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-BUILD-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/build.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-BUILD-STUB-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/build_stub.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-BUILD-VERIFY-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/build_verify.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-FREEZE-V2A01-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/freeze_v2a01.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-MAKE-MANIFEST-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/make_manifest.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-PUBLIC-SCOPE-AUDIT-V2A02-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/public_scope_audit_v2a02.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RECORD-V2A02-SCOPE-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/record_v2a02_scope.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-ALPHA-VALIDATION-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_alpha_validation.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-ALPHA-VALIDATION-STUB-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_alpha_validation_stub.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-ASAN-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_asan.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-DETERMINISM-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_determinism.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-FIXTURE-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_fixture.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-HISTORY-NEGATIVE-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_history_negative.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-MUTATION-PROOF-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_mutation_proof.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-RUN-NEGATIVE-VALIDATION-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/run_negative_validation.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SCRIPTS-STAGE-PUBLIC-V2A05-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/scripts/stage_public_v2a05.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-COMMON",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/common",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-COMMON-BYTES-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/common/bytes.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-COMMON-SHA256-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/common/sha256.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-INGEST",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/ingest",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-INGEST-INGEST-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/ingest/ingest.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-OBJECT-RECORD",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/object_record",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-OBJECT-RECORD-OBJECT-RECORD-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/object_record/object_record.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-PIPELINE",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/pipeline",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-PIPELINE-MAIN-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/pipeline/main.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-PIPELINE-VERIFY-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/pipeline/verify.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-QH256-MAPPING",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/qh256_mapping",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-QH256-MAPPING-MAPPING-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/qh256_mapping/mapping.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-STATE",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/state",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-SRC-STATE-HISTORY-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/src/state/history.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-INTEGRATION-V02-2C-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/integration_v02_2c.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-INTEGRATION-V02-2C-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/integration_v02_2c.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-RUN-TESTS-SH",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/run_tests.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-STUB-QH256",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/stub_qh256",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-STUB-QH256-QH256-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/stub_qh256/qh256.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-STUB-QH256-QH256-H",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/stub_qh256/qh256.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-TEST-KNOWN-VECTORS-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/test_known_vectors.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-TEST-NEGATIVE-RECORD-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/test_negative_record.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-TESTS-TEST-RECORD-VECTORS-C",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/tests/test_record_vectors.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-V2-0-ALPHA-FILE-MANIFEST-SHA256",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/v2.0_ALPHA_FILE_MANIFEST.sha256",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-V2-0-ALPHA-MODULE-MANIFEST-JSON",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/v2.0_ALPHA_MODULE_MANIFEST.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-PIPELINE-K501-AIONARC-PIPELINE-V2-0-ALPHA-V2-0-ALPHA-MODULE-MANIFEST-JSON-SHA256",
+          "path": "pipeline/K501_AIONARC_Pipeline_v2.0_Alpha/v2.0_ALPHA_MODULE_MANIFEST.json.sha256",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_VERSIONED_IMPLEMENTATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-REFERENCES",
+          "path": "references",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_REFERENCE_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-REFERENCES-REFERENCES-MD",
+          "path": "references/REFERENCES.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_REFERENCE_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-RELEASES",
+          "path": "releases",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_RELEASE_RECORD"
+        },
+        {
+          "id": "QH256-PATH-RELEASES-RELEASE-QH256-VALIDATION-V0-1-0-MD",
+          "path": "releases/RELEASE_QH256_Validation_v0.1.0.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_RELEASE_RECORD"
+        },
+        {
+          "id": "QH256-PATH-RELEASES-RELEASE-QH256-VALIDATION-V2-0-0-MD",
+          "path": "releases/RELEASE_QH256_Validation_v2.0.0.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_RELEASE_RECORD"
+        },
+        {
+          "id": "QH256-PATH-RUNS",
+          "path": "runs",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "INFORMATION_SPACE_DIRECTORY"
+        },
+        {
+          "id": "QH256-PATH-RUNS-RUN-SCHEMA-JSON",
+          "path": "runs/run.schema.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "INFORMATION_SPACE_RUN_SCHEMA"
+        },
+        {
+          "id": "QH256-PATH-SCRIPTS",
+          "path": "scripts",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_REPOSITORY_SCRIPT"
+        },
+        {
+          "id": "QH256-PATH-SCRIPTS-PREPARE-RELEASE-SH",
+          "path": "scripts/prepare_release.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_REPOSITORY_SCRIPT"
+        },
+        {
+          "id": "QH256-PATH-SCRIPTS-VERIFY-REPO-SH",
+          "path": "scripts/verify_repo.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_REPOSITORY_SCRIPT"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS",
+          "path": "specifications",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "INFORMATION_SPACE_DIRECTORY"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS-K501-INFORMATION-SPACE-STRUCTURE-V0-1-JSON",
+          "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "HISTORICAL_STRUCTURE_SPECIFICATION_V0_1"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS-K501-INFORMATION-SPACE-STRUCTURE-V0-1-MD",
+          "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "HISTORICAL_STRUCTURE_SPECIFICATION_V0_1"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS-K501-INFORMATION-SPACE-STRUCTURE-V0-2-JSON",
+          "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "HISTORICAL_TRANSITION_SPECIFICATION_V0_2"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS-K501-INFORMATION-SPACE-STRUCTURE-V0-2-MD",
+          "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "HISTORICAL_TRANSITION_SPECIFICATION_V0_2"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS-K501-INFORMATION-SPACE-STRUCTURE-V0-3-JSON",
+          "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.json",
+          "kind": "blob",
+          "role": "Machine-readable repository artifact or record.",
+          "classification": "CURRENT_STRUCTURE_SPECIFICATION_V0_3"
+        },
+        {
+          "id": "QH256-PATH-SPECIFICATIONS-K501-INFORMATION-SPACE-STRUCTURE-V0-3-MD",
+          "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "CURRENT_STRUCTURE_SPECIFICATION_V0_3"
+        },
+        {
+          "id": "QH256-PATH-TESTS",
+          "path": "tests",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION",
+          "path": "tests/validation",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1",
+          "path": "tests/validation/v0.1",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-MAKEFILE",
+          "path": "tests/validation/v0.1/Makefile",
+          "kind": "blob",
+          "role": "Build and validation instructions.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-README-MD",
+          "path": "tests/validation/v0.1/README.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-TIME-ANCHOR-TXT",
+          "path": "tests/validation/v0.1/TIME_ANCHOR.txt",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-QH256-C",
+          "path": "tests/validation/v0.1/qh256.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-QH256-H",
+          "path": "tests/validation/v0.1/qh256.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-RUN-VALIDATION-SH",
+          "path": "tests/validation/v0.1/run_validation.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V0-1-TEST-QH256-VALIDATION-C",
+          "path": "tests/validation/v0.1/test_qh256_validation.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0",
+          "path": "tests/validation/v2.0",
+          "kind": "tree",
+          "role": "Directory container; child paths classified independently.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-MAKEFILE",
+          "path": "tests/validation/v2.0/Makefile",
+          "kind": "blob",
+          "role": "Build and validation instructions.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-README-MD",
+          "path": "tests/validation/v2.0/README.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-TIME-ANCHOR-TXT",
+          "path": "tests/validation/v2.0/TIME_ANCHOR.txt",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-VALIDATION-MATRIX-MD",
+          "path": "tests/validation/v2.0/VALIDATION_MATRIX.md",
+          "kind": "blob",
+          "role": "Human-readable repository artifact or documentation.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-VALIDATION-RESULT-TXT",
+          "path": "tests/validation/v2.0/VALIDATION_RESULT.txt",
+          "kind": "blob",
+          "role": "Existing repository artifact retained at its recorded path.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-QH256-C",
+          "path": "tests/validation/v2.0/qh256.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-QH256-H",
+          "path": "tests/validation/v2.0/qh256.h",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-RUN-VALIDATION-SH",
+          "path": "tests/validation/v2.0/run_validation.sh",
+          "kind": "blob",
+          "role": "Repository or validation script.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        },
+        {
+          "id": "QH256-PATH-TESTS-VALIDATION-V2-0-TEST-QH256-VALIDATION-C",
+          "path": "tests/validation/v2.0/test_qh256_validation.c",
+          "kind": "blob",
+          "role": "Source/header in existing QH256 payload.",
+          "classification": "QH256_VALIDATION_PAYLOAD"
+        }
+      ]
+    },
+    "layer_boundary": {
+      "control_surface": [
+        "README.md",
+        "Gateway.md",
+        "Gateway.json",
+        "Index.md",
+        "Index.json",
+        "frames/",
+        "runs/run.schema.json",
+        "specifications/",
+        "docs/OPERATOR_MANUAL.md",
+        "MANIFEST.json",
+        "SHA256SUMS.txt",
+        "SHA256SUMS.txt.sha256",
+        "LICENSE_SCOPE.md"
+      ],
+      "existing_qh256_payload": [
+        ".gitignore",
+        "LICENSE",
+        "docs/* except docs/OPERATOR_MANUAL.md",
+        "metadata/",
+        "obsolete/",
+        "pipeline/",
+        "references/",
+        "releases/",
+        "scripts/",
+        "tests/"
+      ],
+      "shared_containers": [
+        "docs/"
+      ],
+      "qh256_boundary": "Deterministic four-state algebra and 256-bit state representation.",
+      "historical_path_resolution_status": "HISTORICAL_ONLY_NO_NESTED_PATHS_ARE_ACTIVE",
+      "historical_path_crosswalk": {
+        "information-space/Gateway.md": "Gateway.md",
+        "information-space/Gateway.json": "Gateway.json",
+        "information-space/Index.md": "Index.md",
+        "information-space/Index.json": "Index.json",
+        "information-space/frames/": "frames/",
+        "information-space/runs/run.schema.json": "runs/run.schema.json",
+        "information-space/docs/OPERATOR_MANUAL.md": "docs/OPERATOR_MANUAL.md",
+        "information-space/LICENSE.md": "LICENSE_SCOPE.md (scope pointer); LICENSE remains authoritative",
+        "information-space/MANIFEST.json": "MANIFEST.json",
+        "information-space/SHA256SUMS.txt": "SHA256SUMS.txt"
+      }
+    },
+    "structural_readback": {
+      "github_tree_entry_count": 150,
+      "index_entry_count": 150,
+      "indexed_paths_unique": true,
+      "every_index_path_exists_in_observed_tree": true,
+      "every_observed_tree_path_is_indexed": true,
+      "result": "PASS"
+    }
+  },
+  "integrity_state": {
+    "manifest_path": "MANIFEST.json",
+    "manifest_schema_id": "K501_INFORMATION_SPACE_MANIFEST/0.3",
+    "manifest_content_entry_count": 21,
+    "manifest_inventory_path_count": 150,
+    "manifest_hash_algorithm": "SHA-256",
+    "manifest_scope_note": "Scoped integrity manifest for the Information Space control surface and selected referenced records. The Index inventories all repository paths, but this manifest does not hash every QH256 payload file. SHA256SUMS.txt and its sidecar are excluded to avoid checksum recursion.",
+    "manifest_is_full_repository_content_hash": false,
+    "checksum_file_path": "SHA256SUMS.txt",
+    "checksum_file_sidecar_path": "SHA256SUMS.txt.sha256",
+    "checksum_scope_boundary": "The manifest and checksum list cover the declared control surface and selected referenced records, not every QH256 payload file."
+  },
+  "validation_state": {
+    "documentation_path": "docs/VALIDATION_STATUS.md",
+    "documented_assertions_executed": 6620625,
+    "documented_failures": 0,
+    "documented_results": {
+      "optimized_c11_build": "PASS",
+      "automated_validation_path": "PASS",
+      "address_sanitizer": "PASS",
+      "undefined_behavior_sanitizer": "PASS"
+    },
+    "newly_executed_during_signal_creation": false,
+    "status_note": "Existing documented results only; no fresh validation run was executed as part of this State Anchor."
+  },
+  "state_boundary": {
+    "claim_scope": "Current public GitHub main HEAD, Git commit/tree identity, complete path inventory and documented validation status.",
+    "not_claimed": [
+      "A new QH256 executable validation run was not performed.",
+      "The scoped MANIFEST.json is not a full-repository byte hash.",
+      "This State Anchor does not establish a new release, tag or runtime validation.",
+      "QH256 remains distinct from the AIONARC archive/provenance and runtime layers."
+    ]
+  },
+  "links": {
+    "repository": "https://github.com/k501-Information-Space/QH256",
+    "main_branch": "https://github.com/k501-Information-Space/QH256/tree/main",
+    "observed_commit": "https://github.com/k501-Information-Space/QH256/commit/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "observed_tree": "https://github.com/k501-Information-Space/QH256/tree/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "gateway_json": "https://github.com/k501-Information-Space/QH256/blob/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b/Gateway.json",
+    "index_json": "https://github.com/k501-Information-Space/QH256/blob/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b/Index.json",
+    "frame_002_json": "https://github.com/k501-Information-Space/QH256/blob/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b/frames/FRAME_002_RECONCILIATION.json",
+    "structure_specification_v0_3_json": "https://github.com/k501-Information-Space/QH256/blob/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.json",
+    "manifest": "https://github.com/k501-Information-Space/QH256/blob/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b/MANIFEST.json",
+    "validation_status": "https://github.com/k501-Information-Space/QH256/blob/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b/docs/VALIDATION_STATUS.md",
+    "signal_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "signal_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json"
+  }
+}

@@ -43,55 +43,41 @@ It does not constitute proof of the underlying claims.
 
 ## Current Signal State
 
-Current signal:
+Current signal: `SIGNAL_0012`
 
-`SIGNAL_0011`
+Current signal title: `QH256 Repository State Anchor — Canonical Main Readback`
 
-Current signal title:
+Current signal count: `12`
 
-`K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition`
+Next signal: `SIGNAL_0013`
 
-Current signal count:
+State anchor time: `1792581072`
 
-`11`
+UTC: `2026-10-21 11:11:12`
 
-Next signal:
+Europe/Berlin: `2026-10-21 13:11:12 CEST`
 
-`SIGNAL_0012`
-
-Signal publication time anchor:
-
-`1791421354`
-
-UTC:
-
-`2026-10-08 01:02:34`
-
-Europe/Berlin:
-
-`2026-10-08 03:02:34 CEST`
 
 ## Current Publication
 
-Zenodo:
+Signal: `SIGNAL_0012`
 
-https://zenodo.org/records/23223085
+Title: `QH256 Repository State Anchor — Canonical Main Readback`
 
-DOI:
+Publication type: `Repository State Anchor / State Anchor Signal`
 
-https://doi.org/10.5281/zenodo.23223085
+State subject: [QH256 repository](https://github.com/k501-Information-Space/QH256)
 
-Publication:
+Observed canonical HEAD: [`8bd3d7e0327a4c22f735b956d47529f5adc4bf8b`](https://github.com/k501-Information-Space/QH256/commit/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b)
 
-`K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition`
+Human-readable record: [SIGNAL_0012_QH256_STATE_ANCHOR.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md)
 
-Version:
+Machine-readable record: [SIGNAL_0012_QH256_STATE_ANCHOR.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json)
 
-`v0.1`
+Anchor: `1792581072` — `2026-10-21T11:11:12Z` — `2026-10-21T13:11:12+02:00`
 
-Publication type:
+The anchor embeds the complete 150-entry current path inventory and records the scope limits of the repository's integrity and validation claims.
 
-`Research Dossier / Specification-Consolidation Candidate`
 
 ## Canonical Boundary
 
@@ -213,10 +199,10 @@ ORCID:
 
 `STATUS: ACTIVE`
 
-`CURRENT_SIGNAL: SIGNAL_0011`
+`CURRENT_SIGNAL: SIGNAL_0012`
 
-`SIGNAL_COUNT: 11`
+`SIGNAL_COUNT: 12`
 
-`NEXT_SIGNAL: SIGNAL_0012`
+`NEXT_SIGNAL: SIGNAL_0013`
 
 `NAMESPACE: K501-AIONARC`

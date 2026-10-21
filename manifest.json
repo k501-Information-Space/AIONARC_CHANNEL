@@ -2,9 +2,9 @@
   "space": "AIONARC_CHANNEL",
   "version": "1.1",
   "status": "ACTIVE",
-  "signals": 11,
-  "current_signal": "SIGNAL_0011",
-  "next_signal": "SIGNAL_0012",
+  "signals": 12,
+  "current_signal": "SIGNAL_0012",
+  "next_signal": "SIGNAL_0013",
   "namespace": "K501-AIONARC",
   "feeds": [
     "rss.xml",
@@ -26,13 +26,17 @@
   "generator": "AIONARC_CHANNEL",
   "description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space.",
   "current_publication": {
-    "signal": "SIGNAL_0011",
-    "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
-    "zenodo": "https://zenodo.org/records/23223085",
-    "doi": "10.5281/zenodo.23223085",
-    "publication_epoch": 1791421354,
-    "publication_utc": "2026-10-08 01:02:34",
-    "publication_europe_berlin": "2026-10-08 03:02:34 CEST"
+    "signal": "SIGNAL_0012",
+    "title": "QH256 Repository State Anchor — Canonical Main Readback",
+    "publication_type": "Repository State Anchor / State Anchor Signal",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "state_subject_repository": "https://github.com/k501-Information-Space/QH256",
+    "observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "observed_root_tree_sha": "0c427a99489c6099d4f6044d710c43b8bfd0cf50",
+    "publication_epoch": 1792581072,
+    "publication_utc": "2026-10-21 11:11:12 UTC",
+    "publication_europe_berlin": "2026-10-21 13:11:12 CEST"
   },
   "gateway": {
     "markdown": "GATEWAY.md",
@@ -41,5 +45,11 @@
   "index": {
     "present": false,
     "indexing_performed": false
+  },
+  "previous_signal": {
+    "signal": "SIGNAL_0011",
+    "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
+    "url": "https://zenodo.org/records/23223085",
+    "publication_epoch": 1791421354
   }
 }

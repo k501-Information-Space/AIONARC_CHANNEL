@@ -20,99 +20,59 @@ It is a public publication and resonance layer.
 
 ## Current State
 
-**Current Signal:** `SIGNAL_0011`
+**Current Signal:** `SIGNAL_0012`
 
-**Current Signal Title:**
-
-**K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition**
+**Current Signal Title:** QH256 Repository State Anchor — Canonical Main Readback
 
 **Status:** `ACTIVE`
 
 **Namespace:** `K501-AIONARC`
 
-**Current Signal Count:** `11`
+**Current Signal Count:** `12`
 
-The channel currently contains:
+**State Anchor Time:** `1792581072`
 
-`SIGNAL_0011` → `SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
+**UTC:** `2026-10-21 11:11:12`
 
-The next signal number in sequence is:
+**Europe/Berlin:** `2026-10-21 13:11:12 CEST`
 
-`SIGNAL_0012`
+Sequence: `SIGNAL_0012` → `SIGNAL_0011` → `SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
+
+Next signal: `SIGNAL_0013`
 
 ## Current Publication
 
-**Signal:**
+**Signal:** `SIGNAL_0012`
 
-`SIGNAL_0011`
+**Title:** QH256 Repository State Anchor — Canonical Main Readback
 
-**Title:**
+**Publication Type:** Repository State Anchor / State Anchor Signal
 
-`K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition`
+**State subject:** QH256 public repository state at canonical `main` readback.
 
-**Zenodo Record:**
+**Observed QH256 HEAD:** [`8bd3d7e0327a4c22f735b956d47529f5adc4bf8b`](https://github.com/k501-Information-Space/QH256/commit/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b)
 
-https://zenodo.org/records/23223085
+**Human-readable anchor:** [SIGNAL_0012_QH256_STATE_ANCHOR.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md)
 
-**DOI:**
+**Machine-readable anchor:** [SIGNAL_0012_QH256_STATE_ANCHOR.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json)
 
-https://doi.org/10.5281/zenodo.23223085
-
-**Publication Type:**
-
-Research Dossier / Specification-Consolidation Candidate
-
-**Version:**
-
-`v0.1`
-
-**Publication time anchor for SIGNAL_0011:**
-
-`1791421354`
-
-**UTC:**
-
-`2026-10-08 01:02:34`
-
-**Europe/Berlin:**
-
-`2026-10-08 03:02:34 CEST`
-
-## Publication Scope
-
-The published dossier documents a bounded research state covering:
-
-- formal system description
-- current evidence
-- QH256 formalization
-- temporal and provenance structures
-- comparative research
-- reproducibility package
-- development roadmap
-- open research questions and limitations
-
-The publication does not claim a completed general-purpose AI memory system.
-
-The Zenodo record contains:
-
-- the scientific PDF
-- the complete research package as ZIP archive
+The machine-readable record embeds the complete 150-entry path inventory, including directory entries. It records integrity scope limits and does not claim a fresh validation run or a full-repository payload hash.
 
 ## Previous Signal
 
-`SIGNAL_0010`
+`SIGNAL_0011` — K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition
 
-**QH256 Formal Scientific Specification v2.0 — Validation & Canonical Reference**
-
-Zenodo:
-
-https://zenodo.org/records/21957465
-
-QH256 repository:
-
-https://github.com/k501-Information-Space/QH256
+https://zenodo.org/records/23223085
 
 ## Signal History
+
+### SIGNAL_0012
+
+**QH256 Repository State Anchor — Canonical Main Readback**
+
+https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md
+
+Machine-readable record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json
 
 ### SIGNAL_0011
 
@@ -299,18 +259,10 @@ https://iinkognit0.de/
 
 `ACTIVE`
 
-Current public signal:
+Current public signal: `SIGNAL_0012`
 
-`SIGNAL_0011`
+Current signal count: `12`
 
-Current signal count:
+Next signal: `SIGNAL_0013`
 
-`11`
-
-Next signal:
-
-`SIGNAL_0012`
-
-K501-AIONARC namespace:
-
-`K501-AIONARC`
+K501-AIONARC namespace: `K501-AIONARC`

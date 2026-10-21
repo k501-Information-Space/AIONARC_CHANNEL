@@ -10,21 +10,28 @@
     "namespace": "K501-AIONARC"
   },
   "current_state": {
-    "current_signal": "SIGNAL_0011",
-    "signal_count": 11,
-    "next_signal": "SIGNAL_0012",
+    "current_signal": "SIGNAL_0012",
+    "current_signal_type": "STATE_ANCHOR",
+    "signal_count": 12,
+    "next_signal": "SIGNAL_0013",
     "status": "ACTIVE",
-    "signal_publication_epoch": 1791421354,
-    "signal_publication_utc": "2026-10-08T01:02:34Z",
-    "signal_publication_europe_berlin": "2026-10-08T03:02:34+02:00"
+    "signal_publication_epoch": 1792581072,
+    "signal_publication_utc": "2026-10-21T11:11:12Z",
+    "signal_publication_europe_berlin": "2026-10-21T13:11:12+02:00",
+    "state_subject_repository": "k501-Information-Space/QH256",
+    "observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b"
   },
   "current_publication": {
-    "signal": "SIGNAL_0011",
-    "title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
-    "version": "v0.1",
-    "publication_type": "Research Dossier / Specification-Consolidation Candidate",
-    "zenodo_record": "https://zenodo.org/records/23223085",
-    "doi": "https://doi.org/10.5281/zenodo.23223085"
+    "signal": "SIGNAL_0012",
+    "title": "QH256 Repository State Anchor — Canonical Main Readback",
+    "version": "0.1",
+    "publication_type": "Repository State Anchor / State Anchor Signal",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "state_subject_repository": "https://github.com/k501-Information-Space/QH256",
+    "observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "observed_root_tree_sha": "0c427a99489c6099d4f6044d710c43b8bfd0cf50",
+    "time_anchor_epoch": 1792581072
   },
   "purpose": {
     "description": "Public, machine-readable publication and signal layer for the K501 Information Space and K501-AIONARC.",
@@ -76,5 +83,16 @@
     "author": "Patrick R Miller",
     "alias": "iinkognit0",
     "orcid": "https://orcid.org/0009-0004-3275-9545"
+  },
+  "state_anchor": {
+    "schema_id": "K501_AIONARC_STATE_ANCHOR/0.1",
+    "signal": "SIGNAL_0012",
+    "markdown": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "json": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "machine_record_embeds_complete_path_inventory": true,
+    "qh256_observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
+    "qh256_observed_root_tree_sha": "0c427a99489c6099d4f6044d710c43b8bfd0cf50",
+    "qh256_path_entries": 150,
+    "fresh_validation_run_performed": false
   }
 }

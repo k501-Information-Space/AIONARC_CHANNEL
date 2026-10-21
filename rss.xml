@@ -19,7 +19,7 @@
     <language>en-US</language>
 
     <lastBuildDate>
-      Thu, 08 Oct 2026 01:02:34 GMT
+      Wed, 21 Oct 2026 11:11:12 GMT
     </lastBuildDate>
 
     <generator>AIONARC_CHANNEL RSS Generator</generator>
@@ -28,6 +28,27 @@
       href="https://k501-information-space.github.io/AIONARC_CHANNEL/rss.xml"
       rel="self"
       type="application/rss+xml"/>
+
+    <!-- SIGNAL_0012 -->
+    <item>
+      <title>QH256 Repository State Anchor — Canonical Main Readback</title>
+      <link>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md</link>
+      <guid isPermaLink="true">https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md</guid>
+      <description>
+        State Anchor for QH256 repository k501-Information-Space/QH256. Canonical main HEAD:
+        8bd3d7e0327a4c22f735b956d47529f5adc4bf8b. Root tree: 0c427a99489c6099d4f6044d710c43b8bfd0cf50. Complete path inventory:
+        150 entries (121 file/blob entries and
+        29 directory entries). Existing validation status is read from
+        repository documentation; no fresh validation run was executed for this
+        signal. The scoped manifest is not a full-repository byte hash.
+        Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json
+      </description>
+      <pubDate>Wed, 21 Oct 2026 11:11:12 GMT</pubDate>
+      <category>QH256</category>
+      <category>K501 Information Space</category>
+      <category>State Anchor</category>
+      <category>AIONARC</category>
+    </item>
 
     <!-- SIGNAL_0011 -->
     <item>
