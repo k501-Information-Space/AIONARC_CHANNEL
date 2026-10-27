@@ -10,28 +10,32 @@
     "namespace": "K501-AIONARC"
   },
   "current_state": {
-    "current_signal": "SIGNAL_0012",
-    "current_signal_type": "STATE_ANCHOR",
-    "signal_count": 12,
-    "next_signal": "SIGNAL_0013",
+    "current_signal": "SIGNAL_0013",
+    "current_signal_type": "PUBLIC_RELEASE_ANNOUNCEMENT",
+    "signal_count": 13,
+    "next_signal": "SIGNAL_0014",
     "status": "ACTIVE",
-    "signal_publication_epoch": 1792581072,
-    "signal_publication_utc": "2026-10-21T11:11:12Z",
-    "signal_publication_europe_berlin": "2026-10-21T13:11:12+02:00",
-    "state_subject_repository": "k501-Information-Space/QH256",
-    "observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b"
+    "signal_publication_epoch": 1793095162,
+    "signal_publication_utc": "2026-10-27T09:59:22Z",
+    "signal_publication_europe_berlin": "2026-10-27T10:59:22+01:00",
+    "state_subject_repository": "k501-Information-Space/K501-AIONARC",
+    "observed_head_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05"
   },
   "current_publication": {
-    "signal": "SIGNAL_0012",
-    "title": "QH256 Repository State Anchor — Canonical Main Readback",
-    "version": "0.1",
-    "publication_type": "Repository State Anchor / State Anchor Signal",
-    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
-    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json",
-    "state_subject_repository": "https://github.com/k501-Information-Space/QH256",
-    "observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
-    "observed_root_tree_sha": "0c427a99489c6099d4f6044d710c43b8bfd0cf50",
-    "time_anchor_epoch": 1792581072
+    "signal": "SIGNAL_0013",
+    "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+    "version": "3.5.0",
+    "publication_type": "Public Release Announcement",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+    "state_subject_repository": "https://github.com/k501-Information-Space/K501-AIONARC",
+    "observed_head_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "time_anchor_epoch": 1793095162,
+    "release_url": "https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0",
+    "download_url": "https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip",
+    "archive_sha256": "774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223",
+    "archive_bytes": 618739,
+    "release_published_at_utc": "2026-10-27T09:26:45Z"
   },
   "purpose": {
     "description": "Public, machine-readable publication and signal layer for the K501 Information Space and K501-AIONARC.",
@@ -93,6 +97,16 @@
     "qh256_observed_head_commit": "8bd3d7e0327a4c22f735b956d47529f5adc4bf8b",
     "qh256_observed_root_tree_sha": "0c427a99489c6099d4f6044d710c43b8bfd0cf50",
     "qh256_path_entries": 150,
-    "fresh_validation_run_performed": false
+    "fresh_validation_run_performed": false,
+    "channel_signal_role": "PRESERVED_PREVIOUS_PUBLICATION; LATEST_RECORDED_QH256_STATE_ANCHOR",
+    "historical_interpretation": "Signal 12 remains unchanged as a historical QH256 state anchor; Signal 13 is the current channel publication."
+  },
+  "previous_publication": {
+    "signal": "SIGNAL_0012",
+    "title": "QH256 Repository State Anchor — Canonical Main Readback",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "time_anchor_epoch": 1792581072,
+    "role": "Preserved previous publication and latest recorded QH256 state anchor."
   }
 }

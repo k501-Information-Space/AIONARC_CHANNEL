@@ -1,0 +1,144 @@
+{
+  "schema_id": "K501_AIONARC_PUBLIC_RELEASE_SIGNAL/0.1",
+  "signal_id": "SIGNAL_0013",
+  "signal_type": "PUBLIC_RELEASE_ANNOUNCEMENT",
+  "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+  "status": "PUBLISHED_PUBLIC_RELEASE_SIGNAL",
+  "namespace": "K501-AIONARC",
+  "time_anchor": {
+    "unix_epoch": 1793095162,
+    "utc": "2026-10-27T09:59:22Z",
+    "europe_berlin": "2026-10-27T10:59:22+01:00",
+    "source": "User-confirmed K501 GO and user-provided time anchor."
+  },
+  "release": {
+    "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+    "artifact_version": "3.5.0",
+    "release_label": "Stable integrated package",
+    "release_url": "https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0",
+    "release_published_at_utc": "2026-10-27T09:26:45Z",
+    "tag": "v3.5.0",
+    "source_repository": "k501-Information-Space/K501-AIONARC",
+    "source_commit_sha": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "source_commit_url": "https://github.com/k501-Information-Space/K501-AIONARC/commit/946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "archive": {
+      "filename": "K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip",
+      "download_url": "https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip",
+      "content_type": "application/zip",
+      "size_bytes": 618739,
+      "sha256": "774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223",
+      "github_asset_state": "uploaded",
+      "github_reported_digest": "sha256:774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223"
+    }
+  },
+  "purpose": {
+    "statement": "Announce that the integrated K501 AIONARC Pipeline and Proof/Evidence Runtime package v3.5.0 is publicly downloadable as a versioned source archive.",
+    "intended_audience": [
+      "researchers",
+      "software developers",
+      "archival systems researchers",
+      "reproducibility and evidence tooling practitioners"
+    ],
+    "call_to_action": "Download the release, verify its SHA-256, run the documented build/test/verify commands, and share reproducible feedback or independent adaptations."
+  },
+  "integrated_components": {
+    "aionarc_pipeline": {
+      "embedded_version": "3.0.0-alpha.1",
+      "documented_functions": [
+        "read-only structural source observation",
+        "append-only frames",
+        "source-bound text extraction",
+        "verification",
+        "exact lexical queries",
+        "trace/history/diff operations",
+        "versioned QH256 V3A1 application mapping"
+      ]
+    },
+    "proof_evidence_runtime": {
+      "embedded_version": "0.1.0-alpha.1",
+      "documented_functions": [
+        "controlled process invocation",
+        "transcript and host/run metadata capture",
+        "result recording",
+        "evidence-file digests"
+      ]
+    },
+    "integration_boundary": "The recorder invokes the AIONARC pipeline as a separate process for the integration test; it does not link or replace the pipeline. A recorded process result does not automatically decide a project gate."
+  },
+  "verification": {
+    "local_prepublication_evidence": {
+      "status": "PASS in the recorded Linux x86-64 environment",
+      "reported_checks": [
+        "source archive and payload parity",
+        "aggregate clean build and component regression suites",
+        "cross-component process integration",
+        "schema, specification, index, manifest and checksum verification",
+        "declared-host smoke checks",
+        "same-host reproducibility"
+      ],
+      "evidence_report_url": "https://github.com/k501-Information-Space/K501-AIONARC/blob/v3.5.0/validation/VALIDATION_REPORT.md",
+      "scope_note": "Results are bounded to the recorded Linux x86-64 environment and artifacts; they are not a guarantee of operation on every host or configuration."
+    },
+    "release_api_readback": {
+      "status": "PASS",
+      "release_is_published": true,
+      "tag": "v3.5.0",
+      "tag_points_to_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+      "asset_state": "uploaded",
+      "github_reported_size_bytes": 618739,
+      "github_reported_sha256": "774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223",
+      "github_reported_digest_matches_locally_verified_archive": true,
+      "independent_asset_redownload_and_rehash_performed_for_this_signal": false
+    }
+  },
+  "version_boundary": {
+    "package_version": "3.5.0",
+    "package_release_intent": "Stable",
+    "note": "Version 3.5.0 identifies the integrated package. The embedded component version identities remain unchanged; neither embedded component is individually re-versioned as a stable release."
+  },
+  "licensing": {
+    "summary": "The package supplies a file-level license map and rights/notice records. K501-authored code/software is mapped to MIT and K501-authored documentation/descriptive material to CC BY 4.0; embedded upstream and third-party notices and per-file mappings remain applicable.",
+    "guidance": "Review LICENSE_SCOPE.md, LICENSE_STATUS.md and LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv before reusing individual files.",
+    "license_scope_url": "https://github.com/k501-Information-Space/K501-AIONARC/blob/v3.5.0/LICENSE_SCOPE.md",
+    "file_license_map_url": "https://github.com/k501-Information-Space/K501-AIONARC/blob/v3.5.0/LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv"
+  },
+  "reproducibility": {
+    "requirements": [
+      "POSIX/Linux",
+      "GNU Make",
+      "C11 compiler",
+      "Python 3",
+      "sha256sum"
+    ],
+    "documented_commands": [
+      "make clean",
+      "make all",
+      "make test",
+      "make verify"
+    ],
+    "prebuilt_binary_target": "Linux x86-64; shipped AIONARC executable is qualified for GLIBC symbols through 2.34; PDF extraction adapter requires optional pdftotext."
+  },
+  "publication_status": {
+    "github_release": "PUBLISHED",
+    "zenodo_publication": "OPEN",
+    "doi": null,
+    "statement": "No Zenodo DOI is claimed by this signal."
+  },
+  "canonical_links": {
+    "signal_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "signal_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+    "github_release": "https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0",
+    "direct_download": "https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip",
+    "source_repository": "https://github.com/k501-Information-Space/K501-AIONARC",
+    "source_commit": "https://github.com/k501-Information-Space/K501-AIONARC/commit/946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "validation_report": "https://github.com/k501-Information-Space/K501-AIONARC/blob/v3.5.0/validation/VALIDATION_REPORT.md",
+    "channel_homepage": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+    "channel_repository": "https://github.com/k501-Information-Space/AIONARC_CHANNEL"
+  },
+  "public_record": {
+    "markdown_path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "json_path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+    "markdown_url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "json_url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json"
+  }
+}

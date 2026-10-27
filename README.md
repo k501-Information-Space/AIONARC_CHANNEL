@@ -20,51 +20,67 @@ It is a public publication and resonance layer.
 
 ## Current State
 
-**Current Signal:** `SIGNAL_0012`
+**Current Signal:** `SIGNAL_0013`
 
-**Current Signal Title:** QH256 Repository State Anchor — Canonical Main Readback
+**Current Signal Title:** K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download
 
 **Status:** `ACTIVE`
 
 **Namespace:** `K501-AIONARC`
 
-**Current Signal Count:** `12`
+**Current Signal Count:** `13`
 
-**State Anchor Time:** `1792581072`
+**Signal Time Anchor:** `1793095162`
 
-**UTC:** `2026-10-21 11:11:12`
+**UTC:** `2026-10-27 09:59:22`
 
-**Europe/Berlin:** `2026-10-21 13:11:12 CEST`
+**Europe/Berlin:** `2026-10-27 10:59:22 CET`
 
-Sequence: `SIGNAL_0012` → `SIGNAL_0011` → `SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
+Sequence: `SIGNAL_0013` → `SIGNAL_0012` → `SIGNAL_0011` → `SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
 
-Next signal: `SIGNAL_0013`
+Next signal: `SIGNAL_0014`
 
 ## Current Publication
 
-**Signal:** `SIGNAL_0012`
+**Signal:** `SIGNAL_0013`
 
-**Title:** QH256 Repository State Anchor — Canonical Main Readback
+**Title:** K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download
 
-**Publication Type:** Repository State Anchor / State Anchor Signal
+**Publication Type:** Public Release Announcement
 
-**State subject:** QH256 public repository state at canonical `main` readback.
+**Published release:** [GitHub Release v3.5.0](https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0)
 
-**Observed QH256 HEAD:** [`8bd3d7e0327a4c22f735b956d47529f5adc4bf8b`](https://github.com/k501-Information-Space/QH256/commit/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b)
+**Direct download:** [K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip](https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip)
 
-**Human-readable anchor:** [SIGNAL_0012_QH256_STATE_ANCHOR.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md)
+**Source commit:** [`946836c3d160ce25d38d5456baa8ed586a1ecd05`](https://github.com/k501-Information-Space/K501-AIONARC/commit/946836c3d160ce25d38d5456baa8ed586a1ecd05)
 
-**Machine-readable anchor:** [SIGNAL_0012_QH256_STATE_ANCHOR.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json)
+**Archive SHA-256:** `774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223`
 
-The machine-readable record embeds the complete 150-entry path inventory, including directory entries. It records integrity scope limits and does not claim a fresh validation run or a full-repository payload hash.
+**Archive size:** `618739` bytes
 
-## Previous Signal
+**Human-readable signal:** [SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md)
 
-`SIGNAL_0011` — K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition
+**Machine-readable signal:** [SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json)
 
-https://zenodo.org/records/23223085
+Zenodo publication and a DOI remain open; this signal does not claim a Zenodo record.
+
+`SIGNAL_0012` — QH256 Repository State Anchor — Canonical Main Readback
+
+[Human record](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md) · [Machine record](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json)
 
 ## Signal History
+
+### SIGNAL_0013
+
+**K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download**
+
+[Public release and direct download](https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0) · [ZIP archive](https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip)
+
+Human-readable record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md
+
+Machine-readable record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json
+
+Archive SHA-256: `774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223`; source commit: `946836c3d160ce25d38d5456baa8ed586a1ecd05`.
 
 ### SIGNAL_0012
 
@@ -259,10 +275,10 @@ https://iinkognit0.de/
 
 `ACTIVE`
 
-Current public signal: `SIGNAL_0012`
+Current public signal: `SIGNAL_0013`
 
-Current signal count: `12`
+Current signal count: `13`
 
-Next signal: `SIGNAL_0013`
+Next signal: `SIGNAL_0014`
 
 K501-AIONARC namespace: `K501-AIONARC`

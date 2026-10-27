@@ -43,41 +43,51 @@ It does not constitute proof of the underlying claims.
 
 ## Current Signal State
 
-Current signal: `SIGNAL_0012`
+Current signal: `SIGNAL_0013`
 
-Current signal title: `QH256 Repository State Anchor — Canonical Main Readback`
+Current signal title: `K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download`
 
-Current signal count: `12`
+Current signal type: `PUBLIC_RELEASE_ANNOUNCEMENT`
 
-Next signal: `SIGNAL_0013`
+Current signal count: `13`
 
-State anchor time: `1792581072`
+Next signal: `SIGNAL_0014`
 
-UTC: `2026-10-21 11:11:12`
+Signal time anchor: `1793095162`
 
-Europe/Berlin: `2026-10-21 13:11:12 CEST`
+UTC: `2026-10-27T09:59:22Z`
 
+Europe/Berlin: `2026-10-27 10:59:22 CET`
 
 ## Current Publication
 
-Signal: `SIGNAL_0012`
+Signal: `SIGNAL_0013`
 
-Title: `QH256 Repository State Anchor — Canonical Main Readback`
+Title: `K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download`
 
-Publication type: `Repository State Anchor / State Anchor Signal`
+Publication type: `Public Release Announcement`
 
-State subject: [QH256 repository](https://github.com/k501-Information-Space/QH256)
+Release: [K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0](https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0)
 
-Observed canonical HEAD: [`8bd3d7e0327a4c22f735b956d47529f5adc4bf8b`](https://github.com/k501-Information-Space/QH256/commit/8bd3d7e0327a4c22f735b956d47529f5adc4bf8b)
+Source commit: [`946836c3d160ce25d38d5456baa8ed586a1ecd05`](https://github.com/k501-Information-Space/K501-AIONARC/commit/946836c3d160ce25d38d5456baa8ed586a1ecd05)
 
-Human-readable record: [SIGNAL_0012_QH256_STATE_ANCHOR.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md)
+Human-readable record: [`SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md`](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md)
 
-Machine-readable record: [SIGNAL_0012_QH256_STATE_ANCHOR.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json)
+Machine-readable record: [`SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json`](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json)
 
-Anchor: `1792581072` — `2026-10-21T11:11:12Z` — `2026-10-21T13:11:12+02:00`
+Direct download: [`K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip`](https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip)
 
-The anchor embeds the complete 150-entry current path inventory and records the scope limits of the repository's integrity and validation claims.
+Archive SHA-256: `774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223`
 
+Archive size: `618739` bytes
+
+Release published at: `2026-10-27T09:26:45Z`
+
+## Previous Publication
+
+Signal: `SIGNAL_0012` — [QH256 Repository State Anchor — Canonical Main Readback](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md)
+
+Signal 12 remains preserved as the previous publication and latest recorded QH256 state anchor.
 
 ## Canonical Boundary
 
@@ -199,10 +209,10 @@ ORCID:
 
 `STATUS: ACTIVE`
 
-`CURRENT_SIGNAL: SIGNAL_0012`
+`CURRENT_SIGNAL: SIGNAL_0013`
 
-`SIGNAL_COUNT: 12`
+`SIGNAL_COUNT: 13`
 
-`NEXT_SIGNAL: SIGNAL_0013`
+`NEXT_SIGNAL: SIGNAL_0014`
 
 `NAMESPACE: K501-AIONARC`

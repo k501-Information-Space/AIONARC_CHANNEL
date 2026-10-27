@@ -15,7 +15,7 @@
     rel="self"
     type="application/atom+xml"/>
 
-  <updated>2026-10-21T11:11:12Z</updated>
+  <updated>2026-10-27T09:59:22Z</updated>
 
   <subtitle>
     Append-only signal layer for philosophy, archive intelligence,
@@ -25,6 +25,20 @@
   <author>
     <name>K501 Information Space</name>
   </author>
+
+  <!-- SIGNAL_0013 -->
+  <entry>
+    <title>K501 AIONARC Integrated Pipeline &amp; Proof Runtime v3.5.0 — Public Release and Download</title>
+    <id>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md</id>
+    <link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md" rel="alternate"/>
+    <updated>2026-10-27T09:59:22Z</updated>
+    <published>2026-10-27T09:59:22Z</published>
+    <summary>K501 AIONARC Integrated Pipeline &amp; Proof Runtime v3.5.0 is publicly released. Download: https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip. Archive size: 618739 bytes. SHA-256: 774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223. Source commit: 946836c3d160ce25d38d5456baa8ed586a1ecd05. Recorded pre-publication checks passed in the declared Linux x86-64 environment; results are bounded to that environment. Embedded component versions remain 3.0.0-alpha.1 and 0.1.0-alpha.1. Zenodo publication and DOI remain open. Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json</summary>
+    <category term="K501 AIONARC"/>
+    <category term="Public Release"/>
+    <category term="Download"/>
+    <category term="Reproducibility"/>
+  </entry>
 
   <!-- SIGNAL_0012 -->
   <entry>

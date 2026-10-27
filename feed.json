@@ -13,6 +13,13 @@
   ],
   "items": [
     {
+      "id": "SIGNAL_0013",
+      "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+      "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+      "content_text": "Public GitHub release: K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0. Direct ZIP download: https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip. Archive size 618739 bytes; SHA-256 774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223. Published release tag v3.5.0 points to source commit 946836c3d160ce25d38d5456baa8ed586a1ecd05. Recorded pre-publication checks passed in the declared Linux x86-64 environment, bounded to that environment. Embedded component version identities remain 3.0.0-alpha.1 and 0.1.0-alpha.1. Zenodo publication and DOI remain open. Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json.",
+      "date_published": "2026-10-27T10:59:22+01:00"
+    },
+    {
       "id": "SIGNAL_0012",
       "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
       "title": "QH256 Repository State Anchor — Canonical Main Readback",
