@@ -1,0 +1,123 @@
+{
+  "schema_id": "K501_REPOSITORY_ROOT_INDEX/0.1.0-draft",
+  "index_id": "K501-AIONARC-CHANNEL-ROOT-INDEX",
+  "repository": "k501-Information-Space/AIONARC_CHANNEL",
+  "repository_role": "PUBLIC_SIGNAL_LAYER",
+  "classification": "DERIVED_ROOT_NAVIGATION_DIRECTORY",
+  "completeness": {
+    "complete": false,
+    "scope": "ROOT_ENTRYPOINTS_ONLY",
+    "recursive_tree_inventory": false,
+    "content_hash_inventory": false
+  },
+  "source_observation": {
+    "commit": "0344feeb98c7af4a21271c69a39076e9edac3f65",
+    "branch": "main",
+    "operator_time_anchor": {
+      "unix_epoch": 1793389236,
+      "utc": "2026-10-30T19:40:36Z",
+      "europe_berlin": "2026-10-30T20:40:36+01:00",
+      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+      "system_time_independently_verified": false
+    }
+  },
+  "entry_count": 18,
+  "entries": [
+    {
+      "path": "README.md",
+      "kind": "HUMAN_ENTRY",
+      "relation": "CURRENT_ROOT"
+    },
+    {
+      "path": "Gateway.md",
+      "kind": "HUMAN_GATEWAY",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Gateway.json",
+      "kind": "MACHINE_GATEWAY",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Index.md",
+      "kind": "HUMAN_INDEX",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Index.json",
+      "kind": "MACHINE_INDEX",
+      "relation": "COMMON_ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "GATEWAY.md",
+      "kind": "CHANNEL_SPECIFIC_GATEWAY",
+      "relation": "PRESERVED_LEGACY_ENTRYPOINT"
+    },
+    {
+      "path": "GATEWAY.json",
+      "kind": "CHANNEL_SPECIFIC_GATEWAY",
+      "relation": "PRESERVED_LEGACY_ENTRYPOINT"
+    },
+    {
+      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+      "kind": "PUBLIC_SIGNAL",
+      "relation": "CURRENT_SIGNAL_HUMAN"
+    },
+    {
+      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+      "kind": "PUBLIC_SIGNAL",
+      "relation": "CURRENT_SIGNAL_MACHINE"
+    },
+    {
+      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
+      "kind": "PUBLIC_SIGNAL",
+      "relation": "PREVIOUS_SIGNAL_HUMAN"
+    },
+    {
+      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+      "kind": "PUBLIC_SIGNAL",
+      "relation": "PREVIOUS_SIGNAL_MACHINE"
+    },
+    {
+      "path": "manifest.json",
+      "kind": "CHANNEL_MANIFEST",
+      "relation": "CURRENT_CHANNEL_METADATA"
+    },
+    {
+      "path": "feed.json",
+      "kind": "JSON_FEED",
+      "relation": "PUBLIC_FEED"
+    },
+    {
+      "path": "atom.xml",
+      "kind": "ATOM_FEED",
+      "relation": "PUBLIC_FEED"
+    },
+    {
+      "path": "rss.xml",
+      "kind": "RSS_FEED",
+      "relation": "PUBLIC_FEED"
+    },
+    {
+      "path": "index.html",
+      "kind": "PUBLIC_SITE",
+      "relation": "SITE_ENTRY"
+    },
+    {
+      "path": "icon.png",
+      "kind": "SITE_ASSET",
+      "relation": "SITE_RESOURCE"
+    },
+    {
+      "path": "LICENSE",
+      "kind": "LICENSE_DOCUMENT",
+      "relation": "REPOSITORY_METADATA"
+    }
+  ],
+  "boundaries": {
+    "does_not_establish_canonicality": true,
+    "does_not_validate_signal_claims": true,
+    "does_not_rewrite_historical_signals": true,
+    "does_not_claim_recursive_repository_completeness": true
+  }
+}
