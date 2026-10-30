@@ -1,0 +1,96 @@
+{
+  "schema_id": "K501_REPOSITORY_GATEWAY/0.1.0-draft",
+  "gateway_id": "K501-AIONARC-CHANNEL-ROOT-GATEWAY",
+  "status": "CURRENT_REPOSITORY_NAVIGATION_DRAFT",
+  "repository": {
+    "owner": "k501-Information-Space",
+    "name": "AIONARC_CHANNEL",
+    "full_name": "k501-Information-Space/AIONARC_CHANNEL",
+    "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+    "default_branch": "main",
+    "role": "PUBLIC_SIGNAL_LAYER",
+    "namespace": "K501-AIONARC"
+  },
+  "observation": {
+    "base_commit": "0344feeb98c7af4a21271c69a39076e9edac3f65",
+    "branch": "main",
+    "operator_time_anchor": {
+      "unix_epoch": 1793389236,
+      "utc": "2026-10-30T19:40:36Z",
+      "europe_berlin": "2026-10-30T20:40:36+01:00",
+      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+      "system_time_independently_verified": false
+    },
+    "scope": "Root entrypoint navigation; no recursive content scan or hash inventory."
+  },
+  "entrypoints": {
+    "default_human": "README.md",
+    "human_gateway": "Gateway.md",
+    "machine_gateway": "Gateway.json",
+    "human_index": "Index.md",
+    "machine_index": "Index.json",
+    "channel_manifest": "manifest.json"
+  },
+  "legacy_channel_gateway": {
+    "human": "GATEWAY.md",
+    "machine": "GATEWAY.json",
+    "preservation": "UNCHANGED_CHANNEL_SPECIFIC_RECORDS"
+  },
+  "current_signal": {
+    "signal_id": "SIGNAL_0013",
+    "signal_type": "PUBLIC_RELEASE_ANNOUNCEMENT",
+    "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+    "status": "PUBLISHED_PUBLIC_RELEASE_SIGNAL",
+    "count": 13,
+    "next_signal": "SIGNAL_0014",
+    "time_anchor": {
+      "unix_epoch": 1793095162,
+      "utc": "2026-10-27T09:59:22Z",
+      "europe_berlin": "2026-10-27T10:59:22+01:00"
+    },
+    "human_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "machine_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+    "source_state_repository": "k501-Information-Space/K501-AIONARC",
+    "source_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "signal_records_unchanged": true
+  },
+  "previous_signal": {
+    "signal_id": "SIGNAL_0012",
+    "signal_type": "STATE_ANCHOR",
+    "human_record": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "machine_record": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "signal_records_unchanged": true
+  },
+  "index": {
+    "human": "Index.md",
+    "machine": "Index.json",
+    "classification": "DERIVED_ROOT_NAVIGATION_DIRECTORY",
+    "complete": false,
+    "scope": "Non-exhaustive root entrypoints only; not a recursive file/path inventory."
+  },
+  "feeds": [
+    "feed.json",
+    "atom.xml",
+    "rss.xml"
+  ],
+  "public_site": "index.html",
+  "authority_boundaries": {
+    "repository_role": "PUBLIC_SIGNAL_LAYER",
+    "canonical_k501_information_space": false,
+    "proof_of_signal_claims": false,
+    "gateway": "NAVIGATION_ONLY",
+    "index": "DERIVED_NAVIGATION_DIRECTORY_NOT_CONTENT_PROOF"
+  },
+  "temporal_preservation": {
+    "source_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "source_signal_time_anchor": 1793095162,
+    "zenodo_open_statement_scope": "PRESERVE_AS_SOURCE_TIME_STATEMENT_NOT_LIVE_CURRENTNESS",
+    "historical_signals_rewritten": false
+  },
+  "append_only": {
+    "prior_signals_unchanged": true,
+    "feed_history_unchanged": true,
+    "no_new_signal_created": true,
+    "next_signal_sequence_position": "SIGNAL_0014"
+  }
+}

@@ -42,12 +42,17 @@
     "publication_europe_berlin": "2026-10-27T10:59:22+01:00"
   },
   "gateway": {
-    "markdown": "GATEWAY.md",
-    "json": "GATEWAY.json"
+    "markdown": "Gateway.md",
+    "json": "Gateway.json"
   },
   "index": {
-    "present": false,
-    "indexing_performed": false
+    "present": true,
+    "indexing_performed": true,
+    "human": "Index.md",
+    "machine": "Index.json",
+    "classification": "ROOT_NAVIGATION_DIRECTORY",
+    "complete": false,
+    "scope": "Non-exhaustive root entrypoint directory only; no recursive content inventory, file byte count or content hash is asserted."
   },
   "previous_signal": {
     "signal": "SIGNAL_0012",
@@ -57,5 +62,21 @@
     "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json",
     "state_subject_repository": "https://github.com/k501-Information-Space/QH256",
     "publication_epoch": 1792581072
+  },
+  "legacy_channel_gateway": {
+    "markdown": "GATEWAY.md",
+    "json": "GATEWAY.json"
+  },
+  "previous_index_state": {
+    "present": false,
+    "indexing_performed": false,
+    "source_commit": "0344feeb98c7af4a21271c69a39076e9edac3f65",
+    "preserved_from_previous_manifest": true
+  },
+  "repository_navigation": {
+    "standard": "K501_REPOSITORY_ROOT_ENTRYPOINTS/0.1.0-draft",
+    "role": "NAVIGATION_ONLY",
+    "current_signal_records_unchanged": true,
+    "no_new_signal_created": true
   }
 }

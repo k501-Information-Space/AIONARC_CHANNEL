@@ -2,6 +2,13 @@
 
 Append-only public signal layer for the K501 Information Space and K501-AIONARC.
 
+## Repository navigation
+
+- [Gateway.md](Gateway.md) / [Gateway.json](Gateway.json) — common root navigation contract for this repository.
+- [Index.md](Index.md) / [Index.json](Index.json) — non-exhaustive root entrypoint directory; not a complete content inventory.
+- [GATEWAY.md](GATEWAY.md) / [GATEWAY.json](GATEWAY.json) — preserved channel-specific Gateway and signal contract.
+- [manifest.json](manifest.json) — channel publication/feed manifest.
+
 ## Purpose
 
 AIONARC_CHANNEL provides a small, machine-readable public signal layer for:
@@ -63,6 +70,8 @@ Next signal: `SIGNAL_0014`
 **Machine-readable signal:** [SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json)
 
 Zenodo publication and a DOI remain open; this signal does not claim a Zenodo record.
+
+**Temporal scope:** this sentence is preserved as the publication-state wording recorded by `SIGNAL_0013` at time anchor `1793095162`. It is not a live status assertion for later repository states. The human and machine signal records remain unchanged.
 
 `SIGNAL_0012` — QH256 Repository State Anchor — Canonical Main Readback
 
