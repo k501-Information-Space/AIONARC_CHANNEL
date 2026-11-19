@@ -79,7 +79,7 @@
       "source_size_bytes": 8326,
       "artifact_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_0_1_0_DRAFT_1794950678_2026-11-17",
       "schema_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE/0.1.0-draft",
-      "status": "DRAFT_NON_CANONICAL_SUPPORT_PROFILE_PENDING_REVIEW",
+      "status": "DRAFT / NON-CANONICAL / SUPPORT_PROFILE_PENDING_REVIEW",
       "canonical": false,
       "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted.",
       "temporal_note": "Earlier support-profile draft; later architecture review and contract candidate contain subsequent mapping corrections. Original source is retained unchanged."
