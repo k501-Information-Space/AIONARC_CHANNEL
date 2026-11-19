@@ -1,0 +1,133 @@
+{
+  "artifact_type": "K501_GATEWAY_STANDARDS_PACKAGE_MANIFEST",
+  "artifact_id": "K501_GATEWAY_STANDARDS_REFERENCE_PACKAGE_0_1_0_DRAFT_1795068285_2026-11-19",
+  "schema_id": "K501_GATEWAY_STANDARDS_PACKAGE_MANIFEST/0.1.0-draft",
+  "version": "0.1.0-draft",
+  "status": "NON_CANONICAL_SOURCE_REFERENCE_MANIFEST",
+  "canonical": false,
+  "operator_time_anchor": {
+    "unix_epoch": 1795068285,
+    "utc": "2026-11-19T06:04:45Z",
+    "europe_berlin": "2026-11-19T07:04:45+01:00",
+    "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+    "system_time_independently_verified": false
+  },
+  "repository": "k501-Information-Space/AIONARC_CHANNEL",
+  "branch": "main",
+  "based_on_commit": "a0532df929467b30231be299fa392a6557efc87c",
+  "package_directory": "GATEWAY_STANDARDS/",
+  "source_identity_policy": "Library file_id and library_file_id remain source-scoped. GitHub blob SHA identifies the repository copy only. Byte identity across transfer is not asserted.",
+  "source_objects": [
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.md",
+      "git_blob_sha": "45db9404b149c749bb2f53d98cb0c51f14f32325",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.md",
+      "file_id": "file_00000000b2a481f4ab6a9ffc7a659f5a",
+      "library_file_id": "libfile_e403237e9b2c81919f2d5b2560444f0a",
+      "source_size_bytes": 29022,
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT/0.1.0-draft",
+      "status": "FREEZE_CANDIDATE_NOT_FROZEN",
+      "canonical": false,
+      "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted."
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.json",
+      "git_blob_sha": "64ffaed8dd811255c93c8388349a786986065acd",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.json",
+      "file_id": "file_000000009fd4820abb11b5da34e0e6c5",
+      "library_file_id": "libfile_b898ed70cfc08191b307d7fdc56f95bc",
+      "source_size_bytes": 50658,
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT/0.1.0-draft",
+      "status": "FREEZE_CANDIDATE_NOT_FROZEN",
+      "canonical": false,
+      "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted."
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.md",
+      "git_blob_sha": "c6baaa69a4749e2b4b634843b0d5d54b53eb9847",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.md",
+      "file_id": "file_00000000c1cc81f48374e2c4b908093c",
+      "library_file_id": "libfile_c9e0c36953348191980276740b04d254",
+      "source_size_bytes": 33362,
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW/0.1.0-draft",
+      "status": "REVIEW_COMPLETED_WITH_REQUIRED_CORRECTIONS_FREEZE_CANDIDATE_CREATED",
+      "canonical": false,
+      "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted."
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.json",
+      "git_blob_sha": "f451bb8f3d825a96fb9f5734526ffe3f4823f5ff",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.json",
+      "file_id": "file_0000000049dc8210890bcfefa12f06ce",
+      "library_file_id": "libfile_a2508a46ea548191a3f1796593a5dad2",
+      "source_size_bytes": 48600,
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW/0.1.0-draft",
+      "status": "REVIEW_COMPLETED_WITH_REQUIRED_CORRECTIONS_FREEZE_CANDIDATE_CREATED",
+      "canonical": false,
+      "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted."
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "git_blob_sha": "b59fb3aecb4ed8f91c44ab81029dd6e86d8f33e1",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "file_id": "file_000000009240820a8fa285e11ed90df4",
+      "library_file_id": "libfile_b6c21d5429b881918055637122a8ea68",
+      "source_size_bytes": 8326,
+      "artifact_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_0_1_0_DRAFT_1794950678_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE/0.1.0-draft",
+      "status": "DRAFT_NON_CANONICAL_SUPPORT_PROFILE_PENDING_REVIEW",
+      "canonical": false,
+      "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted.",
+      "temporal_note": "Earlier support-profile draft; later architecture review and contract candidate contain subsequent mapping corrections. Original source is retained unchanged."
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "git_blob_sha": "fad4b00c6b812e6f9ead82a406768b54083f5e4d",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "file_id": "file_000000006c1c821097ba6241e2773e1c",
+      "library_file_id": "libfile_f5e32e69d0fc819186d090edfb10e5a8",
+      "source_size_bytes": 11008,
+      "artifact_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_0_1_0_DRAFT_1794950678_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE/0.1.0-draft",
+      "status": "DRAFT_NON_CANONICAL_SUPPORT_PROFILE_PENDING_REVIEW",
+      "canonical": false,
+      "content_identity_note": "GitHub blob identifies a distinct repository copy. Library identifiers remain source-scoped. Byte identity across transfer is not asserted.",
+      "temporal_note": "Earlier support-profile draft; later architecture review and contract candidate contain subsequent mapping corrections. Original source is retained unchanged."
+    }
+  ],
+  "architecture": {
+    "parent_freeze_anchor": 1794935960,
+    "review_verdict": "PASS_WITH_REQUIRED_CORRECTIONS_AND_SCHEMA_PREREQUISITES",
+    "contract_candidate_status": "FREEZE_CANDIDATE_NOT_FROZEN",
+    "support_profile_status": "DRAFT_NON_CANONICAL_SUPPORT_PROFILE_PENDING_REVIEW",
+    "open_schema_prerequisites": [
+      "OPEN-01",
+      "OPEN-02",
+      "OPEN-03",
+      "OPEN-04",
+      "OPEN-05",
+      "OPEN-06",
+      "OPEN-07",
+      "OPEN-08",
+      "OPEN-09"
+    ]
+  },
+  "standard_targets": [
+    "JSON Schema 2020-12",
+    "W3C PROV-O — W3C Recommendation",
+    "PREMIS 3.0",
+    "BagIt — RFC 8493",
+    "RO-Crate 1.2"
+  ],
+  "non_actions": [
+    "No Library source modified",
+    "No signal created or rewritten",
+    "No canonicalization",
+    "No schema, validator, crosswalk or adapter implementation",
+    "No achieved support level asserted"
+  ]
+}

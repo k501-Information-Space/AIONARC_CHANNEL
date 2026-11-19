@@ -1,0 +1,957 @@
+{
+  "artifact_type": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW",
+  "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_0_1_0_DRAFT_1794951315_2026-11-17",
+  "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW/0.1.0-draft",
+  "version": "0.1.0-draft",
+  "status": "REVIEW_COMPLETED_WITH_REQUIRED_CORRECTIONS_FREEZE_CANDIDATE_CREATED",
+  "canonical": false,
+  "operator_time_anchor": {
+    "unix_epoch": 1794951315,
+    "utc": "2026-11-17T21:35:15Z",
+    "europe_berlin": "2026-11-17T22:35:15+01:00",
+    "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+    "system_time_independently_verified": false
+  },
+  "parent_architecture_freeze": {
+    "unix_epoch": 1794935960,
+    "utc": "2026-11-17T17:19:20Z",
+    "europe_berlin": "2026-11-17T18:19:20+01:00",
+    "source": "USER_SUPPLIED_FREEZE_CONFIRMATION",
+    "system_time_independently_verified": false
+  },
+  "input_architecture_go_anchor": {
+    "unix_epoch": 1794950678,
+    "utc": "2026-11-17T21:24:38Z",
+    "europe_berlin": "2026-11-17T22:24:38+01:00",
+    "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+    "system_time_independently_verified": false
+  },
+  "scope": "Read-only reconstruction and review of the frozen seven-register architecture, its detailed role assignment, all register-to-register references, five frozen external support targets, and the support-level progression. This review creates new append-only review and contract artifacts only.",
+  "review_verdict": "PASS_WITH_REQUIRED_CORRECTIONS_AND_SCHEMA_PREREQUISITES",
+  "review_summary": {
+    "registers_reviewed": 7,
+    "register_roles": "7_ACCEPTED_WITH_CLARIFICATIONS",
+    "register_relationship_matrix": "COMPLETE_7X7; 13_DIRECT_REFERENCES; 7_SELF_SCOPES; 29_NO_DIRECT_RELATIONS",
+    "standard_targets_reviewed": 5,
+    "frozen_target_set": "ACCEPTED_UNCHANGED",
+    "support_profile_mapping": "ACCEPTED_WITH_FOUR_MAPPING_CLARIFICATIONS",
+    "support_level_model": "ACCEPTED_WITH_SCOPE_AND_DIRECTION_CLARIFICATION",
+    "freeze_candidate": "CREATED_NOT_FROZEN"
+  },
+  "role_reviews": [
+    {
+      "register_id": "DIRECTORY_REGISTER",
+      "decision": "ACCEPT_WITH_CLARIFICATION",
+      "review": "Responsibility is distinct from identity. Retain source, time window, listing scope, warnings, and non-atomicity as first-class observation context."
+    },
+    {
+      "register_id": "OBJECT_IDENTITY_REGISTER",
+      "decision": "ACCEPT_WITH_CLARIFICATION",
+      "review": "Use exact source-object instance as the candidate subject. Keep native source IDs and K501 IDs distinct. No hash/path/name-based identity collapse. Detailed issuance and equivalence rules must be pinned before this register schema is designed."
+    },
+    {
+      "register_id": "ARTIFACT_REGISTER",
+      "decision": "ACCEPT_WITH_CLARIFICATION",
+      "review": "Artifact and artifact-version description is distinct from source-object identity. Explicitly reference exact object identities; never infer cardinality."
+    },
+    {
+      "register_id": "DEEPREAD_REGISTER",
+      "decision": "ACCEPT_WITH_CLARIFICATION",
+      "review": "Separate requested and completed extent, read method, content/page/range coverage, warnings, and unread/deferral state. Never infer complete content coverage from metadata or snippets."
+    },
+    {
+      "register_id": "INTEGRITY_REGISTER",
+      "decision": "ACCEPT_WITH_CLARIFICATION",
+      "review": "Every digest must be bound to exact bytes, algorithm, input identity, and scope. Integrity remains independent of DeepRead and semantics."
+    },
+    {
+      "register_id": "PROVENANCE_AND_RIGHTS_REGISTER",
+      "decision": "ACCEPT_WITH_INTERNAL_DOMAIN_SEPARATION",
+      "review": "Retain one frozen register name but separate provenance records from rights records. Rights assertions require evidence and scope; technical access and provenance are not rights clearance."
+    },
+    {
+      "register_id": "ROUTE_REGISTRY",
+      "decision": "ACCEPT_WITH_CLARIFICATION",
+      "review": "Routes are versioned navigation declarations with time-scoped resolution observations. A route never creates identity, validates content, or authorizes access."
+    }
+  ],
+  "relationship_matrix": {
+    "direction_rule": "ROW_REGISTER_RECORDS_MAY_REFERENCE_COLUMN_REGISTER_RECORDS",
+    "register_order": [
+      "DIRECTORY_REGISTER",
+      "OBJECT_IDENTITY_REGISTER",
+      "ARTIFACT_REGISTER",
+      "DEEPREAD_REGISTER",
+      "INTEGRITY_REGISTER",
+      "PROVENANCE_AND_RIGHTS_REGISTER",
+      "ROUTE_REGISTRY"
+    ],
+    "rows": [
+      {
+        "source_register": "DIRECTORY_REGISTER",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "OPTIONAL_WHEN_IDENTITY_INDEPENDENTLY_ESTABLISHED"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          }
+        ]
+      },
+      {
+        "source_register": "OBJECT_IDENTITY_REGISTER",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          }
+        ]
+      },
+      {
+        "source_register": "ARTIFACT_REGISTER",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_WHEN_ARTIFACT_VERSION_REPRESENTS_OR_CONTAINS_IDENTIFIED_OBJECT"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          }
+        ]
+      },
+      {
+        "source_register": "DEEPREAD_REGISTER",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_WHEN_SOURCE_OBJECT_IDENTITY_IS_AVAILABLE"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_WHEN_EXACT_ARTIFACT_VERSION_IS_IDENTIFIED"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          }
+        ]
+      },
+      {
+        "source_register": "INTEGRITY_REGISTER",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_WHEN_SOURCE_OBJECT_IDENTITY_IS_AVAILABLE"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_WHEN_EXACT_ARTIFACT_VERSION_OR_PACKAGE_IS_IDENTIFIED"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          }
+        ]
+      },
+      {
+        "source_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_FOR_SOURCE_OR_DERIVED_OBJECT_ASSERTIONS"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "REQUIRED_FOR_ARTIFACT_DERIVATION_OR_RIGHTS_SCOPE_ASSERTIONS"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "OPTIONAL_WHEN_READ_OR_TRANSFORMATION_EVENT_IS_RELEVANT"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "OPTIONAL_WHEN_INTEGRITY_EVENT_SUPPORTS_PRESERVATION_OR_PROVENANCE_CLAIM"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          }
+        ]
+      },
+      {
+        "source_register": "ROUTE_REGISTRY",
+        "cells": [
+          {
+            "target_register": "DIRECTORY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "OPTIONAL_WHEN_ROUTE_USES_OBSERVED_DIRECTORY_LOCATOR"
+          },
+          {
+            "target_register": "OBJECT_IDENTITY_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "OPTIONAL_WHEN_TARGET_OBJECT_IDENTITY_IS_KNOWN"
+          },
+          {
+            "target_register": "ARTIFACT_REGISTER",
+            "relation": "DIRECT_REFERENCE",
+            "requirement": "OPTIONAL_WHEN_TARGET_ARTIFACT_VERSION_IS_KNOWN"
+          },
+          {
+            "target_register": "DEEPREAD_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "INTEGRITY_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "PROVENANCE_AND_RIGHTS_REGISTER",
+            "relation": "NO_DIRECT_ARCHITECTURAL_REFERENCE",
+            "requirement": "NO_MANDATORY_DIRECT_CROSS_REGISTER_REFERENCE; ANY_FUTURE_EXCEPTION_REQUIRES_EXPLICIT_EVIDENCE_AND_VERSIONED_DESIGN"
+          },
+          {
+            "target_register": "ROUTE_REGISTRY",
+            "relation": "SELF_SCOPE",
+            "requirement": "REGISTER_OWNS_ITS_OWN_RECORDS"
+          }
+        ]
+      }
+    ],
+    "direct_reference_count": 13,
+    "self_scope_count": 7,
+    "no_direct_reference_count": 29,
+    "matrix_notes": [
+      "NO_DIRECT_ARCHITECTURAL_REFERENCE means no mandatory direct record reference is defined in this contract; it does not prohibit a separately evidenced future relation.",
+      "References are authored by the row/source register and point to the column/target register. This direction is normative for the matrix.",
+      "Directory Register → Object Identity Register is optional and only allowed after identity is independently established.",
+      "Artifact Register → Object Identity Register records what object instance an artifact/version represents or contains.",
+      "DeepRead and Integrity each reference the exact source identity and/or artifact version they assess. They do not reference each other as a prerequisite.",
+      "Provenance and Rights may reference DeepRead and Integrity event records as supporting evidence, while the event records remain owned by their respective registers.",
+      "Route Registry may reference Directory, Object Identity, and Artifact targets. It never references a successful route as proof of access, rights, or semantic validity."
+    ]
+  },
+  "relationship_direction_corrections": [
+    {
+      "existing_relationship": "OBJECT_IDENTITY_REGISTER -> ARTIFACT_REGISTER",
+      "review_finding": "Direction conflicts with the accompanying statement that Artifact records reference Object Identity.",
+      "corrected_relationship": "ARTIFACT_REGISTER -> OBJECT_IDENTITY_REGISTER"
+    },
+    {
+      "existing_relationship": "ARTIFACT_REGISTER -> DEEPREAD_REGISTER",
+      "review_finding": "DeepRead event is the record that references the artifact/source revision it reads.",
+      "corrected_relationship": "DEEPREAD_REGISTER -> ARTIFACT_REGISTER"
+    },
+    {
+      "existing_relationship": "ARTIFACT_REGISTER -> INTEGRITY_REGISTER",
+      "review_finding": "Integrity event is the record that references the exact artifact bytes/package payload it checks.",
+      "corrected_relationship": "INTEGRITY_REGISTER -> ARTIFACT_REGISTER"
+    }
+  ],
+  "additional_reference_edges": [
+    {
+      "relationship": "DEEPREAD_REGISTER -> OBJECT_IDENTITY_REGISTER",
+      "decision": "ADDED",
+      "reason": "A read event must bind its coverage claim to the exact source-object instance when the native identity is available."
+    },
+    {
+      "relationship": "INTEGRITY_REGISTER -> OBJECT_IDENTITY_REGISTER",
+      "decision": "ADDED",
+      "reason": "A digest/verification event must bind its byte-scope claim to the exact source-object instance when the native identity is available."
+    },
+    {
+      "relationship": "PROVENANCE_AND_RIGHTS_REGISTER -> INTEGRITY_REGISTER",
+      "decision": "ADDED_OPTIONAL",
+      "reason": "A provenance/preservation statement may cite an integrity event as supporting evidence; the Integrity Register remains the source of record for that event."
+    }
+  ],
+  "overlap_and_open_issue_register": [
+    {
+      "issue_id": "OVL-01",
+      "topic": "Directory locator vs object identity",
+      "state": "RESOLVED_BY_CONTRACT_BOUNDARY",
+      "decision": "Directory stores observed location/time; Object Identity stores source-object identity. Directory may reference identity only when independently established."
+    },
+    {
+      "issue_id": "OVL-02",
+      "topic": "Object identity vs artifact/artifact version",
+      "state": "RESOLVED_AT_ARCHITECTURE_LEVEL; SCHEMA_DETAIL_OPEN",
+      "decision": "Object Identity identifies a source-object instance. Artifact Register describes a representation/version and references source-object identities. One-to-many is allowed only when evidenced."
+    },
+    {
+      "issue_id": "OVL-03",
+      "topic": "Artifact vs DeepRead coverage",
+      "state": "RESOLVED_BY_OWNERSHIP",
+      "decision": "Artifact owns description/version; DeepRead owns read event and exact coverage. DeepRead references Artifact and Object Identity; Artifact does not own read status."
+    },
+    {
+      "issue_id": "OVL-04",
+      "topic": "Artifact vs Integrity",
+      "state": "RESOLVED_BY_OWNERSHIP",
+      "decision": "Artifact owns description/version; Integrity owns byte/digest evidence. Integrity references Artifact and Object Identity; no reciprocal ownership."
+    },
+    {
+      "issue_id": "OVL-05",
+      "topic": "DeepRead vs Integrity",
+      "state": "RESOLVED_AS_INDEPENDENT_EVIDENCE_DOMAINS",
+      "decision": "Reading content and verifying bytes are independent operations. Neither implies the other; both may reference the same source/artifact version."
+    },
+    {
+      "issue_id": "OVL-06",
+      "topic": "Provenance vs DeepRead/Integrity events",
+      "state": "RESOLVED_BY_REFERENCE_ONLY",
+      "decision": "Provenance may reference DeepRead/Integrity events when they support a derivation or preservation claim; those event records remain owned by their respective registers."
+    },
+    {
+      "issue_id": "OVL-07",
+      "topic": "Provenance vs Rights within one frozen register",
+      "state": "RESOLVED_BY_LOGICAL_RECORD_FAMILIES",
+      "decision": "Keep one register, but distinguish PROVENANCE records from RIGHTS records. No legal permission is inferred from origin, technical access, or a license string alone."
+    },
+    {
+      "issue_id": "OVL-08",
+      "topic": "Route locator vs target identity/artifact",
+      "state": "RESOLVED_BY_REFERENCE_ONLY",
+      "decision": "Route stores locator and route resolution; target identity and artifact version are references only. Route resolution does not imply validity or permission."
+    },
+    {
+      "issue_id": "OPEN-01",
+      "topic": "Object Identity issuance/equivalence procedure",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define deterministic assignment, source scope, duplicate/copy claims, revision relationship, and evidence required for equivalence before Object Identity schema design."
+    },
+    {
+      "issue_id": "OPEN-02",
+      "topic": "Artifact version and source-object relationship cardinality",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define version identity, immutable revision references, and relationship multiplicity in Artifact Register design; do not infer cardinality."
+    },
+    {
+      "issue_id": "OPEN-03",
+      "topic": "Append-only correction and supersession representation",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define how correction, withdrawal, supersession, and status changes are appended without rewriting prior evidence."
+    },
+    {
+      "issue_id": "OPEN-04",
+      "topic": "Directory freshness and route temporal resolution",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define observation validity window, stale route handling, unresolved/expired states, and source-interface time semantics."
+    },
+    {
+      "issue_id": "OPEN-05",
+      "topic": "Rights evidence and decision authority",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define evidence scope, applicable rights/permission statement, reviewer authority, decision time, restrictions, and UNKNOWN/OPEN states. No default legal conclusion."
+    },
+    {
+      "issue_id": "OPEN-06",
+      "topic": "DeepRead coverage vocabulary",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define requested vs completed extents, extraction methods, coverage states, and how partial/failed reads are represented without false completion."
+    },
+    {
+      "issue_id": "OPEN-07",
+      "topic": "Integrity algorithm and verification event semantics",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define supported algorithms, byte scope, canonical byte acquisition, verifier provenance, and result state per exact verification event."
+    },
+    {
+      "issue_id": "OPEN-08",
+      "topic": "External mapping loss taxonomy",
+      "state": "OPEN_SUPPORT_PROFILE_PREREQUISITE",
+      "decision": "Define explicit values for unmapped, unsupported, omitted, normalized, defaulted, and lossy fields before any crosswalk or adapter is accepted."
+    },
+    {
+      "issue_id": "OPEN-09",
+      "topic": "RO-Crate 1.3 compatibility",
+      "state": "OPEN_SEPARATE_REVIEW",
+      "decision": "No support or compatibility is inferred from the frozen RO-Crate 1.2 target."
+    }
+  ],
+  "standard_reviews": [
+    {
+      "standard_id": "JSON_SCHEMA_2020_12",
+      "name": "JSON Schema",
+      "frozen_version": "2020-12",
+      "target_decision": "ACCEPT_FROZEN_TARGET",
+      "primary_registers": [
+        "DIRECTORY_REGISTER",
+        "OBJECT_IDENTITY_REGISTER",
+        "ARTIFACT_REGISTER",
+        "DEEPREAD_REGISTER",
+        "INTEGRITY_REGISTER",
+        "PROVENANCE_AND_RIGHTS_REGISTER",
+        "ROUTE_REGISTRY"
+      ],
+      "supporting_registers": [],
+      "review_decision": "ACCEPT_WITH_BOUNDARY",
+      "decision_detail": "Applies to the structure and allowed value constraints of machine-readable records for all seven registers, Gateway documents, support profiles, and adapter documents. It is structural validation only.",
+      "required_clarification": "JSON Schema does not establish that referenced IDs exist or that cross-register graph relationships are valid. Referential/graph checking remains a separate validator work unit.",
+      "external_boundary": "No source truth, identity authority, DeepRead completeness, rights clearance, or canonicality is proved by schema validation.",
+      "reference": "https://json-schema.org/specification"
+    },
+    {
+      "standard_id": "W3C_PROV_O",
+      "name": "W3C PROV-O",
+      "frozen_version": "W3C Recommendation",
+      "target_decision": "ACCEPT_FROZEN_TARGET",
+      "primary_registers": [
+        "PROVENANCE_AND_RIGHTS_REGISTER"
+      ],
+      "supporting_registers": [
+        "OBJECT_IDENTITY_REGISTER",
+        "ARTIFACT_REGISTER",
+        "DEEPREAD_REGISTER"
+      ],
+      "review_decision": "ACCEPT_WITH_MAPPING_CORRECTION",
+      "decision_detail": "PROV-O Entity/Activity/Agent concepts can represent source/derived entities, read or transformation activities, and responsible agents. K501 identities remain authoritative references; artifact versions and DeepRead events retain their native records.",
+      "required_clarification": "Add Object Identity Register to the related-register mapping. Keep rights decisions outside PROV-O semantics; provenance vocabulary is not a rights-clearance authority. DeepRead coverage detail remains owned by DeepRead Register.",
+      "external_boundary": "The PROV-O graph is a derived representation and cannot redefine K501 object identity, source scope, temporal rules, or status values.",
+      "reference": "https://www.w3.org/TR/prov-o/"
+    },
+    {
+      "standard_id": "PREMIS_3_0",
+      "name": "PREMIS Data Dictionary",
+      "frozen_version": "3.0",
+      "target_decision": "ACCEPT_FROZEN_TARGET",
+      "primary_registers": [
+        "ARTIFACT_REGISTER",
+        "INTEGRITY_REGISTER",
+        "PROVENANCE_AND_RIGHTS_REGISTER"
+      ],
+      "supporting_registers": [
+        "OBJECT_IDENTITY_REGISTER",
+        "DEEPREAD_REGISTER"
+      ],
+      "review_decision": "ACCEPT_WITH_MAPPING_CORRECTION",
+      "decision_detail": "PREMIS Object/Event/Agent/Rights entities provide bounded preservation metadata mappings. Artifact and integrity records provide preservation object/fixity information; Provenance and Rights provides rights and responsible-agent evidence.",
+      "required_clarification": "Add Object Identity Register as the K501 identity reference for PREMIS Objects. The relation is not assumed to be one-to-one. DeepRead events map only when they qualify as declared preservation events; not every read is automatically a PREMIS event.",
+      "external_boundary": "PREMIS Object identifiers and semantic units do not replace K501 identity or artifact-version definitions. Rights statements in PREMIS do not create legal authority absent source evidence.",
+      "reference": "https://www.loc.gov/standards/premis/v3/"
+    },
+    {
+      "standard_id": "RFC_8493_BAGIT",
+      "name": "The BagIt File Packaging Format",
+      "frozen_version": "RFC 8493",
+      "target_decision": "ACCEPT_FROZEN_TARGET",
+      "primary_registers": [
+        "DIRECTORY_REGISTER",
+        "ARTIFACT_REGISTER",
+        "INTEGRITY_REGISTER"
+      ],
+      "supporting_registers": [
+        "OBJECT_IDENTITY_REGISTER",
+        "PROVENANCE_AND_RIGHTS_REGISTER"
+      ],
+      "review_decision": "ACCEPT_WITH_MAPPING_CORRECTION",
+      "decision_detail": "Directory observations provide source locators/hierarchy candidates for package payload layout; Artifact Register describes the BagIt package as an artifact; Integrity Register records package-scoped payload and tag fixity checks.",
+      "required_clarification": "Add Directory Register to the related-register mapping. Provenance/Rights may supply optional bag metadata, but BagIt is not a provenance ontology or rights-clearance mechanism. Any K501 object identifier carried as metadata remains a K501 value, not a BagIt identity.",
+      "external_boundary": "A complete/valid BagIt claim is limited to the exact bag and files enumerated and checked under RFC 8493. It does not imply Library-wide coverage, semantic correctness, rights, or canonicality.",
+      "reference": "https://www.rfc-editor.org/rfc/rfc8493.html"
+    },
+    {
+      "standard_id": "RO_CRATE_1_2",
+      "name": "RO-Crate",
+      "frozen_version": "1.2",
+      "target_decision": "ACCEPT_FROZEN_TARGET",
+      "primary_registers": [
+        "ARTIFACT_REGISTER",
+        "DIRECTORY_REGISTER",
+        "PROVENANCE_AND_RIGHTS_REGISTER"
+      ],
+      "supporting_registers": [
+        "OBJECT_IDENTITY_REGISTER"
+      ],
+      "review_decision": "ACCEPT_WITH_MAPPING_CORRECTION",
+      "decision_detail": "RO-Crate 1.2 JSON-LD can describe a Root Data Entity, data entities, and contextual entities. It is suitable for selected K501 package/artifact descriptions and context. Directory structure can inform package hierarchy; K501 source IDs may be preserved as external identifiers where appropriate.",
+      "required_clarification": "Add Directory Register as a source of package/file-structure observations. Remove Route Registry from direct mapped registers: RO-Crate file URLs/identifiers are not equivalent to K501 route declarations or route-resolution evidence. Preserve Object Identity only as K501 identifier references, not as a replaced RO-Crate identity.",
+      "external_boundary": "RO-Crate 1.2 does not require every file to appear as a Data Entity. It is not a complete Library inventory, file-level identity register, DeepRead record, or K501 route registry. RO-Crate 1.3 remains a separate compatibility review.",
+      "reference": "https://www.researchobject.org/ro-crate/specification/1.2/"
+    }
+  ],
+  "support_level_model_review": {
+    "decision": "ACCEPT_WITH_SCOPE_AND_DIRECTION_CLARIFICATION",
+    "evaluation_unit": "Each result is scoped to exact standard/version + adapter version + operation direction + input/output identity + test fixture/scope. No global standard-level PASS is inferred.",
+    "progression": [
+      {
+        "level": "REGISTERED",
+        "meaning": "The exact standard/version and bounded K501 integration purpose are recorded in an accepted, versioned support profile.",
+        "evidence": [
+          "Exact standard identifier and version.",
+          "Bounded purpose and scope.",
+          "Authoritative specification reference."
+        ],
+        "limit": "A draft or target selection alone is not an accepted registration; this level does not imply a parser or implementation."
+      },
+      {
+        "level": "PARSED",
+        "meaning": "A concrete input document/package is read by an identified parser within the pinned version and scope.",
+        "evidence": [
+          "Exact input identity and byte/scope reference.",
+          "Parser name and version.",
+          "Parse result, warnings, and unsupported constructs."
+        ],
+        "limit": "Parsing alone does not establish validation or correctness."
+      },
+      {
+        "level": "VALIDATED",
+        "meaning": "The parsed input passes the declared syntax/schema/profile checks for the pinned version and profile.",
+        "evidence": [
+          "Validation profile and version.",
+          "Validator identity/version.",
+          "Validation report, scope, warnings, and result."
+        ],
+        "limit": "Validation is not proof of truth, completeness, rights, identity, or canonicality."
+      },
+      {
+        "level": "MAPPED",
+        "meaning": "A versioned K501-to-standard or standard-to-K501 mapping is defined and applied to a declared scope.",
+        "evidence": [
+          "Mapping/crosswalk identifier and version.",
+          "Field/relationship coverage.",
+          "Explicit unmapped, unsupported, defaulted, transformed, and lossy elements."
+        ],
+        "limit": "Mapping does not change K501 native semantics."
+      },
+      {
+        "level": "EXPORTED / IMPORTED",
+        "outcomes": [
+          "EXPORTED",
+          "IMPORTED"
+        ],
+        "meaning": "A concrete export or import is performed through a declared adapter boundary. The direction is recorded explicitly; both outcomes may exist for a bidirectional adapter.",
+        "evidence": [
+          "Direction=EXPORTED or IMPORTED.",
+          "Exact source/input and output/result identities.",
+          "Adapter/version, time, transformation evidence, and losses."
+        ],
+        "limit": "A one-way export or import is not round-trip verification; ROUNDTRIP_VERIFIED requires both directions and a scoped comparison."
+      },
+      {
+        "level": "ROUNDTRIP_VERIFIED",
+        "meaning": "A bidirectional export/import cycle passes declared tests for the exact fixture, fields, and invariants.",
+        "evidence": [
+          "Input/export/import identities and adapter versions.",
+          "Fixture, expected invariant set, and comparison method.",
+          "Observed results, losses, warnings, and report."
+        ],
+        "limit": "Applies only to the tested scope; not universal semantic equivalence or full-system conformance."
+      }
+    ],
+    "flow_rule": "REGISTERED -> PARSED -> VALIDATED -> MAPPED -> (EXPORTED or IMPORTED); ROUNDTRIP_VERIFIED requires both directions and a scoped comparison. EXPORTED and IMPORTED are distinct directional outcomes, not synonyms.",
+    "current_achieved_levels": "NOT_ASSERTED; profile detail remains a draft until separately accepted."
+  },
+  "explicit_decisions": [
+    {
+      "decision_id": "DEC-01",
+      "subject": "Seven register names/count/order",
+      "decision": "ACCEPT_FROZEN_UNCHANGED",
+      "reason": "Parent freeze anchor 1794935960 controls the register set."
+    },
+    {
+      "decision_id": "DEC-02",
+      "subject": "Seven register responsibilities",
+      "decision": "ACCEPT_WITH_CLARIFICATIONS",
+      "reason": "All seven responsibilities are coherent once identity/artifact, read/integrity, provenance/rights, and route/authorization boundaries are explicit."
+    },
+    {
+      "decision_id": "DEC-03",
+      "subject": "Register relationship matrix",
+      "decision": "CHANGE_REQUIRED; CORRECTED_MATRIX_ACCEPTED_FOR_FREEZE_CANDIDATE",
+      "reason": "Three directions in the prior relationship list were inconsistent with the stated reference ownership. New matrix uses row=record owner, column=referenced register."
+    },
+    {
+      "decision_id": "DEC-04",
+      "subject": "Five standard target versions",
+      "decision": "ACCEPT_FROZEN_UNCHANGED",
+      "reason": "No version or target-set change is made."
+    },
+    {
+      "decision_id": "DEC-05",
+      "subject": "Standard-to-register mapping detail",
+      "decision": "ACCEPT_WITH_MAPPING_CORRECTIONS",
+      "reason": "PROV-O and PREMIS need explicit Object Identity references; BagIt and RO-Crate need Directory as a source for package structure; RO-Crate must not be treated as a native Route Registry mapping."
+    },
+    {
+      "decision_id": "DEC-06",
+      "subject": "Support-level progression",
+      "decision": "ACCEPT_WITH_SCOPE_AND_DIRECTION_CLARIFICATION",
+      "reason": "Stages are per exact version/adapter/scope; EXPORTED and IMPORTED are distinct branches; ROUNDTRIP requires both."
+    },
+    {
+      "decision_id": "DEC-07",
+      "subject": "Canonicalization and implementation",
+      "decision": "NOT_AUTHORIZED / OPEN",
+      "reason": "No implementation, Gate transition, schema build, or canonicalization is authorized by this review."
+    }
+  ],
+  "schema_design_prerequisites": [
+    {
+      "issue_id": "OPEN-01",
+      "topic": "Object Identity issuance/equivalence procedure",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define deterministic assignment, source scope, duplicate/copy claims, revision relationship, and evidence required for equivalence before Object Identity schema design."
+    },
+    {
+      "issue_id": "OPEN-02",
+      "topic": "Artifact version and source-object relationship cardinality",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define version identity, immutable revision references, and relationship multiplicity in Artifact Register design; do not infer cardinality."
+    },
+    {
+      "issue_id": "OPEN-03",
+      "topic": "Append-only correction and supersession representation",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define how correction, withdrawal, supersession, and status changes are appended without rewriting prior evidence."
+    },
+    {
+      "issue_id": "OPEN-04",
+      "topic": "Directory freshness and route temporal resolution",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define observation validity window, stale route handling, unresolved/expired states, and source-interface time semantics."
+    },
+    {
+      "issue_id": "OPEN-05",
+      "topic": "Rights evidence and decision authority",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define evidence scope, applicable rights/permission statement, reviewer authority, decision time, restrictions, and UNKNOWN/OPEN states. No default legal conclusion."
+    },
+    {
+      "issue_id": "OPEN-06",
+      "topic": "DeepRead coverage vocabulary",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define requested vs completed extents, extraction methods, coverage states, and how partial/failed reads are represented without false completion."
+    },
+    {
+      "issue_id": "OPEN-07",
+      "topic": "Integrity algorithm and verification event semantics",
+      "state": "OPEN_SCHEMA_PREREQUISITE",
+      "decision": "Define supported algorithms, byte scope, canonical byte acquisition, verifier provenance, and result state per exact verification event."
+    },
+    {
+      "issue_id": "OPEN-08",
+      "topic": "External mapping loss taxonomy",
+      "state": "OPEN_SUPPORT_PROFILE_PREREQUISITE",
+      "decision": "Define explicit values for unmapped, unsupported, omitted, normalized, defaulted, and lossy fields before any crosswalk or adapter is accepted."
+    }
+  ],
+  "recommended_schema_work_order": [
+    {
+      "order": 1,
+      "register_id": "OBJECT_IDENTITY_REGISTER",
+      "dependency_note": "Define source-object identity, source scope, and explicit equivalence rules first."
+    },
+    {
+      "order": 2,
+      "register_id": "DIRECTORY_REGISTER",
+      "dependency_note": "Can be designed independently but must cross-reference Object Identity without deriving identity from paths; review alongside order 1."
+    },
+    {
+      "order": 3,
+      "register_id": "ARTIFACT_REGISTER",
+      "dependency_note": "Depends on stable identity references and exact artifact/version distinction."
+    },
+    {
+      "order": 4,
+      "register_id": "DEEPREAD_REGISTER",
+      "dependency_note": "References source identity and artifact version; remains separate from Integrity."
+    },
+    {
+      "order": 5,
+      "register_id": "INTEGRITY_REGISTER",
+      "dependency_note": "References source identity/artifact version and exact byte scope; independent of DeepRead."
+    },
+    {
+      "order": 6,
+      "register_id": "PROVENANCE_AND_RIGHTS_REGISTER",
+      "dependency_note": "Depends on object, artifact, read, and integrity references; retains separate provenance and rights record families."
+    },
+    {
+      "order": 7,
+      "register_id": "ROUTE_REGISTRY",
+      "dependency_note": "Depends on registered directory/object/artifact targets and temporal resolution semantics."
+    }
+  ],
+  "non_actions": {
+    "existing_gateway_v0_1_0_modified": false,
+    "existing_gateway_v0_2_0_draft_modified": false,
+    "prior_register_architecture_draft_modified": false,
+    "prior_support_profile_draft_modified": false,
+    "schemas_created": false,
+    "graph_validator_created": false,
+    "crosswalks_created": false,
+    "adapters_created": false,
+    "gate_states_changed": false,
+    "implementation_claimed": false,
+    "canonicalization_performed": false
+  },
+  "freeze_candidate_disposition": {
+    "created": true,
+    "status": "FREEZE_CANDIDATE_NOT_FROZEN",
+    "acceptance_required": true,
+    "blocking_for_schema_design": [
+      "Resolve OPEN-01 through OPEN-09 within each relevant schema/support work item before that work item is frozen.",
+      "Obtain explicit operator acceptance/freeze of the architecture contract before beginning register-schema construction."
+    ]
+  },
+  "source_basis": [
+    {
+      "source_name": "GATEWAY.md",
+      "path": "/K501_GATEWAY/GATEWAY.md",
+      "file_id": "file_0000000005b081f4ab0aae42da29d211",
+      "library_file_id": "libfile_eadbf46aaf0881919b6ddb02019d38d8",
+      "scope": "Original human gateway; authority is navigation only; identity/source/time/route constraints."
+    },
+    {
+      "source_name": "GATEWAY.json",
+      "path": "/K501_GATEWAY/GATEWAY.json",
+      "file_id": "file_00000000ee50824683be7efeb68d9b80",
+      "library_file_id": "libfile_63e66320cf18819193bd9c37d778fec8",
+      "scope": "Original machine gateway; route semantics, resolution rules, and source boundaries."
+    },
+    {
+      "source_name": "Index.json",
+      "path": "/K501_GATEWAY/Index.json",
+      "file_id": "file_0000000006c88243b19890d6e02b463f",
+      "library_file_id": "libfile_c801ceaea90481918a146a095a3e48cc",
+      "scope": "Historical top-level navigation index; incomplete file/content coverage is explicit."
+    },
+    {
+      "source_name": "GATEWAY_v0.2.0-draft_1794932044_2026-11-17.md",
+      "path": "/K501_GATEWAY/GATEWAY_v0.2.0-draft_1794932044_2026-11-17.md",
+      "file_id": "file_000000003bb08243895188cc5db49d55",
+      "library_file_id": "libfile_850d69b96ca881918d6d13418bb63868",
+      "scope": "Additive navigation draft; source identity, exact scope, current directory snapshot, and no-mutation boundaries."
+    },
+    {
+      "source_name": "GATEWAY_v0.2.0-draft_1794932044_2026-11-17.json",
+      "path": "/K501_GATEWAY/GATEWAY_v0.2.0-draft_1794932044_2026-11-17.json",
+      "file_id": "file_00000000ecd881f49870397837142c65",
+      "library_file_id": "libfile_8546aa48eea0819197ddda5463f9a84c",
+      "scope": "Machine route contract and explicit identity/resolution rules."
+    },
+    {
+      "source_name": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "file_id": "file_00000000b28881f4aa92c7852f83c6f0",
+      "library_file_id": "libfile_a9fb668061c88191a1a1110ebad4a79b",
+      "scope": "Role assignments and existing ten directional relationships reviewed; preserved unchanged."
+    },
+    {
+      "source_name": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "file_id": "file_00000000f7bc81f4811278fab5d61b32",
+      "library_file_id": "libfile_a72c134f4660819190a2445a28659604",
+      "scope": "Structured roles, relationship matrix, and source boundaries reviewed; preserved unchanged."
+    },
+    {
+      "source_name": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "file_id": "file_000000009240820a8fa285e11ed90df4",
+      "library_file_id": "libfile_b6c21d5429b881918055637122a8ea68",
+      "scope": "Five frozen support targets and internal support-level model reviewed; preserved unchanged."
+    },
+    {
+      "source_name": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "file_id": "file_000000006c1c821097ba6241e2773e1c",
+      "library_file_id": "libfile_f5e32e69d0fc819186d090edfb10e5a8",
+      "scope": "Five target versions and related-register lists reviewed; preserved unchanged."
+    },
+    {
+      "source_name": "K501_LIBRARY_GATEWAY_REVIEW_VALIDATION_REPORT_1794932044_2026-11-17.md",
+      "path": "/K501_LIBRARY/K501_LIBRARY_GATEWAY_REVIEW_VALIDATION_REPORT_1794932044_2026-11-17.md",
+      "file_id": "file_00000000f4bc820a9f19157bd6f1f0ce",
+      "library_file_id": "libfile_95d9f470db848191bd32cde6c260dd33",
+      "scope": "Historical evidence for targeted DeepRead, open boundaries, comparative external-standards research, and prior layered-register proposal."
+    }
+  ],
+  "external_references": [
+    {
+      "id": "JSON_SCHEMA_2020_12",
+      "url": "https://json-schema.org/specification",
+      "supports": "The 2020-12 dialect; Core/Validation distinction; structural validation boundary."
+    },
+    {
+      "id": "W3C_PROV_O",
+      "url": "https://www.w3.org/TR/prov-o/",
+      "supports": "Entity, Activity, Agent, usage, generation, derivation, attribution, and responsibility relations."
+    },
+    {
+      "id": "PREMIS_3_0",
+      "url": "https://www.loc.gov/standards/premis/v3/",
+      "supports": "PREMIS data model entities Object, Event, Rights, Agent."
+    },
+    {
+      "id": "RFC_8493_BAGIT",
+      "url": "https://www.rfc-editor.org/rfc/rfc8493.html",
+      "supports": "Payload manifests, tag manifests, completeness and validity conditions."
+    },
+    {
+      "id": "RO_CRATE_1_2",
+      "url": "https://www.researchobject.org/ro-crate/specification/1.2/",
+      "supports": "JSON-LD metadata descriptor, Root Data Entity, Data Entities and Contextual Entities."
+    },
+    {
+      "id": "RO_CRATE_1_2_ROOT",
+      "url": "https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity",
+      "supports": "The metadata document is not an exhaustive manifest and need not enumerate every file."
+    },
+    {
+      "id": "RO_CRATE_1_2_DATA_ENTITIES",
+      "url": "https://www.researchobject.org/ro-crate/specification/1.2/data-entities",
+      "supports": "File/folder data-entity representation and explicit no-requirement to model every file as an entity."
+    }
+  ]
+}

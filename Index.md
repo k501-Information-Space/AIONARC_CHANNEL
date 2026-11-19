@@ -15,6 +15,7 @@ This Index maps the common root entrypoints and selected channel-specific root r
 | `Gateway.json` | `MACHINE_GATEWAY` | `COMMON_ROOT_ENTRYPOINT` |
 | `Index.md` | `HUMAN_INDEX` | `COMMON_ROOT_ENTRYPOINT` |
 | `Index.json` | `MACHINE_INDEX` | `COMMON_ROOT_ENTRYPOINT` |
+| `GATEWAY_STANDARDS/` | `REFERENCE_PACKAGE_DIRECTORY` | `ADDITIVE_NON_CANONICAL_STANDARDS_PACKAGE` |
 | `GATEWAY.md` | `CHANNEL_SPECIFIC_GATEWAY` | `PRESERVED_LEGACY_ENTRYPOINT` |
 | `GATEWAY.json` | `CHANNEL_SPECIFIC_GATEWAY` | `PRESERVED_LEGACY_ENTRYPOINT` |
 | `SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md` | `PUBLIC_SIGNAL` | `CURRENT_SIGNAL_HUMAN` |
@@ -28,6 +29,13 @@ This Index maps the common root entrypoints and selected channel-specific root r
 | `index.html` | `PUBLIC_SITE` | `SITE_ENTRY` |
 | `icon.png` | `SITE_ASSET` | `SITE_RESOURCE` |
 | `LICENSE` | `LICENSE_DOCUMENT` | `REPOSITORY_METADATA` |
+
+## Additive update — 2026-11-19
+
+The root navigation exposes `GATEWAY_STANDARDS/` as a non-canonical reference package. Its six source documents retain their Library identifiers and individual source statuses. The package is not a complete recursive inventory and does not assert implementation or conformance.
+
+**Based on commit:** `a0532df929467b30231be299fa392a6557efc87c`  
+**Operator time anchor:** `1795068285` — 2026-11-19T06:04:45Z / 2026-11-19T07:04:45+01:00
 
 ## Preserved boundary
 

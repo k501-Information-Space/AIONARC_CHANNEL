@@ -1,5 +1,5 @@
 {
-  "schema_id": "K501_REPOSITORY_GATEWAY/0.1.0-draft",
+  "schema_id": "K501_REPOSITORY_GATEWAY/0.2.0-draft",
   "gateway_id": "K501-AIONARC-CHANNEL-ROOT-GATEWAY",
   "status": "CURRENT_REPOSITORY_NAVIGATION_DRAFT",
   "repository": {
@@ -21,7 +21,18 @@
       "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
       "system_time_independently_verified": false
     },
-    "scope": "Root entrypoint navigation; no recursive content scan or hash inventory."
+    "scope": "Root entrypoint navigation; no recursive content scan or hash inventory.",
+    "additive_update": {
+      "based_on_commit": "a0532df929467b30231be299fa392a6557efc87c",
+      "operator_time_anchor": {
+        "unix_epoch": 1795068285,
+        "utc": "2026-11-19T06:04:45Z",
+        "europe_berlin": "2026-11-19T07:04:45+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+        "system_time_independently_verified": false
+      },
+      "scope": "Additive Gateway Standards navigation package and RSS URI text normalization; no signal records changed."
+    }
   },
   "entrypoints": {
     "default_human": "README.md",
@@ -29,7 +40,8 @@
     "machine_gateway": "Gateway.json",
     "human_index": "Index.md",
     "machine_index": "Index.json",
-    "channel_manifest": "manifest.json"
+    "channel_manifest": "manifest.json",
+    "standards_package": "GATEWAY_STANDARDS/README.md"
   },
   "legacy_channel_gateway": {
     "human": "GATEWAY.md",
@@ -91,6 +103,28 @@
     "prior_signals_unchanged": true,
     "feed_history_unchanged": true,
     "no_new_signal_created": true,
-    "next_signal_sequence_position": "SIGNAL_0014"
+    "next_signal_sequence_position": "SIGNAL_0014",
+    "signal_records_unchanged": true
+  },
+  "relationship_to_previous": {
+    "prior_schema_id": "K501_REPOSITORY_GATEWAY/0.1.0-draft",
+    "relationship": "ADDITIVE_SUCCESSOR_CANDIDATE; PRIOR_COMMIT_RETAINED_IN_GIT_HISTORY; NO_SIGNAL_REWRITE"
+  },
+  "gateway_standards_package": {
+    "directory": "GATEWAY_STANDARDS/",
+    "human": "GATEWAY_STANDARDS/README.md",
+    "machine": "GATEWAY_STANDARDS/README.json",
+    "manifest": "GATEWAY_STANDARDS/MANIFEST.json",
+    "classification": "NON_CANONICAL_REFERENCE_PACKAGE",
+    "source_documents": 6,
+    "source_identities_preserved": true,
+    "contract_status": "FREEZE_CANDIDATE_NOT_FROZEN",
+    "support_profile_status": "DRAFT_NON_CANONICAL_SUPPORT_PROFILE_PENDING_REVIEW",
+    "schemas_created": false,
+    "validators_created": false,
+    "crosswalks_created": false,
+    "adapters_created": false,
+    "achieved_support_levels": "NOT_ASSESSED",
+    "canonicalization": false
   }
 }

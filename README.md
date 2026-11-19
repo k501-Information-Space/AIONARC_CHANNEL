@@ -6,8 +6,13 @@ Append-only public signal layer for the K501 Information Space and K501-AIONARC.
 
 - [Gateway.md](Gateway.md) / [Gateway.json](Gateway.json) — common root navigation contract for this repository.
 - [Index.md](Index.md) / [Index.json](Index.json) — non-exhaustive root entrypoint directory; not a complete content inventory.
+- [Gateway Standards](GATEWAY_STANDARDS/README.md) — non-canonical reference package for the reviewed seven-register architecture and external-standard support documents.
 - [GATEWAY.md](GATEWAY.md) / [GATEWAY.json](GATEWAY.json) — preserved channel-specific Gateway and signal contract.
 - [manifest.json](manifest.json) — channel publication/feed manifest.
+
+## Gateway Standards reference package
+
+The additive `GATEWAY_STANDARDS/` package preserves six source documents with their Library identities and individual source statuses. It is documentation/navigation only. The register contract remains a freeze candidate, the separate support profile remains a draft, and no schemas, validators, crosswalks or adapters are claimed as implemented. See [package README](GATEWAY_STANDARDS/README.md) and [machine manifest](GATEWAY_STANDARDS/MANIFEST.json).
 
 ## Purpose
 

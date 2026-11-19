@@ -32,6 +32,15 @@ AIONARC_CHANNEL is a public publication and signal layer. It does not replace th
 
 The statement in the original SIGNAL_0013 context that Zenodo publication and a DOI remained open is preserved as a source-time statement. It must not be read as a live currentness claim. Neither SIGNAL_0012 nor SIGNAL_0013 is rewritten by this navigation update.
 
+## Gateway Standards reference package
+
+- [Gateway Standards package](GATEWAY_STANDARDS/README.md) — six source-bound Library documents and paired Markdown/JSON records.
+- [Machine index](GATEWAY_STANDARDS/README.json) / [source identity manifest](GATEWAY_STANDARDS/MANIFEST.json).
+
+**Status:** non-canonical reference/navigation only. The register contract remains `FREEZE_CANDIDATE_NOT_FROZEN`; the separate support profile retains its own draft status. No schema, validator, crosswalk, adapter or achieved conformance level is asserted.
+
+**Additive update:** operator anchor `1795068285` — 2026-11-19T06:04:45Z / 2026-11-19T07:04:45+01:00; based on parent commit `a0532df929467b30231be299fa392a6557efc87c`.
+
 ## Append-only boundary
 
 Existing signal files, feed chronology, legacy uppercase Gateway paths and site assets remain at their established paths. No new signal is created by this change.
