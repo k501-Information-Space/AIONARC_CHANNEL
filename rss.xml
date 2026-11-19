@@ -16,7 +16,7 @@
 
     <language>en-US</language>
 
-    <lastBuildDate>Thu, 19 Nov 2026 06:04:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 06:12:59 GMT</lastBuildDate>
 
     <generator>AIONARC_CHANNEL RSS Generator</generator>
 
@@ -24,6 +24,18 @@
       href="https://k501-information-space.github.io/AIONARC_CHANNEL/rss.xml"
       rel="self"
       type="application/rss+xml"/>
+
+    <!-- SIGNAL_0014 -->
+    <item>
+      <title>K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index</title>
+      <link>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md</link>
+      <guid isPermaLink="true">https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md</guid>
+      <description>Reference index for three separate public links: Zenodo record 24051677 (historical title: Stabilization and Transition: Grounded World Representation and Global State Awareness), Zenodo record 24218851 (title and current metadata not retrieved), and the DEV.to article K501 QH_STATE_KERNEL V1 und der K501 Information Space. Link registration only; source contents and current metadata are not validated.</description>
+      <pubDate>Thu, 19 Nov 2026 06:12:59 GMT</pubDate>
+      <category>K501 Information Space</category>
+      <category>QH_STATE_KERNEL V1</category>
+      <category>Publication References</category>
+    </item>
 
     <!-- SIGNAL_0013 -->
     <item>

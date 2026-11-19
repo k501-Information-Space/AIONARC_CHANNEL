@@ -21,7 +21,7 @@
       "system_time_independently_verified": false
     }
   },
-  "entry_count": 19,
+  "entry_count": 21,
   "entries": [
     {
       "path": "README.md",
@@ -64,24 +64,34 @@
       "relation": "PRESERVED_LEGACY_ENTRYPOINT"
     },
     {
-      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+      "path": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md",
       "kind": "PUBLIC_SIGNAL",
       "relation": "CURRENT_SIGNAL_HUMAN"
     },
     {
-      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+      "path": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json",
       "kind": "PUBLIC_SIGNAL",
       "relation": "CURRENT_SIGNAL_MACHINE"
     },
     {
-      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
+      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
       "kind": "PUBLIC_SIGNAL",
       "relation": "PREVIOUS_SIGNAL_HUMAN"
     },
     {
-      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
       "kind": "PUBLIC_SIGNAL",
       "relation": "PREVIOUS_SIGNAL_MACHINE"
+    },
+    {
+      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
+      "kind": "PUBLIC_SIGNAL",
+      "relation": "HISTORICAL_SIGNAL_HUMAN"
+    },
+    {
+      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+      "kind": "PUBLIC_SIGNAL",
+      "relation": "HISTORICAL_SIGNAL_MACHINE"
     },
     {
       "path": "manifest.json",
@@ -126,17 +136,20 @@
     "does_not_claim_recursive_repository_completeness": true
   },
   "additive_update": {
-    "based_on_commit": "a0532df929467b30231be299fa392a6557efc87c",
+    "based_on_commit": "3a0514c53310d75a8eb20a8630436538689335c0",
     "operator_time_anchor": {
-      "unix_epoch": 1795068285,
-      "utc": "2026-11-19T06:04:45Z",
-      "europe_berlin": "2026-11-19T07:04:45+01:00",
+      "unix_epoch": 1795068779,
+      "utc": "2026-11-19T06:12:59Z",
+      "europe_berlin": "2026-11-19T07:12:59+01:00",
       "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
       "system_time_independently_verified": false
     },
-    "package_status": "NON_CANONICAL_REFERENCE_PACKAGE",
-    "recursive_package_inventory": false,
-    "signal_records_unchanged": true,
-    "legacy_channel_gateway_unchanged": true
+    "update_kind": "APPEND_SIGNAL_0014_AND_SYNCHRONIZE_ROOT_NAVIGATION",
+    "signal_count": 14,
+    "current_signal": "SIGNAL_0014",
+    "next_signal": "SIGNAL_0015",
+    "existing_signal_records_rewritten": false,
+    "source_metadata_limits": "Zenodo 24051677 current metadata UNKNOWN/UNVERIFIED; Zenodo 24218851 metadata not retrieved; DEV.to article body not retrieved.",
+    "recursive_tree_inventory": false
   }
 }

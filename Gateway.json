@@ -32,6 +32,17 @@
         "system_time_independently_verified": false
       },
       "scope": "Additive Gateway Standards navigation package and RSS URI text normalization; no signal records changed."
+    },
+    "additive_signal_update": {
+      "based_on_commit": "3a0514c53310d75a8eb20a8630436538689335c0",
+      "operator_time_anchor": {
+        "unix_epoch": 1795068779,
+        "utc": "2026-11-19T06:12:59Z",
+        "europe_berlin": "2026-11-19T07:12:59+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+        "system_time_independently_verified": false
+      },
+      "scope": "Append paired SIGNAL_0014 publication-reference index; synchronize README, navigation, manifest, RSS, Atom, JSON Feed and public site; no historical signal record rewritten."
     }
   },
   "entrypoints": {
@@ -49,28 +60,35 @@
     "preservation": "UNCHANGED_CHANNEL_SPECIFIC_RECORDS"
   },
   "current_signal": {
-    "signal_id": "SIGNAL_0013",
-    "signal_type": "PUBLIC_RELEASE_ANNOUNCEMENT",
-    "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
-    "status": "PUBLISHED_PUBLIC_RELEASE_SIGNAL",
-    "count": 13,
-    "next_signal": "SIGNAL_0014",
+    "signal_id": "SIGNAL_0014",
+    "signal_type": "PUBLICATION_REFERENCE_INDEX",
+    "title": "K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index",
+    "status": "PUBLISHED_PUBLICATION_REFERENCE_SIGNAL",
+    "count": 14,
+    "next_signal": "SIGNAL_0015",
     "time_anchor": {
-      "unix_epoch": 1793095162,
-      "utc": "2026-10-27T09:59:22Z",
-      "europe_berlin": "2026-10-27T10:59:22+01:00"
+      "unix_epoch": 1795068779,
+      "utc": "2026-11-19T06:12:59Z",
+      "europe_berlin": "2026-11-19T07:12:59+01:00"
     },
-    "human_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
-    "machine_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
-    "source_state_repository": "k501-Information-Space/K501-AIONARC",
-    "source_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "human_record": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md",
+    "machine_record": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json",
+    "references": [
+      "https://zenodo.org/records/24051677",
+      "https://zenodo.org/records/24218851",
+      "https://dev.to/k501is/k501-qhstatekernel-v1-und-der-k501-information-space-362f"
+    ],
+    "zenodo_24051677_current_metadata": "UNKNOWN_UNVERIFIED",
+    "zenodo_24218851_metadata": "UNKNOWN_UNVERIFIED",
+    "devto_article_body": "NOT_RETRIEVED",
     "signal_records_unchanged": true
   },
   "previous_signal": {
-    "signal_id": "SIGNAL_0012",
-    "signal_type": "STATE_ANCHOR",
-    "human_record": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
-    "machine_record": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "signal_id": "SIGNAL_0013",
+    "signal_type": "PUBLIC_RELEASE_ANNOUNCEMENT",
+    "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+    "human_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "machine_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
     "signal_records_unchanged": true
   },
   "index": {
@@ -94,17 +112,17 @@
     "index": "DERIVED_NAVIGATION_DIRECTORY_NOT_CONTENT_PROOF"
   },
   "temporal_preservation": {
-    "source_record": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
-    "source_signal_time_anchor": 1793095162,
-    "zenodo_open_statement_scope": "PRESERVE_AS_SOURCE_TIME_STATEMENT_NOT_LIVE_CURRENTNESS",
-    "historical_signals_rewritten": false
+    "previous_signal_0013_statement_scope": "PRESERVE_AS_SOURCE_TIME_STATEMENT_NOT_LIVE_CURRENTNESS",
+    "prior_signal_records_rewritten": false,
+    "latest_signal": "SIGNAL_0014",
+    "operator_registration_anchor": 1795068779
   },
   "append_only": {
     "prior_signals_unchanged": true,
-    "feed_history_unchanged": true,
-    "no_new_signal_created": true,
-    "next_signal_sequence_position": "SIGNAL_0014",
-    "signal_records_unchanged": true
+    "feed_history_preserved": true,
+    "new_signal_appended": "SIGNAL_0014",
+    "next_signal_sequence_position": "SIGNAL_0015",
+    "historical_signal_records_rewritten": false
   },
   "relationship_to_previous": {
     "prior_schema_id": "K501_REPOSITORY_GATEWAY/0.1.0-draft",
@@ -126,5 +144,12 @@
     "adapters_created": false,
     "achieved_support_levels": "NOT_ASSESSED",
     "canonicalization": false
+  },
+  "earlier_signal": {
+    "signal_id": "SIGNAL_0012",
+    "signal_type": "STATE_ANCHOR",
+    "human_record": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "machine_record": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "signal_records_unchanged": true
   }
 }

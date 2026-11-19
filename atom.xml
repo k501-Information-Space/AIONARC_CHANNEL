@@ -15,7 +15,7 @@
     rel="self"
     type="application/atom+xml"/>
 
-  <updated>2026-10-27T09:59:22Z</updated>
+  <updated>2026-11-19T06:12:59Z</updated>
 
   <subtitle>
     Append-only signal layer for philosophy, archive intelligence,
@@ -25,6 +25,19 @@
   <author>
     <name>K501 Information Space</name>
   </author>
+
+  <!-- SIGNAL_0014 -->
+  <entry>
+    <title>K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index</title>
+    <id>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md</id>
+    <link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md" rel="alternate"/>
+    <updated>2026-11-19T06:12:59Z</updated>
+    <published>2026-11-19T06:12:59Z</published>
+    <summary>Reference index for three separate public links: Zenodo record 24051677 (historical title: Stabilization and Transition: Grounded World Representation and Global State Awareness), Zenodo record 24218851 (title and current metadata not retrieved), and the DEV.to article K501 QH_STATE_KERNEL V1 und der K501 Information Space. Link registration only; source contents and current metadata are not validated.</summary>
+    <category term="K501 Information Space"/>
+    <category term="QH_STATE_KERNEL V1"/>
+    <category term="Publication References"/>
+  </entry>
 
   <!-- SIGNAL_0013 -->
   <entry>

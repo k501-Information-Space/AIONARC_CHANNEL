@@ -18,10 +18,12 @@ This Index maps the common root entrypoints and selected channel-specific root r
 | `GATEWAY_STANDARDS/` | `REFERENCE_PACKAGE_DIRECTORY` | `ADDITIVE_NON_CANONICAL_STANDARDS_PACKAGE` |
 | `GATEWAY.md` | `CHANNEL_SPECIFIC_GATEWAY` | `PRESERVED_LEGACY_ENTRYPOINT` |
 | `GATEWAY.json` | `CHANNEL_SPECIFIC_GATEWAY` | `PRESERVED_LEGACY_ENTRYPOINT` |
-| `SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md` | `PUBLIC_SIGNAL` | `CURRENT_SIGNAL_HUMAN` |
-| `SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json` | `PUBLIC_SIGNAL` | `CURRENT_SIGNAL_MACHINE` |
-| `SIGNAL_0012_QH256_STATE_ANCHOR.md` | `PUBLIC_SIGNAL` | `PREVIOUS_SIGNAL_HUMAN` |
-| `SIGNAL_0012_QH256_STATE_ANCHOR.json` | `PUBLIC_SIGNAL` | `PREVIOUS_SIGNAL_MACHINE` |
+| `SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md` | `PUBLIC_SIGNAL` | `CURRENT_SIGNAL_HUMAN` |
+| `SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json` | `PUBLIC_SIGNAL` | `CURRENT_SIGNAL_MACHINE` |
+| `SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md` | `PUBLIC_SIGNAL` | `PREVIOUS_SIGNAL_HUMAN` |
+| `SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json` | `PUBLIC_SIGNAL` | `PREVIOUS_SIGNAL_MACHINE` |
+| `SIGNAL_0012_QH256_STATE_ANCHOR.md` | `PUBLIC_SIGNAL` | `HISTORICAL_SIGNAL_HUMAN` |
+| `SIGNAL_0012_QH256_STATE_ANCHOR.json` | `PUBLIC_SIGNAL` | `HISTORICAL_SIGNAL_MACHINE` |
 | `manifest.json` | `CHANNEL_MANIFEST` | `CURRENT_CHANNEL_METADATA` |
 | `feed.json` | `JSON_FEED` | `PUBLIC_FEED` |
 | `atom.xml` | `ATOM_FEED` | `PUBLIC_FEED` |
@@ -34,13 +36,17 @@ This Index maps the common root entrypoints and selected channel-specific root r
 
 The root navigation exposes `GATEWAY_STANDARDS/` as a non-canonical reference package. Its six source documents retain their Library identifiers and individual source statuses. The package is not a complete recursive inventory and does not assert implementation or conformance.
 
+SIGNAL_0014 is the current paired publication-reference signal. It registers Zenodo records 24051677 and 24218851 and the supplied DEV.to article as three distinct references; source-metadata limits are stated in the signal pair.
+
 **Based on commit:** `a0532df929467b30231be299fa392a6557efc87c`  
-**Operator time anchor:** `1795068285` — 2026-11-19T06:04:45Z / 2026-11-19T07:04:45+01:00
+**Prior navigation update anchor:** `1795068285` — 2026-11-19T06:04:45Z / 2026-11-19T07:04:45+01:00
+
+**Signal update anchor:** `1795068779` — 2026-11-19T06:12:59Z / 2026-11-19T07:12:59+01:00
 
 ## Preserved boundary
 
 - `GATEWAY.md` and `GATEWAY.json` remain the channel-specific Gateway records; they are not deleted or renamed.
-- `SIGNAL_0012` and `SIGNAL_0013` remain append-only source records.
+- `SIGNAL_0012` and `SIGNAL_0013` remain unchanged historical records; `SIGNAL_0014` is appended as the current signal.
 - `manifest.json` remains the channel publication/feed manifest; it is not an aggregate content checksum manifest.
 - Feed and site files remain in their existing locations.
 - This Index does not assert canonical authority, validation or completeness.

@@ -32,57 +32,64 @@ It is a public publication and resonance layer.
 
 ## Current State
 
-**Current Signal:** `SIGNAL_0013`
+**Current Signal:** `SIGNAL_0014`
 
-**Current Signal Title:** K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download
+**Current Signal Title:** K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index
 
 **Status:** `ACTIVE`
 
 **Namespace:** `K501-AIONARC`
 
-**Current Signal Count:** `13`
+**Current Signal Count:** `14`
 
-**Signal Time Anchor:** `1793095162`
+**Signal Time Anchor:** `1795068779`
 
-**UTC:** `2026-10-27 09:59:22`
+**UTC:** `2026-11-19 06:12:59`
 
-**Europe/Berlin:** `2026-10-27 10:59:22 CET`
+**Europe/Berlin:** `2026-11-19 07:12:59 CET`
 
-Sequence: `SIGNAL_0013` → `SIGNAL_0012` → `SIGNAL_0011` → `SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
+Sequence: `SIGNAL_0014` → `SIGNAL_0013` → `SIGNAL_0012` → `SIGNAL_0011` → `SIGNAL_0010` → `SIGNAL_0009` → `SIGNAL_0008` → `SIGNAL_0007` → `SIGNAL_0006` → `SIGNAL_0005` → `SIGNAL_0004` → `SIGNAL_0003` → `SIGNAL_0002` → `SIGNAL_0001`
 
-Next signal: `SIGNAL_0014`
+Next signal: `SIGNAL_0015`
 
 ## Current Publication
 
-**Signal:** `SIGNAL_0013`
+**Signal:** `SIGNAL_0014`
 
-**Title:** K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download
+**Title:** K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index
 
-**Publication Type:** Public Release Announcement
+**Publication Type:** Publication Reference Index
 
-**Published release:** [GitHub Release v3.5.0](https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0)
+**Registered references:**
+- [Zenodo record 24051677](https://zenodo.org/records/24051677) — historical title: *Stabilization and Transition: Grounded World Representation and Global State Awareness*.
+- [Zenodo record 24218851](https://zenodo.org/records/24218851) — title/current metadata not retrieved; status remains `UNKNOWN/UNVERIFIED`.
+- [DEV.to article: K501 QH_STATE_KERNEL V1 und der K501 Information Space](https://dev.to/k501is/k501-qhstatekernel-v1-und-der-k501-information-space-362f) — title derived from URL slug; article body not retrieved.
 
-**Direct download:** [K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip](https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip)
+**Signal registration time:** `1795068779` · 2026-11-19T06:12:59Z · 2026-11-19T07:12:59+01:00
 
-**Source commit:** [`946836c3d160ce25d38d5456baa8ed586a1ecd05`](https://github.com/k501-Information-Space/K501-AIONARC/commit/946836c3d160ce25d38d5456baa8ed586a1ecd05)
+The 24051677 title comes from a historical Library observation dated 2026-11-10; its latest available observation on 2026-11-18 could not retrieve current record content. No current Zenodo metadata is asserted for either record. This signal registers three distinct links only; it does not validate their contents or assert that the references are one identical work.
 
-**Archive SHA-256:** `774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223`
+**Human-readable signal:** [SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md)
 
-**Archive size:** `618739` bytes
+**Machine-readable signal:** [SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json)
 
-**Human-readable signal:** [SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md)
-
-**Machine-readable signal:** [SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json)
-
-Zenodo publication and a DOI remain open; this signal does not claim a Zenodo record.
-
-**Temporal scope:** this sentence is preserved as the publication-state wording recorded by `SIGNAL_0013` at time anchor `1793095162`. It is not a live status assertion for later repository states. The human and machine signal records remain unchanged.
-
-`SIGNAL_0012` — QH256 Repository State Anchor — Canonical Main Readback
-
-[Human record](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md) · [Machine record](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json)
+Previous published signal: `SIGNAL_0013` — K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — [Human record](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md) · [Machine record](https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json)
 
 ## Signal History
+
+### SIGNAL_0014
+
+**K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index**
+
+- [Zenodo record 24051677](https://zenodo.org/records/24051677)
+- [Zenodo record 24218851](https://zenodo.org/records/24218851)
+- [DEV.to article](https://dev.to/k501is/k501-qhstatekernel-v1-und-der-k501-information-space-362f)
+
+Human-readable record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md
+
+Machine-readable record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json
+
+Registration anchor: `1795068779` (2026-11-19T06:12:59Z)
 
 ### SIGNAL_0013
 

@@ -13,6 +13,13 @@
   ],
   "items": [
     {
+      "id": "SIGNAL_0014",
+      "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md",
+      "title": "K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index",
+      "content_text": "Reference index for three separate public links: Zenodo record 24051677 (historical title: Stabilization and Transition: Grounded World Representation and Global State Awareness), Zenodo record 24218851 (title and current metadata not retrieved), and the DEV.to article K501 QH_STATE_KERNEL V1 und der K501 Information Space. Link registration only; source contents and current metadata are not validated. Human record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md. Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json.",
+      "date_published": "2026-11-19T07:12:59+01:00"
+    },
+    {
       "id": "SIGNAL_0013",
       "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
       "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
