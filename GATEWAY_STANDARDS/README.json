@@ -1,0 +1,147 @@
+{
+  "artifact_type": "K501_GATEWAY_STANDARDS_PACKAGE_INDEX",
+  "artifact_id": "K501_GATEWAY_STANDARDS_REFERENCE_PACKAGE_0_1_0_DRAFT_1795068285_2026-11-19",
+  "schema_id": "K501_GATEWAY_STANDARDS_PACKAGE_INDEX/0.1.0-draft",
+  "version": "0.1.0-draft",
+  "status": "NON_CANONICAL_REFERENCE_NAVIGATION",
+  "canonical": false,
+  "operator_time_anchor": {
+    "unix_epoch": 1795068285,
+    "utc": "2026-11-19T06:04:45Z",
+    "europe_berlin": "2026-11-19T07:04:45+01:00",
+    "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+    "system_time_independently_verified": false
+  },
+  "based_on_commit": "a0532df929467b30231be299fa392a6557efc87c",
+  "default_human_entry": "GATEWAY_STANDARDS/README.md",
+  "machine_entry": "GATEWAY_STANDARDS/README.json",
+  "manifest": "GATEWAY_STANDARDS/MANIFEST.json",
+  "register_order": [
+    "DIRECTORY_REGISTER",
+    "OBJECT_IDENTITY_REGISTER",
+    "ARTIFACT_REGISTER",
+    "DEEPREAD_REGISTER",
+    "INTEGRITY_REGISTER",
+    "PROVENANCE_AND_RIGHTS_REGISTER",
+    "ROUTE_REGISTRY"
+  ],
+  "relationship_matrix": {
+    "dimensions": "7x7",
+    "self_scope": 7,
+    "direct_reference": 13,
+    "no_direct_architectural_reference": 29,
+    "direction": "ROW_REGISTER_REFERENCES_COLUMN_REGISTER"
+  },
+  "standards": [
+    {
+      "id": "JSON_SCHEMA_2020_12",
+      "version": "2020-12"
+    },
+    {
+      "id": "W3C_PROV_O",
+      "version": "W3C Recommendation"
+    },
+    {
+      "id": "PREMIS_3_0",
+      "version": "3.0"
+    },
+    {
+      "id": "RFC_8493_BAGIT",
+      "version": "RFC 8493"
+    },
+    {
+      "id": "RO_CRATE_1_2",
+      "version": "1.2"
+    }
+  ],
+  "ro_crate_1_3": "NOT_INCLUDED; SEPARATE_COMPATIBILITY_REVIEW_REQUIRED",
+  "support_levels": [
+    "REGISTERED",
+    "PARSED",
+    "VALIDATED",
+    "MAPPED",
+    "EXPORTED_OR_IMPORTED",
+    "ROUNDTRIP_VERIFIED"
+  ],
+  "open_prerequisites": [
+    "OPEN-01",
+    "OPEN-02",
+    "OPEN-03",
+    "OPEN-04",
+    "OPEN-05",
+    "OPEN-06",
+    "OPEN-07",
+    "OPEN-08",
+    "OPEN-09"
+  ],
+  "implementation": {
+    "schemas": false,
+    "graph_validator": false,
+    "crosswalks": false,
+    "adapters": false,
+    "achieved_support_levels": "NOT_ASSESSED",
+    "canonicalization": false
+  },
+  "sources": [
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.md",
+      "git_blob_sha": "45db9404b149c749bb2f53d98cb0c51f14f32325",
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT/0.1.0-draft",
+      "status": "FREEZE_CANDIDATE_NOT_FROZEN",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.md",
+      "file_id": "file_00000000b2a481f4ab6a9ffc7a659f5a",
+      "library_file_id": "libfile_e403237e9b2c81919f2d5b2560444f0a"
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.json",
+      "git_blob_sha": "64ffaed8dd811255c93c8388349a786986065acd",
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT/0.1.0-draft",
+      "status": "FREEZE_CANDIDATE_NOT_FROZEN",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_CONTRACT_FREEZE_CANDIDATE_v0.1.0-draft_1794951315_2026-11-17.json",
+      "file_id": "file_000000009fd4820abb11b5da34e0e6c5",
+      "library_file_id": "libfile_b898ed70cfc08191b307d7fdc56f95bc"
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.md",
+      "git_blob_sha": "c6baaa69a4749e2b4b634843b0d5d54b53eb9847",
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW/0.1.0-draft",
+      "status": "REVIEW_COMPLETED_WITH_REQUIRED_CORRECTIONS_FREEZE_CANDIDATE_CREATED",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.md",
+      "file_id": "file_00000000c1cc81f48374e2c4b908093c",
+      "library_file_id": "libfile_c9e0c36953348191980276740b04d254"
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.json",
+      "git_blob_sha": "f451bb8f3d825a96fb9f5734526ffe3f4823f5ff",
+      "artifact_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_0_1_0_DRAFT_1794951315_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW/0.1.0-draft",
+      "status": "REVIEW_COMPLETED_WITH_REQUIRED_CORRECTIONS_FREEZE_CANDIDATE_CREATED",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_REGISTER_ARCHITECTURE_REVIEW_v0.1.0-draft_1794951315_2026-11-17.json",
+      "file_id": "file_0000000049dc8210890bcfefa12f06ce",
+      "library_file_id": "libfile_a2508a46ea548191a3f1796593a5dad2"
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "git_blob_sha": "b59fb3aecb4ed8f91c44ab81029dd6e86d8f33e1",
+      "artifact_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_0_1_0_DRAFT_1794950678_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE/0.1.0-draft",
+      "status": "DRAFT / NON-CANONICAL / SUPPORT_PROFILE_PENDING_REVIEW",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.md",
+      "file_id": "file_000000009240820a8fa285e11ed90df4",
+      "library_file_id": "libfile_b6c21d5429b881918055637122a8ea68"
+    },
+    {
+      "github_path": "GATEWAY_STANDARDS/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "git_blob_sha": "fad4b00c6b812e6f9ead82a406768b54083f5e4d",
+      "artifact_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_0_1_0_DRAFT_1794950678_2026-11-17",
+      "schema_id": "K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE/0.1.0-draft",
+      "status": "DRAFT_NON_CANONICAL_SUPPORT_PROFILE_PENDING_REVIEW",
+      "library_path": "/K501_SPECIFICATION/K501_LIBRARY_GATEWAY_STANDARD_SUPPORT_PROFILE_v0.1.0-draft_1794950678_2026-11-17.json",
+      "file_id": "file_000000006c1c821097ba6241e2773e1c",
+      "library_file_id": "libfile_f5e32e69d0fc819186d090edfb10e5a8"
+    }
+  ]
+}
