@@ -29,12 +29,12 @@ def changes():
     urls=set()
     feed_changed=False
     for line in diff.splitlines():
-        p=line.split("\\t")
+        p=line.split("\t")
         if len(p)<2: continue
         paths=p[1:] if p[0].startswith(("R","C")) else [p[1]]
         for path in paths:
             if path=="index.html": urls.add(BASE)
-            m=re.fullmatch(r"signals/(AIONARC_SIGNAL_[0-9]{4})/index\\.html",path)
+            m=re.fullmatch(r"signals/(AIONARC_SIGNAL_[0-9]{4})/index\.html",path)
             if m:
                 urls.add(BASE+"signals/"+m.group(1)+"/")
                 feed_changed=True
@@ -86,6 +86,6 @@ def main():
     ws=publish_websub(feeds_changed)
     report=["AIONARC_CHANNEL notification result","IndexNow: "+ix,"Changed owned HTML URLs: "+str(len(urls)),"Switchboard: "+json.dumps(ws,sort_keys=True),"IndexNow receipt is not indexing proof.","Switchboard acceptance is not subscriber-delivery proof.","External targets were excluded from IndexNow."]
     summary=os.environ.get("GITHUB_STEP_SUMMARY")
-    if summary: Path(summary).write_text("\\n".join(report)+"\\n",encoding="utf-8")
+    if summary: Path(summary).write_text("\n".join(report)+"\n",encoding="utf-8")
     print("POST_DEPLOYMENT_NOTIFICATIONS_COMPLETE")
 if __name__=="__main__": main()
