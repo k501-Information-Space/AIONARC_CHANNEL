@@ -1,155 +1,172 @@
 {
-  "schema_id": "K501_REPOSITORY_ROOT_INDEX/0.2.0-draft",
-  "index_id": "K501-AIONARC-CHANNEL-ROOT-INDEX",
-  "repository": "k501-Information-Space/AIONARC_CHANNEL",
-  "repository_role": "PUBLIC_SIGNAL_LAYER",
-  "classification": "DERIVED_ROOT_NAVIGATION_DIRECTORY",
-  "completeness": {
-    "complete": false,
-    "scope": "ROOT_ENTRYPOINTS_ONLY",
-    "recursive_tree_inventory": false,
-    "content_hash_inventory": false
-  },
-  "source_observation": {
-    "commit": "0344feeb98c7af4a21271c69a39076e9edac3f65",
-    "branch": "main",
-    "operator_time_anchor": {
-      "unix_epoch": 1793389236,
-      "utc": "2026-10-30T19:40:36Z",
-      "europe_berlin": "2026-10-30T20:40:36+01:00",
-      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
-      "system_time_independently_verified": false
-    }
-  },
-  "entry_count": 21,
+  "artifact_type": "AIONARC_CHANNEL_NAVIGATION_INDEX",
+  "schema_id": "AIONARC_CHANNEL_NAVIGATION_INDEX/1.0.0",
+  "status": "ACTIVE_DERIVED_NAVIGATION_DIRECTORY",
+  "canonical": false,
+  "complete_repository_inventory": false,
+  "registry": "signals/registry.json",
   "entries": [
     {
-      "path": "README.md",
-      "kind": "HUMAN_ENTRY",
-      "relation": "CURRENT_ROOT"
+      "path": "README.md"
     },
     {
-      "path": "Gateway.md",
-      "kind": "HUMAN_GATEWAY",
-      "relation": "COMMON_ROOT_ENTRYPOINT"
+      "path": "index.html"
     },
     {
-      "path": "Gateway.json",
-      "kind": "MACHINE_GATEWAY",
-      "relation": "COMMON_ROOT_ENTRYPOINT"
+      "path": "signals/registry.json"
     },
     {
-      "path": "GATEWAY_STANDARDS/",
-      "kind": "REFERENCE_PACKAGE_DIRECTORY",
-      "relation": "ADDITIVE_NON_CANONICAL_STANDARDS_PACKAGE"
+      "path": "manifest.json"
     },
     {
-      "path": "Index.md",
-      "kind": "HUMAN_INDEX",
-      "relation": "COMMON_ROOT_ENTRYPOINT"
+      "path": "Gateway.md"
     },
     {
-      "path": "Index.json",
-      "kind": "MACHINE_INDEX",
-      "relation": "COMMON_ROOT_ENTRYPOINT"
+      "path": "Gateway.json"
     },
     {
-      "path": "GATEWAY.md",
-      "kind": "CHANNEL_SPECIFIC_GATEWAY",
-      "relation": "PRESERVED_LEGACY_ENTRYPOINT"
+      "path": "rss.xml"
     },
     {
-      "path": "GATEWAY.json",
-      "kind": "CHANNEL_SPECIFIC_GATEWAY",
-      "relation": "PRESERVED_LEGACY_ENTRYPOINT"
+      "path": "atom.xml"
     },
     {
-      "path": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md",
-      "kind": "PUBLIC_SIGNAL",
-      "relation": "CURRENT_SIGNAL_HUMAN"
+      "path": "feed.json"
     },
     {
-      "path": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json",
-      "kind": "PUBLIC_SIGNAL",
-      "relation": "CURRENT_SIGNAL_MACHINE"
+      "path": "robots.txt"
     },
     {
-      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
-      "kind": "PUBLIC_SIGNAL",
-      "relation": "PREVIOUS_SIGNAL_HUMAN"
+      "path": "sitemap.xml"
     },
     {
-      "path": "SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
-      "kind": "PUBLIC_SIGNAL",
-      "relation": "PREVIOUS_SIGNAL_MACHINE"
+      "path": "scripts/build.py"
     },
     {
-      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.md",
-      "kind": "PUBLIC_SIGNAL",
-      "relation": "HISTORICAL_SIGNAL_HUMAN"
+      "path": "scripts/validate.py"
     },
     {
-      "path": "SIGNAL_0012_QH256_STATE_ANCHOR.json",
-      "kind": "PUBLIC_SIGNAL",
-      "relation": "HISTORICAL_SIGNAL_MACHINE"
-    },
-    {
-      "path": "manifest.json",
-      "kind": "CHANNEL_MANIFEST",
-      "relation": "CURRENT_CHANNEL_METADATA"
-    },
-    {
-      "path": "feed.json",
-      "kind": "JSON_FEED",
-      "relation": "PUBLIC_FEED"
-    },
-    {
-      "path": "atom.xml",
-      "kind": "ATOM_FEED",
-      "relation": "PUBLIC_FEED"
-    },
-    {
-      "path": "rss.xml",
-      "kind": "RSS_FEED",
-      "relation": "PUBLIC_FEED"
-    },
-    {
-      "path": "index.html",
-      "kind": "PUBLIC_SITE",
-      "relation": "SITE_ENTRY"
-    },
-    {
-      "path": "icon.png",
-      "kind": "SITE_ASSET",
-      "relation": "SITE_RESOURCE"
-    },
-    {
-      "path": "LICENSE",
-      "kind": "LICENSE_DOCUMENT",
-      "relation": "REPOSITORY_METADATA"
+      "path": ".github/workflows/aionarc-notify.yml"
     }
   ],
-  "boundaries": {
-    "does_not_establish_canonicality": true,
-    "does_not_validate_signal_claims": true,
-    "does_not_rewrite_historical_signals": true,
-    "does_not_claim_recursive_repository_completeness": true
-  },
-  "additive_update": {
-    "based_on_commit": "3a0514c53310d75a8eb20a8630436538689335c0",
-    "operator_time_anchor": {
-      "unix_epoch": 1795068779,
-      "utc": "2026-11-19T06:12:59Z",
-      "europe_berlin": "2026-11-19T07:12:59+01:00",
-      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
-      "system_time_independently_verified": false
+  "signal_pages": [
+    {
+      "signal_id": "AIONARC_SIGNAL_0001",
+      "path": "signals/AIONARC_SIGNAL_0001/index.html",
+      "target_url": "https://k501informationspace.wordpress.com",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
     },
-    "update_kind": "APPEND_SIGNAL_0014_AND_SYNCHRONIZE_ROOT_NAVIGATION",
-    "signal_count": 14,
-    "current_signal": "SIGNAL_0014",
-    "next_signal": "SIGNAL_0015",
-    "existing_signal_records_rewritten": false,
-    "source_metadata_limits": "Zenodo 24051677 current metadata UNKNOWN/UNVERIFIED; Zenodo 24218851 metadata not retrieved; DEV.to article body not retrieved.",
-    "recursive_tree_inventory": false
-  }
+    {
+      "signal_id": "AIONARC_SIGNAL_0002",
+      "path": "signals/AIONARC_SIGNAL_0002/index.html",
+      "target_url": "https://github.com/k501-Information-Space",
+      "title_status": "OPEN_NOT_RETRIEVED"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0003",
+      "path": "signals/AIONARC_SIGNAL_0003/index.html",
+      "target_url": "https://mastodon.social/@K501",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0004",
+      "path": "signals/AIONARC_SIGNAL_0004/index.html",
+      "target_url": "https://dev.to/k501is",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0005",
+      "path": "signals/AIONARC_SIGNAL_0005/index.html",
+      "target_url": "https://www.youtube.com/@Iinkognit0",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0006",
+      "path": "signals/AIONARC_SIGNAL_0006/index.html",
+      "target_url": "https://www.tiktok.com/@patrick.sayzso",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0007",
+      "path": "signals/AIONARC_SIGNAL_0007/index.html",
+      "target_url": "https://substack.com/@k501is",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0008",
+      "path": "signals/AIONARC_SIGNAL_0008/index.html",
+      "target_url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0009",
+      "path": "signals/AIONARC_SIGNAL_0009/index.html",
+      "target_url": "https://github.com/k501-Information-Space/QH256",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0010",
+      "path": "signals/AIONARC_SIGNAL_0010/index.html",
+      "target_url": "https://github.com/k501-Information-Space/K501-AIONARC",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0011",
+      "path": "signals/AIONARC_SIGNAL_0011/index.html",
+      "target_url": "https://github.com/k501-Information-Space/eArc",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0012",
+      "path": "signals/AIONARC_SIGNAL_0012/index.html",
+      "target_url": "https://doi.org/10.5281/zenodo.21957465",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0013",
+      "path": "signals/AIONARC_SIGNAL_0013/index.html",
+      "target_url": "https://doi.org/10.5281/zenodo.23701613",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0014",
+      "path": "signals/AIONARC_SIGNAL_0014/index.html",
+      "target_url": "https://doi.org/10.5281/zenodo.23223085",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0015",
+      "path": "signals/AIONARC_SIGNAL_0015/index.html",
+      "target_url": "https://doi.org/10.5281/zenodo.23350887",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0016",
+      "path": "signals/AIONARC_SIGNAL_0016/index.html",
+      "target_url": "https://doi.org/10.5281/zenodo.24051677",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0017",
+      "path": "signals/AIONARC_SIGNAL_0017/index.html",
+      "target_url": "https://doi.org/10.5281/zenodo.24218851",
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+    }
+  ],
+  "historical": {
+    "path": "history/legacy-channel-state/",
+    "namespace": "SIGNAL_NNNN",
+    "status": "HISTORICAL_ONLY",
+    "identity_mapping": false
+  },
+  "next_slot": {
+    "signal_id": "AIONARC_SIGNAL_0018",
+    "status": "OPEN_UNASSIGNED",
+    "published": false
+  },
+  "limits": [
+    "Navigation index only; not a complete repository inventory.",
+    "Routes do not prove target validity or canonicality.",
+    "External target URLs are not owned sitemap URLs."
+  ]
 }

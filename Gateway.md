@@ -1,48 +1,38 @@
-# Gateway — AIONARC_CHANNEL
+# AIONARC_CHANNEL Gateway
 
-**Repository role:** `PUBLIC_SIGNAL_LAYER`  
-**Namespace:** `K501-AIONARC`  
-**Branch:** `main`  
-**Gateway classification:** `NAVIGATION_ONLY`  
-**Operator time anchor:** `1793389236` — 2026-10-30T19:40:36Z / 2026-10-30T20:40:36+01:00
+**Repository:** `k501-Information-Space/AIONARC_CHANNEL`  
+**Role:** `PUBLIC_REFERENCE_AND_DISTRIBUTION_CHANNEL`  
+**Authority:** navigation only; registry and source evidence retain their own scopes.
 
-## Common root entrypoints
+## Start here
 
-- [README.md](README.md) — repository introduction and current public-signal state.
-- [Gateway.json](Gateway.json) — machine-readable routes and role boundaries.
-- [Index.md](Index.md) / [Index.json](Index.json) — non-exhaustive root entrypoint directory.
-- [manifest.json](manifest.json) — channel publication/feed manifest.
+- [README](README.md) — overview and boundaries.
+- [Active registry](signals/registry.json) — 17 operator-bound IDs and URLs.
+- [Public index](index.html) — channel pages.
+- [Manifest](manifest.json).
+- [Navigation Index](Index.md) / [Index.json](Index.json).
 
-## Channel-specific records
+## Feeds and discovery
 
-- [SIGNAL_0014 — QH_STATE_KERNEL V1 publication reference index](SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md) / [machine record](SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json) — current published signal.
-- [SIGNAL_0013 — v3.5.0 public release](SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md) / [machine record](SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json) — previous published signal.
-- [SIGNAL_0012 — QH256 state anchor](SIGNAL_0012_QH256_STATE_ANCHOR.md) / [machine record](SIGNAL_0012_QH256_STATE_ANCHOR.json) — earlier published state anchor.
-- [JSON Feed](feed.json), [Atom](atom.xml), [RSS](rss.xml) and [public site](index.html).
+- [RSS 2.0](rss.xml) · [Atom 1.0](atom.xml) · [JSON Feed 1.1](feed.json)
+- [Sitemap](sitemap.xml) · [robots.txt](robots.txt)
 
-## Current signal observation
+WebSub hub: https://switchboard.p3k.io/  
+IndexNow API: `https://api.indexnow.org/indexnow`
 
-`SIGNAL_0014` is the current published signal. The sequence contains 14 signals; `SIGNAL_0015` is next. Its operator-supplied registration anchor is `1795068779` (2026-11-19T06:12:59Z; 2026-11-19T07:12:59+01:00). It registers three separate external references: Zenodo records 24051677 and 24218851, plus the DEV.to article. Metadata and content boundaries are recorded in the paired signal documents.
+IndexNow receives only URLs hosted under `https://k501-information-space.github.io/AIONARC_CHANNEL/`. External targets are not submitted as owned URLs.
 
-## Role and authority boundary
+## Identity boundaries
 
-AIONARC_CHANNEL is a public publication and signal layer. It does not replace the canonical K501-AIONARC information space, and its signal records are not proof of the underlying claims. This Gateway is navigation only; it does not confer canonicality, validate a signal or promote an unpublished state.
+Active namespace: `AIONARC_SIGNAL_NNNN`, assigned 0001–0017. `AIONARC_SIGNAL_0018` remains OPEN / UNASSIGNED. The former `SIGNAL_NNNN` sequence is historical only and is not remapped.
 
-## Temporal preservation
+Page permalinks and external target URLs are distinct. Source dates are separate from channel registration time. This Gateway and the Index are navigation surfaces, not proof of source truth or canonicality.
 
-The statement in the original SIGNAL_0013 context that Zenodo publication and a DOI remained open is preserved as a source-time statement. It must not be read as a live currentness claim. SIGNAL_0012 and SIGNAL_0013 remain unchanged; SIGNAL_0014 is appended as a new paired record.
+## Build and validation
 
-## Gateway Standards reference package
+- `scripts/build.py` — deterministic root-site generator.
+- `scripts/validate.py` — registry and projection validation.
+- `.github/workflows/validate.yml` — pull-request validation.
+- `.github/workflows/aionarc-notify.yml` — post-deployment IndexNow and Switchboard.
 
-- [Gateway Standards package](GATEWAY_STANDARDS/README.md) — six source-bound Library documents and paired Markdown/JSON records.
-- [Machine index](GATEWAY_STANDARDS/README.json) / [source identity manifest](GATEWAY_STANDARDS/MANIFEST.json).
-
-**Status:** non-canonical reference/navigation only. The register contract remains `FREEZE_CANDIDATE_NOT_FROZEN`; the separate support profile retains its own draft status. No schema, validator, crosswalk, adapter or achieved conformance level is asserted.
-
-**Additive update 1:** operator anchor `1795068285` — 2026-11-19T06:04:45Z / 2026-11-19T07:04:45+01:00; based on parent commit `a0532df929467b30231be299fa392a6557efc87c`.
-
-**Additive update 2:** signal registration anchor `${epoch}` — ${utc} / ${local}; based on parent commit `${head}`. New paired signal appended; prior signal records remain unchanged.
-
-## Append-only boundary
-
-Existing signal files are preserved. SIGNAL_0014 is appended to the feeds. Legacy uppercase Gateway paths and site assets remain at their established paths.
+GitHub Pages currently publishes from the repository root on `main`. Frozen baseline: `ARCHITECTURE DRAFT · v0.1`. Successor: [Architecture v0.2](architecture/AIONARC_CHANNEL_PUBLICATION_DISTRIBUTION_ARCHITECTURE_v0.2.0_1795187344_2026-11-20.md).
