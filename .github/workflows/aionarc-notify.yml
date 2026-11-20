@@ -1,0 +1,35 @@
+name: AIONARC_CHANNEL post-deployment notifications
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'signals/**'
+      - 'rss.xml'
+      - 'atom.xml'
+      - 'feed.json'
+      - 'sitemap.xml'
+      - 'robots.txt'
+      - 'scripts/**'
+      - '.github/workflows/aionarc-notify.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: aionarc-channel-notifications-main
+  cancel-in-progress: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: |
+          python scripts/build.py --check
+          python scripts/validate.py
+      - run: python scripts/notify.py

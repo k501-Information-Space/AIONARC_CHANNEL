@@ -44,7 +44,7 @@
     "rfc822": "Fri, 20 Nov 2026 14:36:02 GMT",
     "europe_berlin": "2026-11-20T15:36:02+01:00"
   },
-  "updated_at": "2026-11-20T14:36:02Z",
+  "updated_at": "2026-11-20T15:09:04Z",
   "signal_namespace": {
     "active": "AIONARC_SIGNAL_NNNN",
     "first_assigned": "AIONARC_SIGNAL_0001",
@@ -569,5 +569,8 @@
     "TRACEABILITY_REQUIRED",
     "TEMPORAL_CONSISTENCY",
     "DENSIFICATION_WITHOUT_ERASURE"
-  ]
+  ],
+  "updated_at_rfc822": "Fri, 20 Nov 2026 15:09:04 GMT",
+  "updated_at_anchor": 1795187344,
+  "updated_at_source": "OPERATOR_GO_ANCHOR_FOR_RECONCILIATION_AND_BUILD_STATE; NOT_A_CLAIM_OF_DEPLOYMENT_TIME"
 }
