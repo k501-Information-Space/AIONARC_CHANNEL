@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>AIONARC_CHANNEL</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/" rel="alternate"/>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/atom.xml" rel="self" type="application/atom+xml"/>
+<link href="https://switchboard.p3k.io/" rel="hub"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<subtitle>Operator-bound reference register; registration does not validate source claims.</subtitle>
+<author><name>K501 Information Space</name></author>
+<entry>
+<title>K501 QH_STATE_KERNEL V1: A Deterministic, Append-Only, Reconstructive Information-State Architecture</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0017/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0017/" rel="alternate"/>
+<link href="https://doi.org/10.5281/zenodo.24218851" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>A deterministic, append-only, reconstructive information-state architecture developed within the K501 Information Space project. It connects source preservation, typed identity, QH256, context-bound transitions, Proof Before State, bounded GSA/GIC projections and deterministic reconstruction. External target: https://doi.org/10.5281/zenodo.24218851 Channel registration: 2026-11-20T14:36:02Z. Source publication date: 2026-11-14. Registration is not proof of the external source.</summary>
+<category term="zenodo_software"/>
+</entry>
+<entry>
+<title>Stabilization and Transition: Grounded World Representation and Global State Awareness</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0016/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0016/" rel="alternate"/>
+<link href="https://doi.org/10.5281/zenodo.24051677" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>A research monograph on how sensor observations and multiple information sources can become a grounded, coherent and temporally continuous representation of the world. It addresses identity, context, spatial and temporal references, provenance and continuity as the world changes. External target: https://doi.org/10.5281/zenodo.24051677 Channel registration: 2026-11-20T14:36:02Z. Source publication date: 2026-11-08. Registration is not proof of the external source.</summary>
+<category term="zenodo_book"/>
+</entry>
+<entry>
+<title>Stabilization and Transition: The Human as a Potentially Transitional Configuration in Evolutionary Systems and the Role of Frame-Based Structures</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0015/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0015/" rel="alternate"/>
+<link href="https://doi.org/10.5281/zenodo.23350887" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>A conceptual research essay examining whether human representational, technological and organizational capabilities may develop faster than coordination, verification, stabilization and long-term continuity mechanisms. Its central evolutionary proposition remains a hypothesis, not an established empirical result. External target: https://doi.org/10.5281/zenodo.23350887 Channel registration: 2026-11-20T14:36:02Z. Source publication date: 2026-10-13. Registration is not proof of the external source.</summary>
+<category term="zenodo_preprint"/>
+</entry>
+<entry>
+<title>K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0014/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0014/" rel="alternate"/>
+<link href="https://doi.org/10.5281/zenodo.23223085" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>Version 0.1 of the K501 Information Space research dossier and reproducibility package. It documents a bounded research state, implementation evidence, comparative context and open research questions; it does not claim a completed general-purpose memory system. External target: https://doi.org/10.5281/zenodo.23223085 Channel registration: 2026-11-20T14:36:02Z. Source publication date: 2026-10-07. Registration is not proof of the external source.</summary>
+<category term="zenodo_publication"/>
+</entry>
+<entry>
+<title>K501 AIONARC Integrated Pipeline &amp; Proof Runtime v3.5.0</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0013/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0013/" rel="alternate"/>
+<link href="https://doi.org/10.5281/zenodo.23701613" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>A versioned software integration combining a structural information pipeline with a separate process-evidence runtime. The record documents bounded build, test, validation and reproducibility evidence. External target: https://doi.org/10.5281/zenodo.23701613 Channel registration: 2026-11-20T14:36:02Z. Source publication date: 2026-10-27. Registration is not proof of the external source.</summary>
+<category term="zenodo_software"/>
+</entry>
+<entry>
+<title>QH256 — K501 Information Space: Introduction, Formal Scientific Specification v2.0, and References</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0012/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0012/" rel="alternate"/>
+<link href="https://doi.org/10.5281/zenodo.21957465" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>This publication package presents the QH256 information-state construction within the broader K501 Information Space project. It contains an introduction, the formal scientific specification v2.0 and references. External target: https://doi.org/10.5281/zenodo.21957465 Channel registration: 2026-11-20T14:36:02Z. Source publication date: 2026-08-23. Registration is not proof of the external source.</summary>
+<category term="zenodo_publication"/>
+</entry>
+<entry>
+<title>eArc — Neutral K501 Development Archive</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0011/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0011/" rel="alternate"/>
+<link href="https://github.com/k501-Information-Space/eArc" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>eArc is the neutral, append-only development archive for the historical and evolving K501 work corpus. It has no canonical authority; it preserves sources and their original declarations without adopting them. External target: https://github.com/k501-Information-Space/eArc Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="repository"/>
+</entry>
+<entry>
+<title>K501 AIONARC Integrated Pipeline &amp; Proof Runtime</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0010/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0010/" rel="alternate"/>
+<link href="https://github.com/k501-Information-Space/K501-AIONARC" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>Version 3.5.0 is a published stable integration package combining the K501 AIONARC Pipeline and the separate Proof/Evidence Runtime. Embedded component version identities remain distinct from the aggregate package version. External target: https://github.com/k501-Information-Space/K501-AIONARC Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="repository"/>
+</entry>
+<entry>
+<title>QH256 — K501 Information Space</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0009/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0009/" rel="alternate"/>
+<link href="https://github.com/k501-Information-Space/QH256" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>QH256 is a deterministic four-state information algebra and 256-bit state representation consisting of 128 two-bit cells. It is not an archive, provenance store or semantic interpreter. External target: https://github.com/k501-Information-Space/QH256 Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="repository"/>
+</entry>
+<entry>
+<title>AIONARC_CHANNEL</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0008/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0008/" rel="alternate"/>
+<link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>Append-only public signal layer for the K501 Information Space and K501-AIONARC. The repository is a publication and distribution channel, not the canonical K501 Information Space. External target: https://github.com/k501-Information-Space/AIONARC_CHANNEL Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="repository"/>
+</entry>
+<entry>
+<title>Patrick Robert Miller</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0007/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0007/" rel="alternate"/>
+<link href="https://substack.com/@k501is" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>The operator supplied this target URL for the channel register. A source title or description has not been supplied or retrieved. This entry registers the destination only and does not assert source contents. External target: https://substack.com/@k501is Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="publishing_profile"/>
+</entry>
+<entry>
+<title>Patrick Sayzso</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0006/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0006/" rel="alternate"/>
+<link href="https://www.tiktok.com/@patrick.sayzso" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>Pop-Art Videography and Urbanism External target: https://www.tiktok.com/@patrick.sayzso Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="social_profile"/>
+</entry>
+<entry>
+<title>K501 Information Space</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0005/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0005/" rel="alternate"/>
+<link href="https://www.youtube.com/@Iinkognit0" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>K501 Information Space — archive-first digital infrastructure, local AI systems, Linux workflows, knowledge architecture, and long-term continuity. External target: https://www.youtube.com/@Iinkognit0 Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="video_channel"/>
+</entry>
+<entry>
+<title>Iinkognit0</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0004/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0004/" rel="alternate"/>
+<link href="https://dev.to/k501is" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>Patrick R. Miller (Iinkognit0) — Philosophy, society &amp; tech. Building K501 Information Space. Exploring systems, structure &amp; cognition. iinkognit0.de External target: https://dev.to/k501is Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="developer_profile"/>
+</entry>
+<entry>
+<title>K501</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0003/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0003/" rel="alternate"/>
+<link href="https://mastodon.social/@K501" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>The operator supplied this target URL for the channel register. A source title or description has not been supplied or retrieved. This entry registers the destination only and does not assert source contents. External target: https://mastodon.social/@K501 Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="social_profile"/>
+</entry>
+<entry>
+<title>AIONARC_SIGNAL_0002 — Source title not supplied or observed</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0002/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0002/" rel="alternate"/>
+<link href="https://github.com/k501-Information-Space" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>The operator supplied this target URL for the channel register. A source title or description has not been supplied or retrieved. This entry registers the destination only and does not assert source contents. External target: https://github.com/k501-Information-Space Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="organization"/>
+</entry>
+<entry>
+<title>K501 Information Space – A state-centered, reconstructable information space.</title>
+<id>https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0001/</id>
+<link href="https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0001/" rel="alternate"/>
+<link href="https://k501informationspace.wordpress.com" rel="related"/>
+<updated>2026-11-20T14:36:02Z</updated>
+<published>2026-11-20T14:36:02Z</published>
+<summary>K501 investigates how information can retain identity, provenance, temporal context and reconstructable relationships as systems and environments change. This website is the public documentation and publication gateway for selected K501 research and software artifacts. External target: https://k501informationspace.wordpress.com Channel registration: 2026-11-20T14:36:02Z. Source publication date: not asserted. Registration is not proof of the external source.</summary>
+<category term="website"/>
+</entry>
+</feed>

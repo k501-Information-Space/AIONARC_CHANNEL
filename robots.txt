@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://k501-information-space.github.io/AIONARC_CHANNEL/sitemap.xml
