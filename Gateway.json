@@ -1,0 +1,79 @@
+{
+  "schema_id": "AIONARC_CHANNEL_REPOSITORY_GATEWAY/1.0.0",
+  "artifact_id": "AIONARC_CHANNEL_GATEWAY_1_0_0_1795187344",
+  "status": "ACTIVE_NAVIGATION_ONLY",
+  "canonical": false,
+  "repository": {
+    "full_name": "k501-Information-Space/AIONARC_CHANNEL",
+    "branch": "main",
+    "role": "PUBLIC_REFERENCE_AND_DISTRIBUTION_CHANNEL"
+  },
+  "publication_site": {
+    "base_url": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+    "source_mode": "GITHUB_PAGES_BRANCH_ROOT",
+    "root_output": true
+  },
+  "active_registry": {
+    "path": "signals/registry.json",
+    "artifact_id": "AIONARC_CHANNEL_SIGNAL_REGISTRY_1795185362",
+    "namespace": "AIONARC_SIGNAL_NNNN",
+    "first": "AIONARC_SIGNAL_0001",
+    "last": "AIONARC_SIGNAL_0017",
+    "count": 17,
+    "next": "AIONARC_SIGNAL_0018",
+    "next_status": "OPEN_UNASSIGNED"
+  },
+  "entrypoints": {
+    "human": "README.md",
+    "index": "index.html",
+    "registry": "signals/registry.json",
+    "manifest": "manifest.json",
+    "gateway_human": "Gateway.md",
+    "gateway_machine": "Gateway.json",
+    "index_human": "Index.md",
+    "index_machine": "Index.json"
+  },
+  "feeds": {
+    "rss": "rss.xml",
+    "atom": "atom.xml",
+    "json_feed": "feed.json"
+  },
+  "discovery": {
+    "robots": "robots.txt",
+    "sitemap": "sitemap.xml"
+  },
+  "notifications": {
+    "indexnow": {
+      "endpoint": "https://api.indexnow.org/indexnow",
+      "key_file": "7bd06f0b51434af617d988f6fb785a171f45d28f5a8930ebf66e9958472a0a51.txt",
+      "key_location_required": true,
+      "scope": "https://k501-information-space.github.io/AIONARC_CHANNEL/"
+    },
+    "websub": {
+      "hub": "https://switchboard.p3k.io/",
+      "topics": [
+        "rss.xml",
+        "atom.xml",
+        "feed.json"
+      ]
+    }
+  },
+  "historical": {
+    "namespace": "SIGNAL_NNNN",
+    "status": "HISTORICAL_ONLY",
+    "path": "history/legacy-channel-state/",
+    "git_history_preserved": true,
+    "no_identity_mapping": true
+  },
+  "authority": {
+    "gateway": "NAVIGATION_ONLY",
+    "index": "DERIVED_NAVIGATION_ONLY",
+    "repository_canonical": false,
+    "registration_is_proof": false
+  },
+  "source": {
+    "operator_register_path": "/K501_LIBRARY/K501_AIONARC_CHANNEL_SIGNAL_REGISTER_OPERATOR_BINDING_v0.1.0_1795185362_2026-11-20.json",
+    "operator_anchor": 1795185362
+  },
+  "implementation_anchor": 1795187344
+}

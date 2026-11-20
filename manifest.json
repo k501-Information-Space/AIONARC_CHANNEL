@@ -1,0 +1,54 @@
+{
+  "artifact_type": "AIONARC_CHANNEL_PUBLICATION_MANIFEST",
+  "schema_id": "AIONARC_CHANNEL_PUBLICATION_MANIFEST/1.0.0",
+  "version": "1.0.0",
+  "status": "ACTIVE_REFERENCE_REGISTER",
+  "repository": "k501-Information-Space/AIONARC_CHANNEL",
+  "branch": "main",
+  "publication_site": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+  "source_mode": "GITHUB_PAGES_BRANCH_ROOT",
+  "registry": "signals/registry.json",
+  "registry_id": "AIONARC_CHANNEL_SIGNAL_REGISTRY_1795185362",
+  "registry_anchor": 1795185362,
+  "assigned_signal_namespace": "AIONARC_SIGNAL_NNNN",
+  "assigned_signals": 17,
+  "latest_assigned_signal": "AIONARC_SIGNAL_0017",
+  "next_signal": {
+    "id": "AIONARC_SIGNAL_0018",
+    "status": "OPEN_UNASSIGNED",
+    "published": false
+  },
+  "legacy_namespace": {
+    "id": "SIGNAL_NNNN",
+    "status": "HISTORICAL_ONLY",
+    "active": false,
+    "preserved_in": "history/legacy-channel-state/"
+  },
+  "feeds": [
+    "rss.xml",
+    "atom.xml",
+    "feed.json"
+  ],
+  "discovery": {
+    "robots": "robots.txt",
+    "sitemap": "sitemap.xml"
+  },
+  "notifications": {
+    "indexnow": {
+      "endpoint": "https://api.indexnow.org/indexnow",
+      "scope": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+      "key_file": "7bd06f0b51434af617d988f6fb785a171f45d28f5a8930ebf66e9958472a0a51.txt",
+      "key_location_required": true
+    },
+    "websub": {
+      "hub": "https://switchboard.p3k.io/",
+      "topics": [
+        "rss.xml",
+        "atom.xml",
+        "feed.json"
+      ]
+    }
+  },
+  "canonical": false,
+  "publication_boundary": "Reference registration does not prove the underlying source or promote it to canonical K501 state."
+}
