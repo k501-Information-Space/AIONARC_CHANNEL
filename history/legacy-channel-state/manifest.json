@@ -1,0 +1,137 @@
+{
+  "space": "AIONARC_CHANNEL",
+  "version": "1.1",
+  "status": "ACTIVE",
+  "signals": 14,
+  "current_signal": "SIGNAL_0014",
+  "next_signal": "SIGNAL_0015",
+  "namespace": "K501-AIONARC",
+  "feeds": [
+    "rss.xml",
+    "atom.xml",
+    "feed.json"
+  ],
+  "homepage": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+  "repository": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+  "contact": "contact.k501@proton.me",
+  "orcid": "0009-0004-3275-9545",
+  "authors": [
+    {
+      "name": "Patrick R Miller",
+      "alias": "iinkognit0",
+      "url": "https://orcid.org/0009-0004-3275-9545"
+    }
+  ],
+  "license": "MIT",
+  "generator": "AIONARC_CHANNEL",
+  "description": "Append-only signal layer for philosophy, archive intelligence, information continuity, AIONARC, QH256 and the K501 Information Space.",
+  "current_publication": {
+    "signal": "SIGNAL_0014",
+    "title": "K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index",
+    "publication_type": "Publication Reference Index",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json",
+    "reference_urls": [
+      "https://zenodo.org/records/24051677",
+      "https://zenodo.org/records/24218851",
+      "https://dev.to/k501is/k501-qhstatekernel-v1-und-der-k501-information-space-362f"
+    ],
+    "reference_metadata_boundary": {
+      "zenodo_24051677": "HISTORICAL_TITLE_AVAILABLE; CURRENT_METADATA_UNKNOWN_UNVERIFIED",
+      "zenodo_24218851": "TITLE_AND_METADATA_UNKNOWN_NOT_RETRIEVED",
+      "devto_article": "TITLE_SLUG_DERIVED; ARTICLE_BODY_NOT_RETRIEVED"
+    },
+    "publication_epoch": 1795068779,
+    "publication_utc": "2026-11-19T06:12:59Z",
+    "publication_europe_berlin": "2026-11-19T07:12:59+01:00",
+    "registration_time_not_source_publication_date": true
+  },
+  "gateway": {
+    "markdown": "Gateway.md",
+    "json": "Gateway.json"
+  },
+  "index": {
+    "present": true,
+    "indexing_performed": true,
+    "human": "Index.md",
+    "machine": "Index.json",
+    "classification": "ROOT_NAVIGATION_DIRECTORY",
+    "complete": false,
+    "scope": "Non-exhaustive root entrypoint directory only; no recursive content inventory, file byte count or content hash is asserted."
+  },
+  "previous_signal": {
+    "signal": "SIGNAL_0013",
+    "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+    "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+    "publication_epoch": 1793095162
+  },
+  "legacy_channel_gateway": {
+    "markdown": "GATEWAY.md",
+    "json": "GATEWAY.json"
+  },
+  "previous_index_state": {
+    "present": false,
+    "indexing_performed": false,
+    "source_commit": "0344feeb98c7af4a21271c69a39076e9edac3f65",
+    "preserved_from_previous_manifest": true
+  },
+  "repository_navigation": {
+    "standard": "K501_REPOSITORY_ROOT_ENTRYPOINTS/0.1.0-draft",
+    "role": "NAVIGATION_ONLY",
+    "current_signal_records_unchanged": true,
+    "no_new_signal_created": false,
+    "historical_signal_records_unchanged": true,
+    "new_signal_appended": "SIGNAL_0014"
+  },
+  "previous_publication": {
+    "signal": "SIGNAL_0013",
+    "title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0 — Public Release and Download",
+    "publication_type": "Public Release Announcement",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json",
+    "state_subject_repository": "https://github.com/k501-Information-Space/K501-AIONARC",
+    "observed_head_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "release_page": "https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0",
+    "direct_download": "https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip",
+    "archive_sha256": "774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223",
+    "archive_bytes": 618739,
+    "publication_epoch": 1793095162,
+    "publication_utc": "2026-10-27T09:59:22Z",
+    "publication_europe_berlin": "2026-10-27T10:59:22+01:00"
+  },
+  "previous_signal_before_0014": {
+    "signal": "SIGNAL_0012",
+    "title": "QH256 Repository State Anchor — Canonical Main Readback",
+    "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "record_markdown": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md",
+    "record_json": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json",
+    "state_subject_repository": "https://github.com/k501-Information-Space/QH256",
+    "publication_epoch": 1792581072
+  },
+  "signal_update": {
+    "based_on_commit": "3a0514c53310d75a8eb20a8630436538689335c0",
+    "operator_time_anchor": {
+      "unix_epoch": 1795068779,
+      "utc": "2026-11-19T06:12:59Z",
+      "europe_berlin": "2026-11-19T07:12:59+01:00",
+      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+      "system_time_independently_verified": false
+    },
+    "signal_pair": {
+      "markdown": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md",
+      "json": "SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.json"
+    },
+    "references": [
+      "https://zenodo.org/records/24051677",
+      "https://zenodo.org/records/24218851",
+      "https://dev.to/k501is/k501-qhstatekernel-v1-und-der-k501-information-space-362f"
+    ],
+    "signal_count": 14,
+    "current_signal": "SIGNAL_0014",
+    "next_signal": "SIGNAL_0015",
+    "append_only": true,
+    "historical_signal_files_modified": false
+  }
+}

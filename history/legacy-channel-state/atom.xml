@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>AIONARC_CHANNEL</title>
+
+  <id>https://k501-information-space.github.io/AIONARC_CHANNEL/</id>
+
+  <link
+    href="https://k501-information-space.github.io/AIONARC_CHANNEL/"
+    rel="alternate"/>
+
+  <link
+    href="https://k501-information-space.github.io/AIONARC_CHANNEL/atom.xml"
+    rel="self"
+    type="application/atom+xml"/>
+
+  <updated>2026-11-19T06:12:59Z</updated>
+
+  <subtitle>
+    Append-only signal layer for philosophy, archive intelligence,
+    information continuity, AIONARC, QH256 and the K501 Information Space.
+  </subtitle>
+
+  <author>
+    <name>K501 Information Space</name>
+  </author>
+
+  <!-- SIGNAL_0014 -->
+  <entry>
+    <title>K501 QH_STATE_KERNEL V1 und der K501 Information Space — Publication Reference Index</title>
+    <id>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md</id>
+    <link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0014_K501_QH_STATE_KERNEL_V1_PUBLICATION_REFERENCES.md" rel="alternate"/>
+    <updated>2026-11-19T06:12:59Z</updated>
+    <published>2026-11-19T06:12:59Z</published>
+    <summary>Reference index for three separate public links: Zenodo record 24051677 (historical title: Stabilization and Transition: Grounded World Representation and Global State Awareness), Zenodo record 24218851 (title and current metadata not retrieved), and the DEV.to article K501 QH_STATE_KERNEL V1 und der K501 Information Space. Link registration only; source contents and current metadata are not validated.</summary>
+    <category term="K501 Information Space"/>
+    <category term="QH_STATE_KERNEL V1"/>
+    <category term="Publication References"/>
+  </entry>
+
+  <!-- SIGNAL_0013 -->
+  <entry>
+    <title>K501 AIONARC Integrated Pipeline &amp; Proof Runtime v3.5.0 — Public Release and Download</title>
+    <id>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md</id>
+    <link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.md" rel="alternate"/>
+    <updated>2026-10-27T09:59:22Z</updated>
+    <published>2026-10-27T09:59:22Z</published>
+    <summary>K501 AIONARC Integrated Pipeline &amp; Proof Runtime v3.5.0 is publicly released. Download: https://github.com/k501-Information-Space/K501-AIONARC/releases/download/v3.5.0/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip. Archive size: 618739 bytes. SHA-256: 774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223. Source commit: 946836c3d160ce25d38d5456baa8ed586a1ecd05. Recorded pre-publication checks passed in the declared Linux x86-64 environment; results are bounded to that environment. Embedded component versions remain 3.0.0-alpha.1 and 0.1.0-alpha.1. Zenodo publication and DOI remain open. Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0013_K501_AIONARC_V3_5_0_PUBLIC_RELEASE.json</summary>
+    <category term="K501 AIONARC"/>
+    <category term="Public Release"/>
+    <category term="Download"/>
+    <category term="Reproducibility"/>
+  </entry>
+
+  <!-- SIGNAL_0012 -->
+  <entry>
+    <title>QH256 Repository State Anchor — Canonical Main Readback</title>
+    <id>https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md</id>
+    <link href="https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.md" rel="alternate"/>
+    <updated>2026-10-21T11:11:12Z</updated>
+    <published>2026-10-21T11:11:12Z</published>
+    <summary>
+      State Anchor for QH256 repository k501-Information-Space/QH256. Canonical main HEAD:
+      8bd3d7e0327a4c22f735b956d47529f5adc4bf8b. Root tree: 0c427a99489c6099d4f6044d710c43b8bfd0cf50. Complete path inventory:
+      150 entries (121 file/blob entries and
+      29 directory entries). Existing validation status is read from
+      repository documentation; no fresh validation run was executed.
+      The scoped manifest is not a full-repository byte hash.
+      Machine record: https://github.com/k501-Information-Space/AIONARC_CHANNEL/blob/main/SIGNAL_0012_QH256_STATE_ANCHOR.json
+    </summary>
+    <category term="QH256"/>
+    <category term="K501 Information Space"/>
+    <category term="State Anchor"/>
+    <category term="AIONARC"/>
+  </entry>
+
+  <!-- SIGNAL_0011 -->
+  <entry>
+
+    <title>
+      K501 Information Space: Proof-Bound Temporal Memory Infrastructure
+      for Machine Cognition
+    </title>
+
+    <id>https://zenodo.org/records/23223085</id>
+
+    <link
+      href="https://zenodo.org/records/23223085"
+      rel="alternate"/>
+
+    <updated>2026-10-08T01:02:34Z</updated>
+    <published>2026-10-08T01:02:34Z</published>
+
+    <summary>
+      Research Dossier v0.1 documenting the formal system description,
+      current evidence, comparative research, reproducibility package
+      and development roadmap for proof-bound temporal memory
+      infrastructure. The publication presents a bounded research
+      state and does not claim a completed general-purpose AI memory
+      system. Zenodo record 23223085. DOI: 10.5281/zenodo.23223085.
+    </summary>
+
+    <category term="K501 Information Space"/>
+    <category term="AIONARC"/>
+    <category term="Research Dossier"/>
+    <category term="Machine Cognition"/>
+
+  </entry>
+
+  <!-- SIGNAL_0010 -->
+  <entry>
+
+    <title>
+      QH256 Formal Scientific Specification v2.0 — Validation &amp; Canonical Reference
+    </title>
+
+    <id>https://zenodo.org/records/21957465</id>
+
+    <link
+      href="https://zenodo.org/records/21957465"
+      rel="alternate"/>
+
+    <updated>2026-08-25T03:12:47Z</updated>
+    <published>2026-08-25T03:12:47Z</published>
+
+    <summary>
+      QH256 Formal Scientific Specification v2.0.
+      Canonical scientific reference for the QH256 state algebra,
+      formal structure, deterministic representation and validation
+      boundary within the K501 Information Space.
+      The corresponding implementation and validation repository
+      is maintained in the official K501 QH256 repository.
+    </summary>
+
+    <category term="QH256"/>
+    <category term="K501 Information Space"/>
+    <category term="AIONARC"/>
+
+  </entry>
+
+  <!-- SIGNAL_0009 -->
+  <entry>
+
+    <title>K501-Technical Prototype Roadmap — Editorial Revision v1.1</title>
+
+    <id>
+      https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl
+    </id>
+
+    <link
+      href="https://dev.to/k501is/k501-technical-prototype-roadmap-v11-devto-edition-2ihl"
+      rel="alternate"/>
+
+    <updated>2026-08-18T22:34:57Z</updated>
+    <published>2026-08-18T22:34:57Z</published>
+
+    <summary>
+      K501-AIONARC technical prototype roadmap.
+      Editorial Revision v1.1 documents the consolidated architecture,
+      core invariants, proof-before-state principle, current implementation
+      status, dependency structure, technical priorities, validation gates,
+      and controlled publication boundary.
+      Current open gate:
+      deterministic collection manifest drift comparison.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0008 -->
+  <entry>
+
+    <title>AI Is Not the Singularity. This Is.</title>
+
+    <id>https://youtu.be/XcMMe5hsRsE</id>
+
+    <link
+      href="https://youtu.be/XcMMe5hsRsE"
+      rel="alternate"/>
+
+    <updated>2026-06-16T18:00:00Z</updated>
+    <published>2026-06-16T18:00:00Z</published>
+
+    <summary>
+      K501–AIONARC Canonical Statement exploring Information Space
+      Architecture, Distributed Intelligence, Digital Continuity,
+      Canonical Objects, QH256 Information Topology, Temporal Identity
+      and a reinterpretation of Singularity as convergence rather
+      than replacement.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0007 -->
+  <entry>
+
+    <title>Archive Intelligence Beyond RAG</title>
+
+    <id>https://youtu.be/Mfa1lU2G-Dc</id>
+
+    <link
+      href="https://youtu.be/Mfa1lU2G-Dc"
+      rel="alternate"/>
+
+    <updated>2026-06-16T17:30:00Z</updated>
+    <published>2026-06-16T17:30:00Z</published>
+
+    <summary>
+      K501 Archive Intelligence.
+      Beyond RAG, embeddings and vector databases.
+      State-based retrieval, proof verification,
+      canonical knowledge structures, temporal anchoring
+      and archival intelligence.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0006 -->
+  <entry>
+
+    <title>Untitled Refexions - Token Space Harmonization</title>
+
+    <id>
+      https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04
+    </id>
+
+    <link
+      href="https://dev.to/k501is/as-i-state-untitled-refexions-k501-iinkognit0-2e04"
+      rel="alternate"/>
+
+    <updated>2026-06-16T16:45:00Z</updated>
+    <published>2026-06-16T16:45:00Z</published>
+
+    <summary>
+      Reflections on token-space harmonization,
+      reduction of destructive drift,
+      information-space stabilization and structural coherence
+      in complex systems.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0005 -->
+  <entry>
+
+    <title>Architecture Specification &amp; Formal System Report</title>
+
+    <id>
+      https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9
+    </id>
+
+    <link
+      href="https://dev.to/k501is/architecture-specification-formal-system-report-k501-aionarc-5fe9"
+      rel="alternate"/>
+
+    <updated>2026-06-16T16:00:00Z</updated>
+    <published>2026-06-16T16:00:00Z</published>
+
+    <summary>
+      Formal architecture specification of the K501-AIONARC
+      Information Space.
+      Deterministic, append-only, mathematically structured
+      informational continuum.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0004 -->
+  <entry>
+
+    <title>Initialization of The Eternal Archive AIONARC</title>
+
+    <id>
+      https://mastodon.social/@K501/116620222724480965
+    </id>
+
+    <link
+      href="https://mastodon.social/@K501/116620222724480965"
+      rel="alternate"/>
+
+    <updated>2026-06-16T15:30:00Z</updated>
+    <published>2026-06-16T15:30:00Z</published>
+
+    <summary>
+      K501: Initialization of The Eternal Archive AIONARC confirmed.
+      The transition is complete.
+      From the digital realm to the Eternal Information Space.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0003 -->
+  <entry>
+
+    <title>FRAMES - A Timeless Canonical Archive</title>
+
+    <id>
+      https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h
+    </id>
+
+    <link
+      href="https://dev.to/k501is/frames-a-timeless-canonical-archive-i4h"
+      rel="alternate"/>
+
+    <updated>2026-06-16T15:00:00Z</updated>
+    <published>2026-06-16T15:00:00Z</published>
+
+    <summary>
+      Early canonical reference-state document,
+      boot-frame stabilization layer and long-context reference
+      structure for information-space continuity.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0002 -->
+  <entry>
+
+    <title>K501 CANON RECONSTRUCTION COMPLETE</title>
+
+    <id>
+      https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m
+    </id>
+
+    <link
+      href="https://dev.to/k501is/k501-canon-reconstruction-complete-4e7m"
+      rel="alternate"/>
+
+    <updated>2026-06-16T14:30:00Z</updated>
+    <published>2026-06-16T14:30:00Z</published>
+
+    <summary>
+      Structural stabilization of information space.
+      Not ideology.
+      Not belief.
+      Not narrative.
+      Deterministic stabilization through structure.
+    </summary>
+
+  </entry>
+
+  <!-- SIGNAL_0001 -->
+  <entry>
+
+    <title>Relativ Überlagerte Zeit-Raum-Singularität</title>
+
+    <id>
+      https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1
+    </id>
+
+    <link
+      href="https://dev.to/k501is/relativ-uberlagerte-zeit-raum-singularitat-11n1"
+      rel="alternate"/>
+
+    <updated>2026-05-25T20:32:18Z</updated>
+    <published>2026-05-25T20:32:18Z</published>
+
+    <summary>
+      Philosophisch-physikalische Theorie über Zeit-Raum-Einheit,
+      Überlagerung, Energiedichte, Resonanz, rekonstruierbare Zeit
+      und Singularitätszustände.
+    </summary>
+
+  </entry>
+
+</feed>
