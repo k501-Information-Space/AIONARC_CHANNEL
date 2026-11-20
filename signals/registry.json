@@ -1,0 +1,573 @@
+{
+  "artifact_type": "AIONARC_CHANNEL_SIGNAL_REGISTRY",
+  "artifact_id": "AIONARC_CHANNEL_SIGNAL_REGISTRY_1795185362",
+  "schema_id": "AIONARC_CHANNEL_SIGNAL_REGISTRY/1.0.0",
+  "version": "1.0.0",
+  "status": "ACTIVE_OPERATOR_BOUND_REFERENCE_REGISTER",
+  "canonical": false,
+  "repository": {
+    "full_name": "k501-Information-Space/AIONARC_CHANNEL",
+    "branch": "main",
+    "role": "PUBLIC_PUBLICATION_AND_DISTRIBUTION_CHANNEL"
+  },
+  "publication_site": {
+    "base_url": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+    "source_mode": "GITHUB_PAGES_BRANCH_ROOT",
+    "root_output": true,
+    "site_directory_output": false,
+    "source_mode_evidence": {
+      "commit": "e043179c6f07216a0cc5ca702516de3833a0009c",
+      "pages_workflow_run": 55,
+      "pages_workflow_run_id": 44472216721,
+      "pages_workflow_status": "completed",
+      "pages_workflow_conclusion": "success",
+      "workflow_path": "dynamic/pages/pages-build-deployment",
+      "observed_at": "2026-11-19T06:26:49Z"
+    }
+  },
+  "operator_register_source": {
+    "artifact_id": "K501_AIONARC_CHANNEL_SIGNAL_REGISTER_OPERATOR_BINDING_0_1_0_1795185362_2026-11-20",
+    "schema_id": "K501_AIONARC_CHANNEL_SIGNAL_REGISTER/0.1.0",
+    "library_path": "/K501_LIBRARY/K501_AIONARC_CHANNEL_SIGNAL_REGISTER_OPERATOR_BINDING_v0.1.0_1795185362_2026-11-20.json",
+    "operator_anchor": 1795185362,
+    "immutable_binding": true
+  },
+  "reconciliation": {
+    "operator_go_anchor": 1795187344,
+    "operator_go_utc": "2026-11-20T15:09:04Z",
+    "operator_go_europe_berlin": "2026-11-20T16:09:04+01:00",
+    "status": "SOURCE_METADATA_OBSERVED_WITH_EXPLICIT_OPEN_FIELDS"
+  },
+  "registration_time": {
+    "unix_epoch": 1795185362,
+    "utc": "2026-11-20T14:36:02Z",
+    "rfc822": "Fri, 20 Nov 2026 14:36:02 GMT",
+    "europe_berlin": "2026-11-20T15:36:02+01:00"
+  },
+  "updated_at": "2026-11-20T14:36:02Z",
+  "signal_namespace": {
+    "active": "AIONARC_SIGNAL_NNNN",
+    "first_assigned": "AIONARC_SIGNAL_0001",
+    "last_assigned": "AIONARC_SIGNAL_0017",
+    "assigned_count": 17,
+    "ordering": "ASCENDING_OPERATOR_REGISTER_SEQUENCE",
+    "next_slot": {
+      "signal_id": "AIONARC_SIGNAL_0018",
+      "status": "OPEN_UNASSIGNED",
+      "target_url": null,
+      "title": null,
+      "description": null,
+      "publish": false
+    }
+  },
+  "legacy_sequence": {
+    "namespace": "SIGNAL_NNNN",
+    "status": "HISTORICAL_ONLY_NOT_ACTIVE",
+    "current_main_range": "SIGNAL_0012 through SIGNAL_0014 paired files",
+    "identity_rule": "Legacy and new identifiers are distinct. Matching suffixes do not establish identity or equivalence.",
+    "historical_source_commit": "e043179c6f07216a0cc5ca702516de3833a0009c",
+    "git_history_preserved": true
+  },
+  "publication_semantics": {
+    "record_type": "REFERENCE_REGISTRATION",
+    "channel_registration_date_is_not_external_source_publication_date": true,
+    "external_target_is_not_the_canonical_page": true,
+    "missing_metadata_remains_open": true,
+    "source_claims_are_not_independently_proven_by_registration": true
+  },
+  "distribution": {
+    "rss": {
+      "path": "rss.xml",
+      "standard": "RSS 2.0"
+    },
+    "atom": {
+      "path": "atom.xml",
+      "standard": "Atom 1.0 / RFC 4287"
+    },
+    "json_feed": {
+      "path": "feed.json",
+      "standard": "JSON Feed 1.1"
+    },
+    "sitemap": {
+      "path": "sitemap.xml"
+    },
+    "robots": {
+      "path": "robots.txt",
+      "standard": "RFC 9309"
+    },
+    "websub": {
+      "hub_url": "https://switchboard.p3k.io/",
+      "status": "SELECTED_BY_OPERATOR; PUBLISHER_ANNOUNCEMENT_ONLY"
+    },
+    "indexnow": {
+      "endpoint": "https://api.indexnow.org/indexnow",
+      "key_file": "https://k501-information-space.github.io/AIONARC_CHANNEL/7bd06f0b51434af617d988f6fb785a171f45d28f5a8930ebf66e9958472a0a51.txt",
+      "key_scope": "https://k501-information-space.github.io/AIONARC_CHANNEL/",
+      "key_location_required": true,
+      "scope_rule": "Only AIONARC_CHANNEL-owned Pages URLs; external targets excluded."
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "AIONARC_SIGNAL_0001",
+      "sequence_number": 1,
+      "target_url": "https://k501informationspace.wordpress.com",
+      "reference_kind": "website",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "K501 Information Space – A state-centered, reconstructable information space.",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "K501 investigates how information can retain identity, provenance, temporal context and reconstructable relationships as systems and environments change. This website is the public documentation and publication gateway for selected K501 research and software artifacts.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "SOURCE_PAGE_TITLE_AND_DESCRIPTION_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0001/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0002",
+      "sequence_number": 2,
+      "target_url": "https://github.com/k501-Information-Space",
+      "reference_kind": "organization",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": null,
+      "source_title_status": "OPEN_NOT_RETRIEVED",
+      "verified_source_description": null,
+      "source_description_status": "OPEN_NOT_RETRIEVED",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "TARGET_OWNER_CONFIRMED; PROFILE_TITLE_AND_DESCRIPTION_OPEN"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0002/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0003",
+      "sequence_number": 3,
+      "target_url": "https://mastodon.social/@K501",
+      "reference_kind": "social_profile",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "K501",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": null,
+      "source_description_status": "OPEN_NOT_RETRIEVED",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "PROFILE_NAME_OBSERVED; PROFILE_DESCRIPTION_OPEN"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0003/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0004",
+      "sequence_number": 4,
+      "target_url": "https://dev.to/k501is",
+      "reference_kind": "developer_profile",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "Iinkognit0",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "Patrick R. Miller (Iinkognit0) — Philosophy, society & tech. Building K501 Information Space. Exploring systems, structure & cognition. iinkognit0.de",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "PROFILE_NAME_AND_BIO_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0004/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0005",
+      "sequence_number": 5,
+      "target_url": "https://www.youtube.com/@Iinkognit0",
+      "reference_kind": "video_channel",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "K501 Information Space",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "K501 Information Space — archive-first digital infrastructure, local AI systems, Linux workflows, knowledge architecture, and long-term continuity.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "CHANNEL_NAME_AND_DESCRIPTION_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0005/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0006",
+      "sequence_number": 6,
+      "target_url": "https://www.tiktok.com/@patrick.sayzso",
+      "reference_kind": "social_profile",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "Patrick Sayzso",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "Pop-Art Videography and Urbanism",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "PROFILE_NAME_AND_BIO_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0006/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0007",
+      "sequence_number": 7,
+      "target_url": "https://substack.com/@k501is",
+      "reference_kind": "publishing_profile",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "Patrick Robert Miller",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": null,
+      "source_description_status": "OPEN_NOT_RETRIEVED",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "PROFILE_NAME_OBSERVED; PROFILE_DESCRIPTION_OPEN"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0007/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0008",
+      "sequence_number": 8,
+      "target_url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+      "reference_kind": "repository",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "AIONARC_CHANNEL",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "Append-only public signal layer for the K501 Information Space and K501-AIONARC. The repository is a publication and distribution channel, not the canonical K501 Information Space.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "REPOSITORY_METADATA_AND_README_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0008/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0009",
+      "sequence_number": 9,
+      "target_url": "https://github.com/k501-Information-Space/QH256",
+      "reference_kind": "repository",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "QH256 — K501 Information Space",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "QH256 is a deterministic four-state information algebra and 256-bit state representation consisting of 128 two-bit cells. It is not an archive, provenance store or semantic interpreter.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "REPOSITORY_README_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0009/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0010",
+      "sequence_number": 10,
+      "target_url": "https://github.com/k501-Information-Space/K501-AIONARC",
+      "reference_kind": "repository",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "K501 AIONARC Integrated Pipeline & Proof Runtime",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "Version 3.5.0 is a published stable integration package combining the K501 AIONARC Pipeline and the separate Proof/Evidence Runtime. Embedded component version identities remain distinct from the aggregate package version.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "REPOSITORY_README_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0010/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0011",
+      "sequence_number": 11,
+      "target_url": "https://github.com/k501-Information-Space/eArc",
+      "reference_kind": "repository",
+      "operator_supplied_reference_title": null,
+      "operator_title_status": "OPEN_NOT_SUPPLIED",
+      "verified_source_title": "eArc — Neutral K501 Development Archive",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "eArc is the neutral, append-only development archive for the historical and evolving K501 work corpus. It has no canonical authority; it preserves sources and their original declarations without adopting them.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "REPOSITORY_README_OBSERVED"
+      },
+      "source_publication_date": null,
+      "source_version": null,
+      "source_resource_type": null,
+      "source_metadata_validation": "PROFILE_OR_REPOSITORY_SCOPE_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0011/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0012",
+      "sequence_number": 12,
+      "target_url": "https://doi.org/10.5281/zenodo.21957465",
+      "reference_kind": "zenodo_publication",
+      "operator_supplied_reference_title": "QH256 — K501 Information Space: Introduction, Formal Scientific Specification v2.0, and References",
+      "operator_title_status": "OPERATOR_SUPPLIED_AND_SOURCE_MATCH_VERIFIED",
+      "verified_source_title": "QH256 — K501 Information Space: Introduction, Formal Scientific Specification v2.0, and References",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "This publication package presents the QH256 information-state construction within the broader K501 Information Space project. It contains an introduction, the formal scientific specification v2.0 and references.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "ZENODO_RECORD_TITLE_DESCRIPTION_AND_VERSION_OBSERVED"
+      },
+      "source_publication_date": "2026-08-23",
+      "source_version": "2.0",
+      "source_resource_type": "Publication",
+      "source_metadata_validation": "TITLE_DESCRIPTION_DATE_VERSION_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0012/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0013",
+      "sequence_number": 13,
+      "target_url": "https://doi.org/10.5281/zenodo.23701613",
+      "reference_kind": "zenodo_software",
+      "operator_supplied_reference_title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0",
+      "operator_title_status": "OPERATOR_SUPPLIED_AND_SOURCE_MATCH_VERIFIED",
+      "verified_source_title": "K501 AIONARC Integrated Pipeline & Proof Runtime v3.5.0",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "A versioned software integration combining a structural information pipeline with a separate process-evidence runtime. The record documents bounded build, test, validation and reproducibility evidence.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "ZENODO_RECORD_TITLE_DESCRIPTION_AND_VERSION_OBSERVED"
+      },
+      "source_publication_date": "2026-10-27",
+      "source_version": "v3.5.0",
+      "source_resource_type": "Software",
+      "source_metadata_validation": "TITLE_DESCRIPTION_DATE_VERSION_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0013/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0014",
+      "sequence_number": 14,
+      "target_url": "https://doi.org/10.5281/zenodo.23223085",
+      "reference_kind": "zenodo_publication",
+      "operator_supplied_reference_title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
+      "operator_title_status": "OPERATOR_SUPPLIED_AND_SOURCE_MATCH_VERIFIED",
+      "verified_source_title": "K501 Information Space: Proof-Bound Temporal Memory Infrastructure for Machine Cognition",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "Version 0.1 of the K501 Information Space research dossier and reproducibility package. It documents a bounded research state, implementation evidence, comparative context and open research questions; it does not claim a completed general-purpose memory system.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "ZENODO_RECORD_TITLE_DESCRIPTION_AND_VERSION_OBSERVED"
+      },
+      "source_publication_date": "2026-10-07",
+      "source_version": "v0.1",
+      "source_resource_type": "Publication",
+      "source_metadata_validation": "TITLE_DESCRIPTION_DATE_VERSION_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0014/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0015",
+      "sequence_number": 15,
+      "target_url": "https://doi.org/10.5281/zenodo.23350887",
+      "reference_kind": "zenodo_preprint",
+      "operator_supplied_reference_title": "Stabilization and Transition: The Human as a Potentially Transitional Configuration in Evolutionary Systems and the Role of Frame-Based Structures",
+      "operator_title_status": "OPERATOR_SUPPLIED_AND_SOURCE_MATCH_VERIFIED",
+      "verified_source_title": "Stabilization and Transition: The Human as a Potentially Transitional Configuration in Evolutionary Systems and the Role of Frame-Based Structures",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "A conceptual research essay examining whether human representational, technological and organizational capabilities may develop faster than coordination, verification, stabilization and long-term continuity mechanisms. Its central evolutionary proposition remains a hypothesis, not an established empirical result.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "ZENODO_RECORD_TITLE_DESCRIPTION_AND_VERSION_OBSERVED"
+      },
+      "source_publication_date": "2026-10-13",
+      "source_version": "v2.0",
+      "source_resource_type": "Preprint",
+      "source_metadata_validation": "TITLE_DESCRIPTION_DATE_VERSION_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0015/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0016",
+      "sequence_number": 16,
+      "target_url": "https://doi.org/10.5281/zenodo.24051677",
+      "reference_kind": "zenodo_book",
+      "operator_supplied_reference_title": "Stabilization and Transition: Grounded World Representation and Global State Awareness",
+      "operator_title_status": "OPERATOR_SUPPLIED_AND_SOURCE_MATCH_VERIFIED",
+      "verified_source_title": "Stabilization and Transition: Grounded World Representation and Global State Awareness",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "A research monograph on how sensor observations and multiple information sources can become a grounded, coherent and temporally continuous representation of the world. It addresses identity, context, spatial and temporal references, provenance and continuity as the world changes.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "ZENODO_RECORD_TITLE_DESCRIPTION_AND_VERSION_OBSERVED"
+      },
+      "source_publication_date": "2026-11-08",
+      "source_version": "1.1",
+      "source_resource_type": "Book",
+      "source_metadata_validation": "TITLE_DESCRIPTION_DATE_VERSION_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0016/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    },
+    {
+      "signal_id": "AIONARC_SIGNAL_0017",
+      "sequence_number": 17,
+      "target_url": "https://doi.org/10.5281/zenodo.24218851",
+      "reference_kind": "zenodo_software",
+      "operator_supplied_reference_title": "K501 QH_STATE_KERNEL V1: A Deterministic, Append-Only, Reconstructive Information-State Architecture",
+      "operator_title_status": "OPERATOR_SUPPLIED_AND_SOURCE_MATCH_VERIFIED",
+      "verified_source_title": "K501 QH_STATE_KERNEL V1: A Deterministic, Append-Only, Reconstructive Information-State Architecture",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "verified_source_description": "A deterministic, append-only, reconstructive information-state architecture developed within the K501 Information Space project. It connects source preservation, typed identity, QH256, context-bound transitions, Proof Before State, bounded GSA/GIC projections and deterministic reconstruction.",
+      "source_description_status": "OBSERVED_OR_SOURCE_BOUND_SUMMARY",
+      "source_observation": {
+        "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
+        "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
+        "status": "ZENODO_RECORD_TITLE_DESCRIPTION_AND_VERSION_OBSERVED"
+      },
+      "source_publication_date": "2026-11-14",
+      "source_version": "1.0.3",
+      "source_resource_type": "Software",
+      "source_metadata_validation": "TITLE_DESCRIPTION_DATE_VERSION_OBSERVED",
+      "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
+      "channel_registration_time": "2026-11-20T14:36:02Z",
+      "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0017/",
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+    }
+  ],
+  "known_conflicts": [
+    {
+      "id": "QH256_DOI_21957464_21957465",
+      "scope": "Historical QH256/ORCID-related DOI references",
+      "observation": "Zenodo record 21957465 is the version-specific DOI; the Zenodo page identifies 21957464 as the all-versions DOI.",
+      "resolution_scope": "Clarifies the DOI roles displayed by this record page only. Other historical references remain subject to source-by-source reconciliation.",
+      "status": "PARTIALLY_CLARIFIED_NOT_GLOBALLY_CLOSED"
+    },
+    {
+      "id": "LEGACY_DATE_SIGNAL_0014",
+      "scope": "Former old SIGNAL_0011 / Zenodo 23223085 source publication date",
+      "observation": "Former feed used 2026-10-08; current Zenodo record page says Published October 7, 2026.",
+      "status": "SOURCE_PAGE_DATE_USED; LEGACY_VALUE_PRESERVED_IN_HISTORY"
+    }
+  ],
+  "active_public_output": {
+    "assigned_references": 17,
+    "open_title_count": 1,
+    "open_description_count": 2,
+    "source_publication_date_count": 6,
+    "open_signal_slots_published": 0
+  },
+  "operating_invariants": [
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "OBSERVE_BEFORE_MUTATE",
+    "PURE_LOGIC",
+    "APPEND_ONLY",
+    "NO_DRIFT",
+    "NO_INTERPRETATION",
+    "NO_PHANTOM",
+    "UNKNOWN_BY_DEFAULT",
+    "TRACEABILITY_REQUIRED",
+    "TEMPORAL_CONSISTENCY",
+    "DENSIFICATION_WITHOUT_ERASURE"
+  ]
+}
