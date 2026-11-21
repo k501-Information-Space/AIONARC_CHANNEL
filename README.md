@@ -19,7 +19,7 @@ Channel permalinks and external target URLs are separate. Channel registration t
 
 `signals/registry.json` is the single source for the homepage, detail pages, feeds and sitemap. Generated files remain in the repository root because the verified GitHub Pages publisher uses the `main` branch root.
 
-IndexNow is restricted to AIONARC_CHANNEL-owned Pages URLs. External targets are not submitted as if they belonged to this host. WebSub uses the operator-selected Switchboard hub at https://switchboard.p3k.io/; hub acceptance does not prove subscriber delivery.
+IndexNow is restricted to AIONARC_CHANNEL-owned Pages URLs. External targets are not submitted as if they belonged to this host. WebSub publishes independently to Google PubSubHubbub (`https://pubsubhubbub.appspot.com/`, primary) and retains Switchboard (`https://switchboard.p3k.io/`) as a secondary declaration. Google acknowledged all three feed topics with HTTP 204; Switchboard currently returns HTTP 401. Publisher acknowledgement does not prove subscriber delivery.
 
 ## Historical generation
 

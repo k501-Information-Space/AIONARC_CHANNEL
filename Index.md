@@ -13,9 +13,10 @@
 | Feeds | [RSS](rss.xml) · [Atom](atom.xml) · [JSON Feed](feed.json) | Syndication and WebSub |
 | Discovery | [robots.txt](robots.txt) · [sitemap.xml](sitemap.xml) | Crawler guidance |
 | Build | [scripts/build.py](scripts/build.py) · [scripts/validate.py](scripts/validate.py) | Builder and validator |
-| Notifications | [.github/workflows/aionarc-notify.yml](.github/workflows/aionarc-notify.yml) | IndexNow and Switchboard |
+| Notifications | [.github/workflows/aionarc-notify.yml](.github/workflows/aionarc-notify.yml) | IndexNow and dual-hub WebSub |
 | History | [history/legacy-channel-state/](history/legacy-channel-state/) | Previous active-channel projection |
 | Architecture | [v0.2 successor](architecture/AIONARC_CHANNEL_PUBLICATION_DISTRIBUTION_ARCHITECTURE_v0.2.0_1795187344_2026-11-20.md) | Implementation alignment |
+| WebSub observation | [Publisher response record](architecture/AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION_1795250522_2026-11-21.md) | Google 204; Switchboard 401; subscriber delivery OPEN |
 
 ## Active signal pages
 

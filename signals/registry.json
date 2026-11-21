@@ -44,7 +44,7 @@
     "rfc822": "Fri, 20 Nov 2026 14:36:02 GMT",
     "europe_berlin": "2026-11-20T15:36:02+01:00"
   },
-  "updated_at": "2026-11-21T08:19:43Z",
+  "updated_at": "2026-11-21T08:42:02Z",
   "signal_namespace": {
     "active": "AIONARC_SIGNAL_NNNN",
     "first_assigned": "AIONARC_SIGNAL_0001",
@@ -96,8 +96,72 @@
       "standard": "RFC 9309"
     },
     "websub": {
-      "hub_url": "https://switchboard.p3k.io/",
-      "status": "SELECTED_BY_OPERATOR; PUBLISHER_ANNOUNCEMENT_ONLY"
+      "hub_url": "https://pubsubhubbub.appspot.com/",
+      "previously_selected_hub_url": "https://switchboard.p3k.io/",
+      "active_hub_urls": [
+        "https://pubsubhubbub.appspot.com/",
+        "https://switchboard.p3k.io/"
+      ],
+      "status": "GOOGLE_PUBLISHER_ACKNOWLEDGEMENT_HTTP_204; SWITCHBOARD_RETAINED_BUT_HTTP_401_BLOCKED; SUBSCRIBER_DELIVERY_UNVERIFIED",
+      "subscriber_delivery_status": "OPEN_NOT_VERIFIED",
+      "probe_observation": {
+        "observed_at_utc": "2026-11-21T08:41:10Z",
+        "workflow_run_id": 44886018255,
+        "workflow_job_id": 136791353773,
+        "workflow_run_url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL/actions/runs/44886018255",
+        "scope": "Publisher responses for the three owned feed topics; no subscriber-delivery observation."
+      },
+      "tested_endpoints": [
+        {
+          "hub_url": "https://pubsubhubbub.appspot.com/",
+          "role": "PRIMARY_CONFIGURED_PUBLISHER_HUB",
+          "http_status_by_topic": {
+            "rss": 204,
+            "atom": 204,
+            "json_feed": 204
+          },
+          "status": "PUBLISHER_ACKNOWLEDGEMENT_ACCEPTED",
+          "server": "Google Frontend",
+          "subscriber_delivery": "NOT_VERIFIED"
+        },
+        {
+          "hub_url": "https://switchboard.p3k.io/",
+          "role": "RETAINED_SECONDARY_CONFIGURED_HUB",
+          "http_status_by_topic": {
+            "rss": 401,
+            "atom": 401,
+            "json_feed": 401
+          },
+          "legacy_parameter_alias": {
+            "rss": 401
+          },
+          "status": "PUBLISH_REJECTED",
+          "server": "nginx/1.14.0",
+          "www_authenticate_header": false
+        },
+        {
+          "hub_url": "https://websubhub.com/hub",
+          "role": "TESTED_NOT_CONFIGURED",
+          "http_status_by_topic": {
+            "rss": 500,
+            "atom": 500,
+            "json_feed": 500
+          },
+          "status": "TOPIC_RECORD_REQUIRED_BEFORE_PUBLISH",
+          "response_excerpt": "Topic not found for topic URL."
+        },
+        {
+          "hub_url": "https://websub.superfeedr.com/",
+          "role": "TESTED_NOT_CONFIGURED",
+          "http_status_by_topic": {
+            "rss": 204,
+            "atom": 204,
+            "json_feed": 204
+          },
+          "status": "GENERIC_204_NOT_USED_AS_ACCEPTANCE_PROOF"
+        }
+      ],
+      "policy": "Publish independently to both declared hubs. A feed is publisher-acknowledged if at least one declared hub returns HTTP 2xx. Record secondary hub failures without suppressing the accepted route. Subscriber delivery remains OPEN."
     },
     "indexnow": {
       "endpoint": "https://api.indexnow.org/indexnow",
@@ -636,7 +700,7 @@
   ],
   "updated_at_rfc822": "Fri, 20 Nov 2026 15:09:04 GMT",
   "updated_at_anchor": 1795187344,
-  "updated_at_source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR_FOR_CHANNEL_METADATA_CORRECTIONS; NOT_ACTUAL_BUILD_OR_DEPLOYMENT_TIME",
+  "updated_at_source": "SYSTEM_TIME_WIDGET_OBSERVATION_FOR_WEBSUB_DISTRIBUTION_CONFIGURATION; NOT_ACTUAL_BUILD_OR_DEPLOYMENT_TIME",
   "metadata_update_anchor": {
     "unix_epoch": 1795249183,
     "utc": "2026-11-21T08:19:43Z",

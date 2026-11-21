@@ -17,10 +17,10 @@
 - [RSS 2.0](rss.xml) · [Atom 1.0](atom.xml) · [JSON Feed 1.1](feed.json)
 - [Sitemap](sitemap.xml) · [robots.txt](robots.txt)
 
-WebSub hub: https://switchboard.p3k.io/  
+WebSub hubs: https://pubsubhubbub.appspot.com/ (primary) · https://switchboard.p3k.io/ (retained secondary; current POST status 401)  
 IndexNow API: `https://api.indexnow.org/indexnow`
 
-IndexNow receives only URLs hosted under `https://k501-information-space.github.io/AIONARC_CHANNEL/`. External targets are not submitted as owned URLs.
+Google PubSubHubbub acknowledged RSS, Atom and JSON Feed publisher announcements with HTTP 204. Switchboard remains as secondary declaration but currently returns HTTP 401. Publisher acknowledgement does not prove subscriber delivery. IndexNow receives only URLs hosted under `https://k501-information-space.github.io/AIONARC_CHANNEL/`; external targets are not submitted as owned URLs.
 
 ## Identity boundaries
 
@@ -33,6 +33,7 @@ Page permalinks and external target URLs are distinct. Source dates are separate
 - `scripts/build.py` — deterministic root-site generator.
 - `scripts/validate.py` — registry and projection validation.
 - `.github/workflows/validate.yml` — pull-request validation.
-- `.github/workflows/aionarc-notify.yml` — post-deployment IndexNow and Switchboard.
+- `.github/workflows/aionarc-notify.yml` — post-deployment IndexNow and dual-hub WebSub publishing.
+- `architecture/AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION_1795250522_2026-11-21.md` — bounded publisher-response evidence.
 
 GitHub Pages currently publishes from the repository root on `main`. Frozen baseline: `ARCHITECTURE DRAFT · v0.1`. Successor: [Architecture v0.2](architecture/AIONARC_CHANNEL_PUBLICATION_DISTRIBUTION_ARCHITECTURE_v0.2.0_1795187344_2026-11-20.md).
