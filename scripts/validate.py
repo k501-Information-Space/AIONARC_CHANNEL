@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-import json,re,xml.etree.ElementTree as ET
+import ast,html,json,re,xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+ast.parse((ROOT/"scripts/notify.py").read_text(encoding="utf-8"),filename="scripts/notify.py")
 BASE="https://k501-information-space.github.io/AIONARC_CHANNEL/"
 HUB="https://switchboard.p3k.io/"
 EXPECT={"AIONARC_SIGNAL_0002":("https://github.com/k501-Information-Space","K501 Information Space — GitHub Organization"),"AIONARC_SIGNAL_0003":("https://mastodon.social/@K501","K501 — Mastodon / Fediverse Profile"),"AIONARC_SIGNAL_0004":("https://dev.to/k501is","Iinkognit0 — DEV Community Profile"),"AIONARC_SIGNAL_0006":("https://www.tiktok.com/@patrick.sayzso","Patrick Sayzso — TikTok (Historical Creative Channel)"),"AIONARC_SIGNAL_0007":("https://substack.com/@k501is","Patrick Robert Miller — K501 Substack")}
@@ -21,7 +22,7 @@ def main():
  assert by["AIONARC_SIGNAL_0006"]["verified_source_description"]=="Pop-Art Videography and Urbanism" and by["AIONARC_SIGNAL_0007"]["verified_source_description"] is None
  key=(ROOT/"signals/indexnow.key").read_text().strip();assert re.fullmatch(r"[A-Za-z0-9-]{8,128}",key) and (ROOT/(key+".txt")).read_text().strip()==key
  for s in ss:
-  p=(ROOT/"signals"/s["signal_id"]/"index.html").read_text()
+  p=html.unescape((ROOT/"signals"/s["signal_id"]/"index.html").read_text(encoding="utf-8"))
   assert s["signal_id"] in p and s["target_url"] in p and title(s) in p
   assert (s.get("channel_description") or s.get("verified_source_description") or "") in p
  f=json.loads((ROOT/"feed.json").read_text());assert f["version"]=="https://jsonfeed.org/version/1.1" and f["hubs"]==[{"type":"WebSub","url":HUB}] and len(f["items"])==17
