@@ -5,8 +5,9 @@
 <link>https://k501-information-space.github.io/AIONARC_CHANNEL/</link>
 <description>Operator-bound reference register; registration does not validate source claims.</description>
 <language>en</language>
-<lastBuildDate>Sat, 21 Nov 2026 08:19:43 GMT</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 08:42:02 GMT</lastBuildDate>
 <atom:link href="https://k501-information-space.github.io/AIONARC_CHANNEL/rss.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
 <atom:link href="https://switchboard.p3k.io/" rel="hub"/>
 <item>
 <title>K501 QH_STATE_KERNEL V1: A Deterministic, Append-Only, Reconstructive Information-State Architecture</title>

@@ -13,6 +13,10 @@
   "hubs": [
     {
       "type": "WebSub",
+      "url": "https://pubsubhubbub.appspot.com/"
+    },
+    {
+      "type": "WebSub",
       "url": "https://switchboard.p3k.io/"
     }
   ],
