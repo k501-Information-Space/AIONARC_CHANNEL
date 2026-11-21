@@ -47,6 +47,12 @@
     },
     {
       "path": ".github/workflows/aionarc-notify.yml"
+    },
+    {
+      "path": "architecture/AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION_1795250522_2026-11-21.md"
+    },
+    {
+      "path": "architecture/AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION_1795250522_2026-11-21.json"
     }
   ],
   "signal_pages": [
@@ -190,5 +196,25 @@
     "europe_berlin": "2026-11-21T09:19:43+01:00",
     "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
     "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+  },
+  "notifications": {
+    "websub": {
+      "primary_hub": "https://pubsubhubbub.appspot.com/",
+      "hubs": [
+        "https://pubsubhubbub.appspot.com/",
+        "https://switchboard.p3k.io/"
+      ],
+      "previously_selected_hub": "https://switchboard.p3k.io/",
+      "publisher_status": "GOOGLE_HTTP_204; SWITCHBOARD_HTTP_401",
+      "subscriber_delivery_status": "OPEN_NOT_VERIFIED",
+      "observation": "architecture/AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION_1795250522_2026-11-21.json"
+    }
+  },
+  "last_distribution_update_anchor": {
+    "unix_epoch": 1795250522,
+    "utc": "2026-11-21T08:42:02Z",
+    "europe_berlin": "2026-11-21T09:42:02+01:00",
+    "source": "SYSTEM_TIME_WIDGET_OBSERVATION",
+    "semantic_scope": "WEBSUB_DISTRIBUTION_CONFIGURATION_UPDATE; NOT_FEED_REGISTRATION_TIME_OR_BUILD_TIME"
   }
 }

@@ -1,0 +1,90 @@
+{
+  "artifact_type": "AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION",
+  "artifact_id": "AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION_1795250522_2026-11-21",
+  "schema_id": "AIONARC_CHANNEL_WEBSUB_DISTRIBUTION_OBSERVATION/0.1.0",
+  "version": "0.1.0",
+  "status": "PUBLISHER_ACKNOWLEDGEMENT_OBSERVED_DUAL_HUB_CONFIGURED_SUBSCRIBER_DELIVERY_OPEN",
+  "canonical": false,
+  "repository": "k501-Information-Space/AIONARC_CHANNEL",
+  "operator_authorization_anchor": {
+    "unix_epoch": 1795249183,
+    "utc": "2026-11-21T08:19:43Z",
+    "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR"
+  },
+  "observation_anchor": {
+    "unix_epoch": 1795250522,
+    "utc": "2026-11-21T08:42:02Z",
+    "europe_berlin": "2026-11-21T09:42:02+01:00",
+    "source": "SYSTEM_TIME_WIDGET_OBSERVATION",
+    "semantic_scope": "WEBSUB_DISTRIBUTION_CONFIGURATION_UPDATE; NOT_FEED_REGISTRATION_TIME_OR_BUILD_TIME"
+  },
+  "topics": [
+    "https://k501-information-space.github.io/AIONARC_CHANNEL/rss.xml",
+    "https://k501-information-space.github.io/AIONARC_CHANNEL/atom.xml",
+    "https://k501-information-space.github.io/AIONARC_CHANNEL/feed.json"
+  ],
+  "results": [
+    {
+      "hub_url": "https://pubsubhubbub.appspot.com/",
+      "role": "PRIMARY_CONFIGURED_PUBLISHER_HUB",
+      "http_status_by_topic": {
+        "rss": 204,
+        "atom": 204,
+        "json_feed": 204
+      },
+      "status": "PUBLISHER_ACKNOWLEDGEMENT_ACCEPTED",
+      "server": "Google Frontend",
+      "subscriber_delivery": "NOT_VERIFIED"
+    },
+    {
+      "hub_url": "https://switchboard.p3k.io/",
+      "role": "RETAINED_SECONDARY_CONFIGURED_HUB",
+      "http_status_by_topic": {
+        "rss": 401,
+        "atom": 401,
+        "json_feed": 401
+      },
+      "legacy_parameter_alias": {
+        "rss": 401
+      },
+      "status": "PUBLISH_REJECTED",
+      "server": "nginx/1.14.0",
+      "www_authenticate_header": false
+    },
+    {
+      "hub_url": "https://websubhub.com/hub",
+      "role": "TESTED_NOT_CONFIGURED",
+      "http_status_by_topic": {
+        "rss": 500,
+        "atom": 500,
+        "json_feed": 500
+      },
+      "status": "TOPIC_RECORD_REQUIRED_BEFORE_PUBLISH",
+      "response_excerpt": "Topic not found for topic URL."
+    },
+    {
+      "hub_url": "https://websub.superfeedr.com/",
+      "role": "TESTED_NOT_CONFIGURED",
+      "http_status_by_topic": {
+        "rss": 204,
+        "atom": 204,
+        "json_feed": 204
+      },
+      "status": "GENERIC_204_NOT_USED_AS_ACCEPTANCE_PROOF"
+    }
+  ],
+  "configured_hub_order": [
+    "https://pubsubhubbub.appspot.com/",
+    "https://switchboard.p3k.io/"
+  ],
+  "publisher_acknowledgement_policy": "At least one active declared hub must return 2xx for each changed feed topic. Errors from other declared hubs are recorded.",
+  "subscriber_delivery_status": "OPEN_NOT_VERIFIED",
+  "indexnow_status": "SEPARATE_MECHANISM; HTTP_200_ACCEPTANCE_OBSERVED_PREVIOUSLY; NOT_INDEXING_PROOF",
+  "identity_unchanged": {
+    "signal_ids": true,
+    "target_urls": true,
+    "source_titles": true,
+    "source_descriptions": true,
+    "legacy_namespace": true
+  }
+}

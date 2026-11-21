@@ -50,7 +50,14 @@
       "scope": "https://k501-information-space.github.io/AIONARC_CHANNEL/"
     },
     "websub": {
-      "hub": "https://switchboard.p3k.io/",
+      "primary_hub": "https://pubsubhubbub.appspot.com/",
+      "hubs": [
+        "https://pubsubhubbub.appspot.com/",
+        "https://switchboard.p3k.io/"
+      ],
+      "previously_selected_hub": "https://switchboard.p3k.io/",
+      "status": "GOOGLE_PUBLISHER_ACKNOWLEDGEMENT_HTTP_204; SWITCHBOARD_RETAINED_BUT_HTTP_401_BLOCKED; SUBSCRIBER_DELIVERY_UNVERIFIED",
+      "subscriber_delivery_status": "OPEN_NOT_VERIFIED",
       "topics": [
         "rss.xml",
         "atom.xml",
