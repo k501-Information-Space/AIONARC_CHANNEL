@@ -20,12 +20,12 @@
 ## Active signal pages
 
 - [AIONARC_SIGNAL_0001](signals/AIONARC_SIGNAL_0001/index.html) — K501 Information Space – A state-centered, reconstructable information space.; target: https://k501informationspace.wordpress.com
-- [AIONARC_SIGNAL_0002](signals/AIONARC_SIGNAL_0002/index.html) — source title OPEN; target: https://github.com/k501-Information-Space
-- [AIONARC_SIGNAL_0003](signals/AIONARC_SIGNAL_0003/index.html) — K501; target: https://mastodon.social/@K501
-- [AIONARC_SIGNAL_0004](signals/AIONARC_SIGNAL_0004/index.html) — Iinkognit0; target: https://dev.to/k501is
+- [AIONARC_SIGNAL_0002](signals/AIONARC_SIGNAL_0002/index.html) — K501 Information Space — GitHub Organization; target: https://github.com/k501-Information-Space
+- [AIONARC_SIGNAL_0003](signals/AIONARC_SIGNAL_0003/index.html) — K501 — Mastodon / Fediverse Profile; target: https://mastodon.social/@K501
+- [AIONARC_SIGNAL_0004](signals/AIONARC_SIGNAL_0004/index.html) — Iinkognit0 — DEV Community Profile; target: https://dev.to/k501is
 - [AIONARC_SIGNAL_0005](signals/AIONARC_SIGNAL_0005/index.html) — K501 Information Space; target: https://www.youtube.com/@Iinkognit0
-- [AIONARC_SIGNAL_0006](signals/AIONARC_SIGNAL_0006/index.html) — Patrick Sayzso; target: https://www.tiktok.com/@patrick.sayzso
-- [AIONARC_SIGNAL_0007](signals/AIONARC_SIGNAL_0007/index.html) — Patrick Robert Miller; target: https://substack.com/@k501is
+- [AIONARC_SIGNAL_0006](signals/AIONARC_SIGNAL_0006/index.html) — Patrick Sayzso — TikTok (Historical Creative Channel); target: https://www.tiktok.com/@patrick.sayzso
+- [AIONARC_SIGNAL_0007](signals/AIONARC_SIGNAL_0007/index.html) — Patrick Robert Miller — K501 Substack; target: https://substack.com/@k501is
 - [AIONARC_SIGNAL_0008](signals/AIONARC_SIGNAL_0008/index.html) — AIONARC_CHANNEL; target: https://github.com/k501-Information-Space/AIONARC_CHANNEL
 - [AIONARC_SIGNAL_0009](signals/AIONARC_SIGNAL_0009/index.html) — QH256 — K501 Information Space; target: https://github.com/k501-Information-Space/QH256
 - [AIONARC_SIGNAL_0010](signals/AIONARC_SIGNAL_0010/index.html) — K501 AIONARC Integrated Pipeline & Proof Runtime; target: https://github.com/k501-Information-Space/K501-AIONARC
