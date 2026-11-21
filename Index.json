@@ -60,19 +60,28 @@
       "signal_id": "AIONARC_SIGNAL_0002",
       "path": "signals/AIONARC_SIGNAL_0002/index.html",
       "target_url": "https://github.com/k501-Information-Space",
-      "title_status": "OPEN_NOT_RETRIEVED"
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "channel_display_title": "K501 Information Space — GitHub Organization",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE_WITH_PUBLIC_ORGANIZATION_CONTEXT"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0003",
       "path": "signals/AIONARC_SIGNAL_0003/index.html",
       "target_url": "https://mastodon.social/@K501",
-      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "channel_display_title": "K501 — Mastodon / Fediverse Profile",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE; LIVE_PROFILE_DESCRIPTION_NOT_RETRIEVED"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0004",
       "path": "signals/AIONARC_SIGNAL_0004/index.html",
       "target_url": "https://dev.to/k501is",
-      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "channel_display_title": "Iinkognit0 — DEV Community Profile",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE_WITH_PUBLIC_PROFILE_AND_POST_CONTEXT"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0005",
@@ -84,13 +93,19 @@
       "signal_id": "AIONARC_SIGNAL_0006",
       "path": "signals/AIONARC_SIGNAL_0006/index.html",
       "target_url": "https://www.tiktok.com/@patrick.sayzso",
-      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "channel_display_title": "Patrick Sayzso — TikTok (Historical Creative Channel)",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description_status": "OPERATOR_CONFIRMED_FROZEN_HISTORICAL_CHANNEL_STATE; LIVE_PROFILE_NOT_RETRIEVED"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0007",
       "path": "signals/AIONARC_SIGNAL_0007/index.html",
       "target_url": "https://substack.com/@k501is",
-      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY"
+      "title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
+      "channel_display_title": "Patrick Robert Miller — K501 Substack",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE; CURRENT_PROFILE_DESCRIPTION_AND_POST_INVENTORY_OPEN"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0008",
@@ -168,5 +183,12 @@
     "Navigation index only; not a complete repository inventory.",
     "Routes do not prove target validity or canonicality.",
     "External target URLs are not owned sitemap URLs."
-  ]
+  ],
+  "last_metadata_update_anchor": {
+    "unix_epoch": 1795249183,
+    "utc": "2026-11-21T08:19:43Z",
+    "europe_berlin": "2026-11-21T09:19:43+01:00",
+    "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+    "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+  }
 }

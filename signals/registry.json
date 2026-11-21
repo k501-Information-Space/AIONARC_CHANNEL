@@ -44,7 +44,7 @@
     "rfc822": "Fri, 20 Nov 2026 14:36:02 GMT",
     "europe_berlin": "2026-11-20T15:36:02+01:00"
   },
-  "updated_at": "2026-11-20T15:09:04Z",
+  "updated_at": "2026-11-21T08:19:43Z",
   "signal_namespace": {
     "active": "AIONARC_SIGNAL_NNNN",
     "first_assigned": "AIONARC_SIGNAL_0001",
@@ -140,14 +140,14 @@
       "reference_kind": "organization",
       "operator_supplied_reference_title": null,
       "operator_title_status": "OPEN_NOT_SUPPLIED",
-      "verified_source_title": null,
-      "source_title_status": "OPEN_NOT_RETRIEVED",
+      "verified_source_title": "k501-Information-Space",
+      "source_title_status": "OBSERVED_ON_TARGET_PAGE_OR_REPOSITORY",
       "verified_source_description": null,
       "source_description_status": "OPEN_NOT_RETRIEVED",
       "source_observation": {
         "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
         "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
-        "status": "TARGET_OWNER_CONFIRMED; PROFILE_TITLE_AND_DESCRIPTION_OPEN"
+        "status": "GITHUB_ORGANIZATION_SLUG_AND_PUBLIC_ORGANIZATION_PAGE_OBSERVED"
       },
       "source_publication_date": null,
       "source_version": null,
@@ -156,7 +156,19 @@
       "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
       "channel_registration_time": "2026-11-20T14:36:02Z",
       "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0002/",
-      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL",
+      "channel_display_title": "K501 Information Space — GitHub Organization",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description": "The public GitHub organization for K501 Information Space. It provides an organization-level entry point to the project's public repositories and development artifacts, including QH256, eArc and AIONARC_CHANNEL. This signal points to the organization profile, not an individual repository or the canonical K501 Information Space.",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE_WITH_PUBLIC_ORGANIZATION_CONTEXT",
+      "channel_metadata_update_anchor": {
+        "unix_epoch": 1795249183,
+        "utc": "2026-11-21T08:19:43Z",
+        "europe_berlin": "2026-11-21T09:19:43+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+        "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+      },
+      "channel_metadata_authority": "OPERATOR_CONFIRMED_CHANNEL_ROLE; SOURCE_METADATA_REMAINS_SEPARATE"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0003",
@@ -172,7 +184,8 @@
       "source_observation": {
         "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
         "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
-        "status": "PROFILE_NAME_OBSERVED; PROFILE_DESCRIPTION_OPEN"
+        "status": "PROFILE_NAME_PREVIOUSLY_OBSERVED; CURRENT_PROFILE_DESCRIPTION_NOT_RETRIEVED_2026-11-21",
+        "current_retrieval": "PROFILE_PAGE_REACHED_BUT_DESCRIPTION_NOT_EXPOSED_BY_PUBLIC_HTML_RETRIEVAL"
       },
       "source_publication_date": null,
       "source_version": null,
@@ -181,7 +194,19 @@
       "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
       "channel_registration_time": "2026-11-20T14:36:02Z",
       "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0003/",
-      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL",
+      "channel_display_title": "K501 — Mastodon / Fediverse Profile",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description": "Public Mastodon profile for K501 on mastodon.social. It serves as the project's social presence and a point for public updates, discovery and conversation across Mastodon and the connected Fediverse. Federation and visibility depend on participating servers and account settings; this profile is not a canonical repository or a complete publication archive.",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE; LIVE_PROFILE_DESCRIPTION_NOT_RETRIEVED",
+      "channel_metadata_update_anchor": {
+        "unix_epoch": 1795249183,
+        "utc": "2026-11-21T08:19:43Z",
+        "europe_berlin": "2026-11-21T09:19:43+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+        "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+      },
+      "channel_metadata_authority": "OPERATOR_CONFIRMED_CHANNEL_ROLE; SOURCE_METADATA_REMAINS_SEPARATE"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0004",
@@ -197,7 +222,8 @@
       "source_observation": {
         "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
         "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
-        "status": "PROFILE_NAME_AND_BIO_OBSERVED"
+        "status": "PROFILE_NAME_AND_BIO_OBSERVED; TECHNICAL_PUBLICATION_CONTEXT_OBSERVED_2026-11-21",
+        "current_retrieval": "PUBLIC_DEV_PROFILE_READ_2026-11-21"
       },
       "source_publication_date": null,
       "source_version": null,
@@ -206,7 +232,19 @@
       "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
       "channel_registration_time": "2026-11-20T14:36:02Z",
       "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0004/",
-      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL",
+      "channel_display_title": "Iinkognit0 — DEV Community Profile",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description": "Developer-facing author profile for Patrick R. Miller (Iinkognit0). It hosts technical articles, project notes and publication updates on K501 Information Space, AIONARC and QH256, supporting developer-oriented explanation and discussion. This is a publication profile, not the canonical K501 repository or archive.",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE_WITH_PUBLIC_PROFILE_AND_POST_CONTEXT",
+      "channel_metadata_update_anchor": {
+        "unix_epoch": 1795249183,
+        "utc": "2026-11-21T08:19:43Z",
+        "europe_berlin": "2026-11-21T09:19:43+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+        "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+      },
+      "channel_metadata_authority": "OPERATOR_CONFIRMED_CHANNEL_ROLE; SOURCE_METADATA_REMAINS_SEPARATE"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0005",
@@ -247,7 +285,8 @@
       "source_observation": {
         "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
         "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
-        "status": "PROFILE_NAME_AND_BIO_OBSERVED"
+        "status": "PRIOR_PROFILE_NAME_AND_BIO_OBSERVATION_RETAINED; OPERATOR_CONFIRMED_FROZEN_STATE; LIVE_PAGE_NOT_RETRIEVED_2026-11-21",
+        "current_retrieval": "BLOCKED_BY_ROBOTS_TXT_IN_CURRENT_PUBLIC_RETRIEVAL_PATH"
       },
       "source_publication_date": null,
       "source_version": null,
@@ -256,7 +295,19 @@
       "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
       "channel_registration_time": "2026-11-20T14:36:02Z",
       "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0006/",
-      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL",
+      "channel_display_title": "Patrick Sayzso — TikTok (Historical Creative Channel)",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description": "Historical TikTok creative profile under Patrick Sayzso. Its previously observed profile bio identifies “Pop-Art Videography and Urbanism”. The operator confirms that this channel is frozen/inactive. It is retained as a reference to earlier creative work and is not an active K501 development or announcement channel.",
+      "channel_description_status": "OPERATOR_CONFIRMED_FROZEN_HISTORICAL_CHANNEL_STATE; LIVE_PROFILE_NOT_RETRIEVED",
+      "channel_metadata_update_anchor": {
+        "unix_epoch": 1795249183,
+        "utc": "2026-11-21T08:19:43Z",
+        "europe_berlin": "2026-11-21T09:19:43+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+        "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+      },
+      "channel_metadata_authority": "OPERATOR_CONFIRMED_CHANNEL_ROLE; SOURCE_METADATA_REMAINS_SEPARATE"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0007",
@@ -272,7 +323,8 @@
       "source_observation": {
         "method": "CONNECTED_PUBLIC_PAGE_OR_REPOSITORY_READ",
         "scope": "Visible title and selected profile, repository README or Zenodo record metadata; not a full independent validation of all underlying claims.",
-        "status": "PROFILE_NAME_OBSERVED; PROFILE_DESCRIPTION_OPEN"
+        "status": "PROFILE_NAME_PREVIOUSLY_OBSERVED; CURRENT_PROFILE_DESCRIPTION_NOT_RETRIEVED",
+        "current_retrieval": "PUBLIC_PROFILE_AND_ABOUT_PAGE_NOT_RETRIEVED_2026-11-21"
       },
       "source_publication_date": null,
       "source_version": null,
@@ -281,7 +333,19 @@
       "target_url_status": "OPERATOR_SUPPLIED_URL; PUBLIC_TARGET_READ_OR_OWNER_REPOSITORY_METADATA_OBSERVED",
       "channel_registration_time": "2026-11-20T14:36:02Z",
       "channel_page": "https://k501-information-space.github.io/AIONARC_CHANNEL/signals/AIONARC_SIGNAL_0007/",
-      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL"
+      "publication_state": "REGISTERED_REFERENCE; NOT_A_CLAIM_THAT_THE_EXTERNAL_SOURCE_IS_CANONICAL",
+      "channel_display_title": "Patrick Robert Miller — K501 Substack",
+      "channel_display_title_status": "OPERATOR_CONFIRMED_DERIVED_CHANNEL_LABEL",
+      "channel_description": "Substack publishing profile associated with Patrick Robert Miller and K501 (@k501is). It is the long-form writing and publication surface for K501-related essays, reflections and research commentary, distinct from the code repositories, developer-facing DEV.to profile and AIONARC_CHANNEL feed. The current public profile description and complete post inventory were not independently retrieved in this check.",
+      "channel_description_status": "OPERATOR_CONFIRMED_CHANNEL_ROLE; CURRENT_PROFILE_DESCRIPTION_AND_POST_INVENTORY_OPEN",
+      "channel_metadata_update_anchor": {
+        "unix_epoch": 1795249183,
+        "utc": "2026-11-21T08:19:43Z",
+        "europe_berlin": "2026-11-21T09:19:43+01:00",
+        "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+        "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+      },
+      "channel_metadata_authority": "OPERATOR_CONFIRMED_CHANNEL_ROLE; SOURCE_METADATA_REMAINS_SEPARATE"
     },
     {
       "signal_id": "AIONARC_SIGNAL_0008",
@@ -572,5 +636,12 @@
   ],
   "updated_at_rfc822": "Fri, 20 Nov 2026 15:09:04 GMT",
   "updated_at_anchor": 1795187344,
-  "updated_at_source": "OPERATOR_GO_ANCHOR_FOR_RECONCILIATION_AND_BUILD_STATE; NOT_A_CLAIM_OF_DEPLOYMENT_TIME"
+  "updated_at_source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR_FOR_CHANNEL_METADATA_CORRECTIONS; NOT_ACTUAL_BUILD_OR_DEPLOYMENT_TIME",
+  "metadata_update_anchor": {
+    "unix_epoch": 1795249183,
+    "utc": "2026-11-21T08:19:43Z",
+    "europe_berlin": "2026-11-21T09:19:43+01:00",
+    "source": "USER_SUPPLIED_OPERATOR_GO_ANCHOR",
+    "semantic_scope": "CHANNEL_METADATA_CORRECTION_AUTHORIZATION_AND_CONTENT_BASIS; NOT_SOURCE_PUBLICATION_TIME_OR_ACTUAL_DEPLOYMENT_TIME"
+  }
 }
