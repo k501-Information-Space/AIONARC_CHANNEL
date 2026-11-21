@@ -1,4 +1,4 @@
-name: AIONARC_CHANNEL WebSubHub compatibility probe
+name: AIONARC_CHANNEL public WebSub hub compatibility probes
 on:
   push:
     branches: [main]
