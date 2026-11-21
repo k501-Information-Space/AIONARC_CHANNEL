@@ -1,0 +1,20 @@
+name: AIONARC_CHANNEL WebSubHub compatibility probe
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/websubhub_probe.py'
+      - '.github/workflows/websubhub-probe.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python -m py_compile scripts/websubhub_probe.py
+      - run: python scripts/websubhub_probe.py
